@@ -752,8 +752,15 @@ h1 em {
   font-size: clamp(2.8rem, 6vw, 5rem);
   line-height: 0.9;
 }
+.horoscope-date {
+  margin-top: 13px;
+  display: block;
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
 .sign-dates {
-  margin: 9px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
   font-size: 0.72rem;
   letter-spacing: 0.05em;

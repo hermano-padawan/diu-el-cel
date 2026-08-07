@@ -17,6 +17,14 @@ const previous = entries[(index - 1 + entries.length) % entries.length];
 const next = entries[(index + 1) % entries.length];
 const article = sign.name === "Àries" || sign.name === "Aquari" || sign.name === "Escorpí" ? "d'" : "de ";
 const title = `Horòscop ${article}${sign.name} avui | Diu el Cel`;
+const horoscopeDate = new Intl.DateTimeFormat("ca-ES", {
+  weekday: "long",
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC"
+}).format(sign.date);
+const horoscopeDateIso = sign.date.toISOString().slice(0, 10);
 const { Content } = await render(entry);
 const compatibilities = (await getCollection("compatibilities")).filter(({ data }) => data.signe1 === entry.id || data.signe2 === entry.id);
 const signMap = new Map(entries.map((item) => [item.id, item.data]));
@@ -25,7 +33,7 @@ const signMap = new Map(entries.map((item) => [item.id, item.data]));
   <Header inner />
   <main>
     <section class="sign-hero">
-      <div><p class="sign-kicker">{sign.element} · Horòscop d'avui</p><h1>{sign.name}</h1><p class="sign-dates">{sign.dates}</p></div>
+      <div><p class="sign-kicker">{sign.element} · Horòscop d'avui</p><h1>{sign.name}</h1><time class="horoscope-date" datetime={horoscopeDateIso}>Horòscop del {horoscopeDate}</time><p class="sign-dates">{sign.dates}</p></div>
       <img class="sign-illustration" src={withBase(`/img/signes/${entry.id}.webp`)} alt={`Il·lustració del signe ${sign.name}`} width="480" height="480" decoding="async" />
     </section>
     <section class="reading markdown-layout">
