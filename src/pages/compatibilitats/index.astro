@@ -1,0 +1,59 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { getCollection } from "astro:content";
+
+const horoscopes = await getCollection("horoscopes");
+const signs = horoscopes.sort((a, b) => a.data.order - b.data.order);
+const signMap = new Map(signs.map((entry) => [entry.id, entry.data]));
+const compatibilities = (await getCollection("compatibilities")).sort((a, b) => a.data.slug.localeCompare(b.data.slug));
+---
+<Layout title="Compatibilitat entre signes del zodíac | Cel Endins" description="Descobreix la compatibilitat entre signes del zodíac en l'amor, l'amistat, la comunicació i les relacions." canonicalPath="/compatibilitats/">
+  <Header inner backHref="/" backLabel="Horòscop" />
+  <main>
+    <section class="compatibility-hero">
+      <p class="sign-kicker">Relacions i astrologia</p>
+      <h1>Compatibilitat entre signes del zodíac</h1>
+      <p>La compatibilitat zodiacal observa com es relacionen les qualitats, els elements i les necessitats atribuïdes a cada signe. No determina el futur d'una relació, però ofereix un llenguatge útil per entendre afinitats, contrastos i maneres de créixer plegats.</p>
+    </section>
+
+    <section class="sign-compatibility-accordion" aria-label="Tria els signes per consultar-ne la compatibilitat">
+      {signs.map((sign) => {
+        const available = compatibilities
+          .filter(({ data }) => data.signe1 === sign.id || data.signe2 === sign.id)
+          .sort((a, b) => {
+            const aId = a.data.signe1 === sign.id ? a.data.signe2 : a.data.signe1;
+            const bId = b.data.signe1 === sign.id ? b.data.signe2 : b.data.signe1;
+            return signMap.get(aId)!.order - signMap.get(bId)!.order;
+          });
+
+        return <details class="sign-compatibility-card" name="compatibility-signs">
+          <summary>
+            <span class="accordion-sign-symbol" aria-hidden="true">{sign.data.symbol}</span>
+            <span class="accordion-sign-name">{sign.data.name}</span>
+            <span class="accordion-count">12 compatibilitats</span>
+            <span class="accordion-toggle" aria-hidden="true">+</span>
+          </summary>
+          <div class="compatibility-options">
+            {available.map(({ data }) => {
+              const otherId = data.signe1 === sign.id ? data.signe2 : data.signe1;
+              const other = signMap.get(otherId)!;
+              return <a href={`/compatibilitats/${data.slug}/`} aria-label={`Compatibilitat entre ${sign.data.name} i ${other.name}`}>
+                <span class="option-symbol" aria-hidden="true">{other.symbol}</span>
+                <span>{otherId === sign.id ? `${other.name} amb el mateix signe` : `${sign.data.name} i ${other.name}`}</span>
+                <small>{data.score}%</small>
+              </a>;
+            })}
+          </div>
+        </details>;
+      })}
+    </section>
+
+    <section class="compatibility-intro">
+      <div><h2>Més enllà del signe solar</h2><p>En l'amor, l'atracció pot néixer tant de la semblança com del contrast. L'astrologia ajuda a posar nom als ritmes afectius, a la necessitat d'espai o de seguretat i a les diferents maneres de demostrar estima.</p></div>
+      <div><h2>Amistat i comunicació</h2><p>Una bona compatibilitat no significa pensar igual. En l'amistat, la feina i les relacions quotidianes, el més valuós és comprendre com escolta, decideix i reacciona cada signe davant dels desacords.</p></div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

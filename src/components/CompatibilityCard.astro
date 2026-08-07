@@ -1,0 +1,19 @@
+---
+interface Props {
+  slug: string;
+  name1: string;
+  name2: string;
+  symbol1: string;
+  symbol2: string;
+  score: number;
+}
+const { slug, name1, name2, symbol1, symbol2, score } = Astro.props;
+---
+<a class="compatibility-card" href={`/compatibilitats/${slug}/`}>
+  <span class="compatibility-symbols" aria-hidden="true">{symbol1} <small>+</small> {symbol2}</span>
+  <div>
+    <h2>{name1} i {name2}</h2>
+    <p>Compatibilitat astrològica</p>
+  </div>
+  <span class="compatibility-score" aria-label={`Valoració orientativa: ${score}%`}>{score}%</span>
+</a>

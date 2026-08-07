@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import SignQuiz from "../../components/SignQuiz.astro";
+---
+<Layout title="Quin signe ets realment? Quiz del zodíac | Cel Endins" description="Fes el quiz interactiu i descobreix quin signe del zodíac encaixa més amb la teva personalitat segons els arquetips astrològics." canonicalPath="/recursos/quin-signe-ets-realment/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero">
+      <p class="sign-kicker">Quiz de personalitat astrològica</p>
+      <h1>Quin signe ets realment?</h1>
+      <p>Potser el teu signe solar explica una part de tu, però les teves reaccions i preferències poden recordar un altre arquetip zodiacal. Respon amb sinceritat i descobreix quin apareix en les teves respostes.</p>
+    </section>
+    <SignQuiz />
+    <section class="quiz-explanation">
+      <h2>Com funciona aquest quiz?</h2>
+      <p>Les respostes sumen afinitats amb els quatre elements —foc, terra, aire i aigua— i amb les tres modalitats —cardinal, fixa i mutable—. La combinació final correspon a un dels dotze signes. Les preguntes es trien aleatòriament en cada partida, de manera que pots repetir el test i explorar altres matisos.</p>
+      <p>El resultat és lúdic i es basa en els significats tradicionals de l'astrologia. No substitueix una carta natal ni descriu de manera objectiva la personalitat.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

@@ -1,0 +1,208 @@
+<section class="quiz-shell" data-sign-quiz aria-live="polite">
+  <div class="quiz-start" data-quiz-start>
+    <span class="quiz-orbit" aria-hidden="true">☾</span>
+    <h2>Preparat per descobrir el teu signe interior?</h2>
+    <p>Rebràs 9 preguntes escollides aleatòriament. No hi ha respostes correctes: tria l'opció que et representi millor.</p>
+    <button class="quiz-primary" type="button" data-start-button>Començar</button>
+  </div>
+
+  <div class="quiz-game" data-quiz-game hidden>
+    <div class="quiz-progress-row"><span data-progress-label>Pregunta 1 de 9</span><button type="button" data-restart-button>Reinicia</button></div>
+    <div class="quiz-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <p class="quiz-question-number" data-question-topic></p>
+    <h2 data-question-text></h2>
+    <div class="quiz-answers" data-answers></div>
+  </div>
+
+  <div class="quiz-result" data-quiz-result tabindex="-1" hidden>
+    <p class="sign-kicker">El teu resultat lúdic</p>
+    <div class="quiz-result-symbol" data-result-symbol aria-hidden="true"></div>
+    <p class="quiz-result-label">El signe que més s'assembla a les teves respostes és</p>
+    <h2 data-result-name></h2>
+    <p data-result-description></p>
+    <div class="quiz-result-actions">
+      <a class="resource-button" data-result-link href="/">Descobreix aquest signe <span aria-hidden="true">→</span></a>
+      <button class="quiz-secondary" type="button" data-play-again>Torna-hi amb preguntes noves</button>
+    </div>
+    <p class="quiz-disclaimer">Aquest quiz és una experiència lúdica inspirada en els arquetips de l'astrologia. No és una anàlisi psicològica ni determina la teva personalitat.</p>
+  </div>
+  <noscript><p>Activa JavaScript al navegador per poder fer el quiz interactiu.</p></noscript>
+</section>
+
+<script>
+  type ElementKey = "foc" | "terra" | "aire" | "aigua";
+  type ModeKey = "cardinal" | "fix" | "mutable";
+  type Answer = { text: string; element: ElementKey; mode: ModeKey };
+  type Question = { topic: string; text: string; answers: Answer[] };
+
+  const questions: Question[] = [
+    { topic: "Davant d'un repte", text: "Quan apareix un problema inesperat, què fas primer?", answers: [
+      { text: "Actuo de seguida i ja corregiré el rumb", element: "foc", mode: "cardinal" },
+      { text: "Observo què és segur abans de moure'm", element: "terra", mode: "fix" },
+      { text: "Busco informació i diferents punts de vista", element: "aire", mode: "mutable" },
+      { text: "Escolto la intuïció i l'ambient", element: "aigua", mode: "cardinal" }
+    ]},
+    { topic: "En un grup", text: "Quin paper acostumes a assumir sense adonar-te'n?", answers: [
+      { text: "Dono energia i animo tothom", element: "foc", mode: "fix" },
+      { text: "Organitzo perquè les coses funcionin", element: "terra", mode: "cardinal" },
+      { text: "Connecto persones i idees", element: "aire", mode: "cardinal" },
+      { text: "Detecto com se sent cadascú", element: "aigua", mode: "mutable" }
+    ]},
+    { topic: "Temps lliure", text: "Quin pla et recarrega més l'energia?", answers: [
+      { text: "Una aventura que no havia planificat", element: "foc", mode: "mutable" },
+      { text: "Un dia tranquil, còmode i sense presses", element: "terra", mode: "fix" },
+      { text: "Una conversa que m'obri la ment", element: "aire", mode: "mutable" },
+      { text: "Música, art o una estona prop de l'aigua", element: "aigua", mode: "mutable" }
+    ]},
+    { topic: "Decisions", text: "Com tries quan tens diverses opcions importants?", answers: [
+      { text: "Segueixo allò que em desperta més passió", element: "foc", mode: "cardinal" },
+      { text: "Valoro conseqüències, recursos i estabilitat", element: "terra", mode: "cardinal" },
+      { text: "Comparo pros i contres fins trobar equilibri", element: "aire", mode: "cardinal" },
+      { text: "Em pregunto quina opció sento més autèntica", element: "aigua", mode: "fix" }
+    ]},
+    { topic: "Conflictes", text: "Quan discuteixes amb algú que estimes...", answers: [
+      { text: "Ho dic tot, m'enfado i després em passa", element: "foc", mode: "cardinal" },
+      { text: "Mantinc la meva posició fins que hi ha proves", element: "terra", mode: "fix" },
+      { text: "Necessito parlar i entendre totes les versions", element: "aire", mode: "mutable" },
+      { text: "Em retiro una estona per protegir el que sento", element: "aigua", mode: "fix" }
+    ]},
+    { topic: "Afecte", text: "Com demostres més sovint que algú t'importa?", answers: [
+      { text: "Compartint entusiasme i defensant-lo", element: "foc", mode: "fix" },
+      { text: "Ajudant amb coses concretes i sent constant", element: "terra", mode: "mutable" },
+      { text: "Escoltant, escrivint i compartint idees", element: "aire", mode: "mutable" },
+      { text: "Cuidant els detalls emocionals", element: "aigua", mode: "cardinal" }
+    ]},
+    { topic: "Canvis", text: "Com reacciones quan un pla canvia a última hora?", answers: [
+      { text: "M'emociona: pot sortir alguna cosa millor", element: "foc", mode: "mutable" },
+      { text: "Em molesta; necessito recuperar estructura", element: "terra", mode: "fix" },
+      { text: "M'adapto i penso alternatives ràpidament", element: "aire", mode: "mutable" },
+      { text: "Depèn de l'energia i de qui hi estigui implicat", element: "aigua", mode: "mutable" }
+    ]},
+    { topic: "Objectius", text: "Què et motiva a continuar un projecte llarg?", answers: [
+      { text: "La possibilitat de deixar una empremta", element: "foc", mode: "fix" },
+      { text: "Veure com cada pas construeix un resultat", element: "terra", mode: "cardinal" },
+      { text: "Tot el que aprenc mentre avança", element: "aire", mode: "mutable" },
+      { text: "Sentir que té un significat profund", element: "aigua", mode: "fix" }
+    ]},
+    { topic: "Primera impressió", text: "Què acostuma a notar primer la gent de tu?", answers: [
+      { text: "L'energia i la manera directa de parlar", element: "foc", mode: "cardinal" },
+      { text: "La calma i la sensació de confiança", element: "terra", mode: "fix" },
+      { text: "La curiositat i el sentit de l'humor", element: "aire", mode: "mutable" },
+      { text: "La sensibilitat i la capacitat d'escoltar", element: "aigua", mode: "cardinal" }
+    ]},
+    { topic: "Entorn ideal", text: "En quin espai et sents més tu?", answers: [
+      { text: "Allà on puc crear, liderar o moure'm", element: "foc", mode: "fix" },
+      { text: "En un lloc ordenat, bonic i confortable", element: "terra", mode: "mutable" },
+      { text: "En una comunitat amb idees diferents", element: "aire", mode: "fix" },
+      { text: "En un espai íntim amb persones de confiança", element: "aigua", mode: "cardinal" }
+    ]},
+    { topic: "Intuïció", text: "Quan alguna cosa no encaixa, què detectes abans?", answers: [
+      { text: "Que falta decisió o coratge", element: "foc", mode: "cardinal" },
+      { text: "Que els detalls pràctics no se sostenen", element: "terra", mode: "mutable" },
+      { text: "Que l'argument té una contradicció", element: "aire", mode: "fix" },
+      { text: "Que el to emocional ha canviat", element: "aigua", mode: "fix" }
+    ]},
+    { topic: "Futur", text: "Com t'imagines una vida satisfactòria?", answers: [
+      { text: "Plena de reptes, passió i històries", element: "foc", mode: "mutable" },
+      { text: "Sòlida, tranquil·la i construïda amb temps", element: "terra", mode: "cardinal" },
+      { text: "Lliure, interessant i envoltada de comunitat", element: "aire", mode: "fix" },
+      { text: "Amb vincles profunds i espai per somiar", element: "aigua", mode: "mutable" }
+    ]},
+    { topic: "Creativitat", text: "Quan tens una idea nova, què necessites?", answers: [
+      { text: "Provar-la abans que perdi l'espurna", element: "foc", mode: "cardinal" },
+      { text: "Un pla realista per donar-li forma", element: "terra", mode: "cardinal" },
+      { text: "Algú amb qui fer-la créixer parlant", element: "aire", mode: "mutable" },
+      { text: "Temps perquè trobi el seu significat", element: "aigua", mode: "mutable" }
+    ]},
+    { topic: "Valors", text: "Quina qualitat admires més en una persona?", answers: [
+      { text: "Valentia", element: "foc", mode: "cardinal" },
+      { text: "Fiabilitat", element: "terra", mode: "fix" },
+      { text: "Originalitat", element: "aire", mode: "fix" },
+      { text: "Empatia", element: "aigua", mode: "mutable" }
+    ]}
+  ];
+
+  const results: Record<`${ElementKey}-${ModeKey}`, { name: string; symbol: string; slug: string; description: string }> = {
+    "foc-cardinal": { name: "Àries", symbol: "♈", slug: "aries", description: "Directe, valent i orientat a l'acció. Les teves respostes mostren que prefereixes obrir camí i aprendre mentre avances." },
+    "foc-fix": { name: "Lleó", symbol: "♌", slug: "lleo", description: "Creatiu, càlid i lleial. Tens una energia expressiva que busca deixar empremta i protegir allò que estima." },
+    "foc-mutable": { name: "Sagitari", symbol: "♐", slug: "sagitari", description: "Curiós, optimista i aventurer. Et mouen la llibertat, el coneixement i els horitzons que encara no has explorat." },
+    "terra-cardinal": { name: "Capricorn", symbol: "♑", slug: "capricorn", description: "Estratègic, responsable i perseverant. Les teves respostes indiquen que t'agrada construir objectius amb una direcció clara." },
+    "terra-fix": { name: "Taure", symbol: "♉", slug: "taure", description: "Constant, sensorial i fiable. Valores allò que té qualitat, dona calma i pot créixer sense presses." },
+    "terra-mutable": { name: "Verge", symbol: "♍", slug: "verge", description: "Observador, pràctic i atent. Tens facilitat per detectar què necessita millora i convertir la cura en accions concretes." },
+    "aire-cardinal": { name: "Balança", symbol: "♎", slug: "balanca", description: "Diplomàtic, relacional i sensible a l'equilibri. Busques entendre totes les parts abans de crear un acord just." },
+    "aire-fix": { name: "Aquari", symbol: "♒", slug: "aquari", description: "Independent, original i orientat al futur. Et defineixen les idees pròpies i la voluntat de qüestionar allò establert." },
+    "aire-mutable": { name: "Bessons", symbol: "♊", slug: "bessons", description: "Àgil, comunicatiu i versàtil. La curiositat et porta a connectar persones, informacions i perspectives diferents." },
+    "aigua-cardinal": { name: "Cranc", symbol: "♋", slug: "cranc", description: "Protector, intuïtiu i afectuós. Perceps les necessitats emocionals i dones molta importància a la confiança i la pertinença." },
+    "aigua-fix": { name: "Escorpí", symbol: "♏", slug: "escorpio", description: "Profund, intens i perceptiu. Busques autenticitat i tens una gran capacitat per transformar-te després de les crisis." },
+    "aigua-mutable": { name: "Peixos", symbol: "♓", slug: "peixos", description: "Empàtic, imaginatiu i receptiu. Les teves respostes mostren una sensibilitat capaç de captar matisos i donar espai als somnis." }
+  };
+
+  const root = document.querySelector<HTMLElement>("[data-sign-quiz]");
+  if (root) {
+    const startView = root.querySelector<HTMLElement>("[data-quiz-start]")!;
+    const gameView = root.querySelector<HTMLElement>("[data-quiz-game]")!;
+    const resultView = root.querySelector<HTMLElement>("[data-quiz-result]")!;
+    const answersEl = root.querySelector<HTMLElement>("[data-answers]")!;
+    const questionText = root.querySelector<HTMLElement>("[data-question-text]")!;
+    const questionTopic = root.querySelector<HTMLElement>("[data-question-topic]")!;
+    const progressLabel = root.querySelector<HTMLElement>("[data-progress-label]")!;
+    const progressBar = root.querySelector<HTMLElement>("[data-progress-bar]")!;
+    let selected: Question[] = [];
+    let current = 0;
+    let elementScores: Record<ElementKey, number> = { foc: 0, terra: 0, aire: 0, aigua: 0 };
+    let modeScores: Record<ModeKey, number> = { cardinal: 0, fix: 0, mutable: 0 };
+
+    const shuffle = <T,>(items: T[]) => [...items].sort(() => Math.random() - 0.5);
+    const highest = <T extends string>(scores: Record<T, number>): T => shuffle(Object.keys(scores) as T[]).sort((a, b) => scores[b] - scores[a])[0];
+
+    function begin() {
+      selected = shuffle(questions).slice(0, 9);
+      current = 0;
+      elementScores = { foc: 0, terra: 0, aire: 0, aigua: 0 };
+      modeScores = { cardinal: 0, fix: 0, mutable: 0 };
+      startView.hidden = true;
+      resultView.hidden = true;
+      gameView.hidden = false;
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      const question = selected[current];
+      progressLabel.textContent = `Pregunta ${current + 1} de ${selected.length}`;
+      progressBar.style.width = `${(current / selected.length) * 100}%`;
+      questionTopic.textContent = question.topic;
+      questionText.textContent = question.text;
+      answersEl.replaceChildren();
+      shuffle(question.answers).forEach((answer) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = answer.text;
+        button.addEventListener("click", () => choose(answer));
+        answersEl.appendChild(button);
+      });
+    }
+
+    function choose(answer: Answer) {
+      elementScores[answer.element] += 1;
+      modeScores[answer.mode] += 1;
+      current += 1;
+      current < selected.length ? renderQuestion() : showResult();
+    }
+
+    function showResult() {
+      const key = `${highest(elementScores)}-${highest(modeScores)}` as keyof typeof results;
+      const result = results[key];
+      gameView.hidden = true;
+      resultView.hidden = false;
+      root.querySelector<HTMLElement>("[data-result-symbol]")!.textContent = result.symbol;
+      root.querySelector<HTMLElement>("[data-result-name]")!.textContent = result.name;
+      root.querySelector<HTMLElement>("[data-result-description]")!.textContent = result.description;
+      root.querySelector<HTMLAnchorElement>("[data-result-link]")!.href = `/${result.slug}/`;
+      resultView.focus();
+    }
+
+    root.querySelector("[data-start-button]")?.addEventListener("click", begin);
+    root.querySelector("[data-restart-button]")?.addEventListener("click", begin);
+    root.querySelector("[data-play-again]")?.addEventListener("click", begin);
+  }
+</script>

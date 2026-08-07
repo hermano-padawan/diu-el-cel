@@ -1,0 +1,54 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+const upcoming = [
+  "Calculadora d'ascendent",
+  "Calculadora de compatibilitat",
+  "Calendari zodiacal",
+  "Roda zodiacal",
+  "Comparador de signes",
+  "Glossari astrològic",
+  "Preguntes freqüents"
+];
+---
+<Layout title="Recursos d'astrologia interactius | Cel Endins" description="Eines i recursos d'astrologia en català: quizzes, calculadores, calendari zodiacal, glossari i més." canonicalPath="/recursos/">
+  <Header inner backHref="/" backLabel="Horòscop" />
+  <main>
+    <section class="resources-hero">
+      <p class="sign-kicker">Explora i descobreix</p>
+      <h1>Recursos d'astrologia</h1>
+      <p>Eines interactives per conèixer millor els signes, explorar afinitats i entendre els conceptes bàsics de l'astrologia d'una manera clara i entretinguda.</p>
+    </section>
+
+    <section class="resource-featured" aria-labelledby="quiz-resource-title">
+      <div class="resource-featured-symbol" aria-hidden="true">✦</div>
+      <div>
+        <p class="sign-kicker">Quiz interactiu</p>
+        <h2 id="quiz-resource-title">Quin signe ets realment?</h2>
+        <p>Respon unes quantes preguntes sobre la teva manera d'actuar, relacionar-te i prendre decisions. El resultat revela quin arquetip zodiacal encaixa més amb les teves respostes.</p>
+        <a class="resource-button" href="/recursos/quin-signe-ets-realment/">Comença el quiz <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="available-resources" aria-labelledby="available-resources-title">
+      <p class="sign-kicker">També disponible</p>
+      <h2 id="available-resources-title">Calcula el teu signe</h2>
+      <a class="resource-card" href="/recursos/calculadora-signe/">
+        <span class="resource-card-symbol" aria-hidden="true">☉</span>
+        <div><h3>Calculadora del signe</h3><p>Introdueix el dia i el mes de naixement i descobreix el teu signe, element, modalitat i planeta regent.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+    </section>
+
+    <section class="upcoming-resources" aria-labelledby="upcoming-title">
+      <p class="sign-kicker">Pròximament</p>
+      <h2 id="upcoming-title">Nous recursos</h2>
+      <div class="upcoming-grid">
+        {upcoming.map((name) => <div class="upcoming-card"><span aria-hidden="true">○</span><p>{name}</p><small>En preparació</small></div>)}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

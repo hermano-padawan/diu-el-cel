@@ -1,0 +1,15 @@
+---
+import logo from "../../img/horoscop-logo.png";
+interface Props { inner?: boolean; backHref?: string; backLabel?: string }
+const { inner = false, backHref = "/", backLabel = "Tots els signes" } = Astro.props;
+---
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Cel Endins, inici">
+    <img class="brand-logo" src={logo.src} alt="Cel Endins" width={1200} height={400} />
+  </a>
+  <nav class="site-nav" aria-label="Navegació principal">
+    {inner && <a class="back-link" href={backHref}>← {backLabel}</a>}
+    <a class="nav-link" href="/compatibilitats/">Compatibilitats</a>
+    <a class="nav-link" href="/recursos/">Recursos</a>
+  </nav>
+</header>

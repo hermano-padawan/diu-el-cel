@@ -1,0 +1,45 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import CompatibilityCard from "../../components/CompatibilityCard.astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("compatibilities");
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+interface Props { entry: CollectionEntry<"compatibilities"> }
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const horoscopes = await getCollection("horoscopes");
+const signMap = new Map(horoscopes.map((sign) => [sign.id, sign.data]));
+const first = signMap.get(entry.data.signe1)!;
+const second = signMap.get(entry.data.signe2)!;
+const related = (await getCollection("compatibilities")).filter((item) => item.id !== entry.id && [item.data.signe1, item.data.signe2].some((slug) => slug === entry.data.signe1 || slug === entry.data.signe2)).slice(0, 3);
+const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: entry.data.faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
+---
+<Layout title={entry.data.title} description={entry.data.description} canonicalPath={`/compatibilitats/${entry.data.slug}/`}>
+  <Header inner backHref="/compatibilitats/" backLabel="Compatibilitats" />
+  <main>
+    <article class="compatibility-article">
+      <header class="compatibility-article-header">
+        <p class="sign-kicker">Compatibilitat zodiacal</p>
+        <h1>Compatibilitat entre {first.name} i {second.name}</h1>
+        <div class="pair-symbols" aria-hidden="true">{first.symbol}<span>+</span>{second.symbol}</div>
+        <div class="score-block"><strong>{entry.data.score}%</strong><span>Valoració astrològica orientativa</span></div>
+      </header>
+      <div class="compatibility-content"><Content /></div>
+      <section class="faq-section" aria-labelledby="faq-title">
+        <h2 id="faq-title">Preguntes freqüents</h2>
+        {entry.data.faqs.map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}
+      </section>
+      <p class="astrology-note">Aquesta valoració és una interpretació astrològica general i no una mesura objectiva. Cada relació depèn de les persones i del conjunt de les seves cartes natals.</p>
+      <nav class="pair-links" aria-label="Pàgines relacionades"><a href={`/${entry.data.signe1}/`}>Horòscop de {first.name}</a><a href={`/${entry.data.signe2}/`}>Horòscop de {second.name}</a><a href="/compatibilitats/">Totes les compatibilitats</a></nav>
+    </article>
+    {related.length > 0 && <section class="related-compatibilities"><h2>Compatibilitats relacionades</h2><div class="compatibility-grid compact">{related.map(({ data }) => { const a = signMap.get(data.signe1)!; const b = signMap.get(data.signe2)!; return <CompatibilityCard slug={data.slug} name1={a.name} name2={b.name} symbol1={a.symbol} symbol2={b.symbol} score={data.score} />; })}</div></section>}
+  </main>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <Footer />
+</Layout>

@@ -1,0 +1,124 @@
+<section class="calculator-shell" data-sign-calculator aria-live="polite">
+  <div class="calculator-form-panel">
+    <p class="sign-kicker">La teva data de naixement</p>
+    <h2>Quin és el teu signe del zodíac?</h2>
+    <p>Selecciona el dia i el mes. No necessitem l'any ni guardem cap informació.</p>
+    <form class="birthdate-form" data-calculator-form>
+      <div class="calculator-field">
+        <label for="birth-day">Dia</label>
+        <select id="birth-day" name="day" required disabled>
+          <option value="">Tria el dia</option>
+        </select>
+      </div>
+      <div class="calculator-field">
+        <label for="birth-month">Mes</label>
+        <select id="birth-month" name="month" required>
+          <option value="">Tria el mes</option>
+          <option value="1">Gener</option><option value="2">Febrer</option><option value="3">Març</option>
+          <option value="4">Abril</option><option value="5">Maig</option><option value="6">Juny</option>
+          <option value="7">Juliol</option><option value="8">Agost</option><option value="9">Setembre</option>
+          <option value="10">Octubre</option><option value="11">Novembre</option><option value="12">Desembre</option>
+        </select>
+      </div>
+      <button class="quiz-primary" type="submit">Descobreix el signe</button>
+    </form>
+  </div>
+
+  <div class="calculator-placeholder" data-calculator-placeholder>
+    <span aria-hidden="true">✦</span>
+    <p>El teu resultat apareixerà aquí</p>
+  </div>
+
+  <div class="calculator-result" data-calculator-result tabindex="-1" hidden>
+    <p class="sign-kicker">El teu signe solar és</p>
+    <div class="calculator-result-heading">
+      <span data-sign-symbol aria-hidden="true"></span>
+      <div><h2 data-sign-name></h2><p data-sign-dates></p></div>
+    </div>
+    <p class="calculator-result-description" data-sign-description></p>
+    <dl class="sign-facts">
+      <div><dt>Element</dt><dd data-sign-element></dd></div>
+      <div><dt>Modalitat</dt><dd data-sign-mode></dd></div>
+      <div><dt>Planeta regent</dt><dd data-sign-planet></dd></div>
+    </dl>
+    <div class="calculator-actions">
+      <a class="resource-button" data-sign-link href="/">Veure l'horòscop <span aria-hidden="true">→</span></a>
+      <a class="quiz-secondary calculator-secondary-link" href="/compatibilitats/">Veure compatibilitats</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  type Sign = { name: string; symbol: string; slug: string; dates: string; element: string; mode: string; planet: string; description: string };
+  const signs: Record<string, Sign> = {
+    aries: { name: "Àries", symbol: "♈", slug: "aries", dates: "21 de març — 19 d'abril", element: "Foc", mode: "Cardinal", planet: "Mart", description: "Àries representa l'impuls d'iniciar. La tradició astrològica l'associa amb valentia, franquesa i una energia que prefereix aprendre mentre actua." },
+    taure: { name: "Taure", symbol: "♉", slug: "taure", dates: "20 d'abril — 20 de maig", element: "Terra", mode: "Fixa", planet: "Venus", description: "Taure busca estabilitat, qualitat i una connexió profunda amb els sentits. Se l'associa amb constància, paciència i fidelitat als seus valors." },
+    bessons: { name: "Bessons", symbol: "♊", slug: "bessons", dates: "21 de maig — 20 de juny", element: "Aire", mode: "Mutable", planet: "Mercuri", description: "Bessons simbolitza la curiositat i l'intercanvi. La seva energia s'associa amb comunicació, agilitat mental i capacitat per connectar perspectives." },
+    cranc: { name: "Cranc", symbol: "♋", slug: "cranc", dates: "21 de juny — 22 de juliol", element: "Aigua", mode: "Cardinal", planet: "La Lluna", description: "Cranc representa la protecció i la pertinença. Se l'associa amb intuïció, memòria emocional i una gran sensibilitat cap a les persones estimades." },
+    lleo: { name: "Lleó", symbol: "♌", slug: "lleo", dates: "23 de juliol — 22 d'agost", element: "Foc", mode: "Fixa", planet: "El Sol", description: "Lleó expressa creativitat, calidesa i orgull. La tradició li atribueix generositat, lleialtat i el desig de deixar una empremta personal." },
+    verge: { name: "Verge", symbol: "♍", slug: "verge", dates: "23 d'agost — 22 de setembre", element: "Terra", mode: "Mutable", planet: "Mercuri", description: "Verge simbolitza l'observació i la millora. S'associa amb precisió, sentit pràctic i una manera de cuidar basada en els detalls concrets." },
+    balanca: { name: "Balança", symbol: "♎", slug: "balanca", dates: "23 de setembre — 22 d'octubre", element: "Aire", mode: "Cardinal", planet: "Venus", description: "Balança busca equilibri i reciprocitat. Se l'associa amb diplomàcia, sensibilitat estètica i capacitat per comprendre diferents punts de vista." },
+    escorpio: { name: "Escorpí", symbol: "♏", slug: "escorpio", dates: "23 d'octubre — 21 de novembre", element: "Aigua", mode: "Fixa", planet: "Plutó i Mart", description: "Escorpí representa profunditat i transformació. La seva energia s'associa amb intuïció, intensitat i una gran necessitat d'autenticitat emocional." },
+    sagitari: { name: "Sagitari", symbol: "♐", slug: "sagitari", dates: "22 de novembre — 21 de desembre", element: "Foc", mode: "Mutable", planet: "Júpiter", description: "Sagitari simbolitza l'expansió i la recerca de sentit. Se l'associa amb optimisme, franquesa, aventura i voluntat d'ampliar horitzons." },
+    capricorn: { name: "Capricorn", symbol: "♑", slug: "capricorn", dates: "22 de desembre — 19 de gener", element: "Terra", mode: "Cardinal", planet: "Saturn", description: "Capricorn representa la construcció a llarg termini. La tradició li atribueix disciplina, responsabilitat i capacitat per avançar amb estratègia." },
+    aquari: { name: "Aquari", symbol: "♒", slug: "aquari", dates: "20 de gener — 18 de febrer", element: "Aire", mode: "Fixa", planet: "Urà i Saturn", description: "Aquari simbolitza la innovació i la mirada col·lectiva. Se l'associa amb independència, originalitat i voluntat de qüestionar les convencions." },
+    peixos: { name: "Peixos", symbol: "♓", slug: "peixos", dates: "19 de febrer — 20 de març", element: "Aigua", mode: "Mutable", planet: "Neptú i Júpiter", description: "Peixos representa la imaginació i l'empatia. La seva energia s'associa amb intuïció, sensibilitat artística i capacitat per percebre matisos emocionals." }
+  };
+
+  const root = document.querySelector<HTMLElement>("[data-sign-calculator]");
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>("[data-calculator-form]")!;
+    const daySelect = form.elements.namedItem("day") as HTMLSelectElement;
+    const monthSelect = form.elements.namedItem("month") as HTMLSelectElement;
+    const placeholder = root.querySelector<HTMLElement>("[data-calculator-placeholder]")!;
+    const resultPanel = root.querySelector<HTMLElement>("[data-calculator-result]")!;
+
+    function populateDays() {
+      const month = Number(monthSelect.value);
+      const previous = daySelect.value;
+      const count = month ? new Date(2024, month, 0).getDate() : 0;
+      daySelect.replaceChildren(new Option("Tria el dia", ""));
+      for (let day = 1; day <= count; day++) daySelect.add(new Option(String(day), String(day)));
+      daySelect.disabled = !month;
+      if (Number(previous) <= count) daySelect.value = previous;
+    }
+
+    function findSign(month: number, day: number): Sign {
+      const value = month * 100 + day;
+      if (value >= 321 && value <= 419) return signs.aries;
+      if (value >= 420 && value <= 520) return signs.taure;
+      if (value >= 521 && value <= 620) return signs.bessons;
+      if (value >= 621 && value <= 722) return signs.cranc;
+      if (value >= 723 && value <= 822) return signs.lleo;
+      if (value >= 823 && value <= 922) return signs.verge;
+      if (value >= 923 && value <= 1022) return signs.balanca;
+      if (value >= 1023 && value <= 1121) return signs.escorpio;
+      if (value >= 1122 && value <= 1221) return signs.sagitari;
+      if (value >= 1222 || value <= 119) return signs.capricorn;
+      if (value >= 120 && value <= 218) return signs.aquari;
+      return signs.peixos;
+    }
+
+    function showResult() {
+      const month = Number(monthSelect.value);
+      const day = Number(daySelect.value);
+      if (!month || !day) return;
+      const sign = findSign(month, day);
+      root.querySelector<HTMLElement>("[data-sign-symbol]")!.textContent = sign.symbol;
+      root.querySelector<HTMLElement>("[data-sign-name]")!.textContent = sign.name;
+      root.querySelector<HTMLElement>("[data-sign-dates]")!.textContent = sign.dates;
+      root.querySelector<HTMLElement>("[data-sign-description]")!.textContent = sign.description;
+      root.querySelector<HTMLElement>("[data-sign-element]")!.textContent = sign.element;
+      root.querySelector<HTMLElement>("[data-sign-mode]")!.textContent = sign.mode;
+      root.querySelector<HTMLElement>("[data-sign-planet]")!.textContent = sign.planet;
+      root.querySelector<HTMLAnchorElement>("[data-sign-link]")!.href = `/${sign.slug}/`;
+      placeholder.hidden = true;
+      resultPanel.hidden = false;
+      resultPanel.focus();
+    }
+
+    monthSelect.addEventListener("change", () => { populateDays(); if (daySelect.value) showResult(); });
+    daySelect.addEventListener("change", showResult);
+    form.addEventListener("submit", (event) => { event.preventDefault(); showResult(); });
+  }
+</script>

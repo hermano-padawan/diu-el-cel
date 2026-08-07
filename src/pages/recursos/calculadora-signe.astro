@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import SignCalculator from "../../components/SignCalculator.astro";
+---
+<Layout title="Calculadora del signe del zodíac | Cel Endins" description="Descobreix quin és el teu signe del zodíac introduint el dia i el mes de naixement. Consulta dates, element, modalitat i planeta regent." canonicalPath="/recursos/calculadora-signe/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero">
+      <p class="sign-kicker">Eina ràpida i gratuïta</p>
+      <h1>Calculadora del signe del zodíac</h1>
+      <p>Introdueix el dia i el mes en què vas néixer per saber quin és el teu signe solar segons les dates habituals de l'astrologia tropical.</p>
+    </section>
+    <SignCalculator />
+    <section class="quiz-explanation">
+      <h2>Com es calcula el signe del zodíac?</h2>
+      <p>El signe solar depèn de la posició aparent del Sol en el moment del naixement. Aquesta calculadora utilitza les dates tropicals més habituals. Si vas néixer just en un dia de canvi entre signes, l'hora, l'any i el lloc poden determinar el resultat exacte.</p>
+      <p>Per conèixer altres parts de la carta natal, com l'ascendent o el signe lunar, també són necessaris l'hora i el lloc de naixement.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

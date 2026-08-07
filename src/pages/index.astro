@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ZodiacCard from "../components/ZodiacCard.astro";
+import { getCollection } from "astro:content";
+
+const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
+const signs = entries.map((entry) => ({ slug: entry.id, ...entry.data }));
+const currentDate = signs[0]?.date ?? new Date();
+const dateLabel = new Intl.DateTimeFormat("ca-ES", {
+  weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC"
+}).format(currentDate);
+---
+<Layout title="Horòscop d'avui en català | Cel Endins" description="Horòscop d'avui en català per als 12 signes del zodíac. Consulta la predicció diària d'amor, feina i benestar del teu signe.">
+  <Header />
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">Horòscop d'avui</h1>
+      <p class="date"><span aria-hidden="true">☾</span> {dateLabel}</p>
+    </section>
+    <section class="zodiac-grid" aria-label="Signes del zodíac">
+      {signs.map((sign) => <ZodiacCard sign={sign} />)}
+    </section>
+    <section class="seo-copy" aria-labelledby="daily-horoscope-title">
+      <h2 id="daily-horoscope-title">Horòscop diari dels dotze signes</h2>
+      <p>Consulta el teu horòscop i descobreix la predicció del dia en l'amor, la feina i el benestar.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

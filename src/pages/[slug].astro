@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
+  return entries.map((entry, index) => ({ params: { slug: entry.id }, props: { entry, entries, index } }));
+}
+
+interface Props { entry: CollectionEntry<"horoscopes">; entries: CollectionEntry<"horoscopes">[]; index: number }
+const { entry, entries, index } = Astro.props;
+const sign = entry.data;
+const previous = entries[(index - 1 + entries.length) % entries.length];
+const next = entries[(index + 1) % entries.length];
+const article = sign.name === "Àries" || sign.name === "Aquari" || sign.name === "Escorpí" ? "d'" : "de ";
+const title = `Horòscop ${article}${sign.name} avui | Cel Endins`;
+const { Content } = await render(entry);
+const compatibilities = (await getCollection("compatibilities")).filter(({ data }) => data.signe1 === entry.id || data.signe2 === entry.id);
+const signMap = new Map(entries.map((item) => [item.id, item.data]));
+---
+<Layout title={title} description={sign.description}>
+  <Header inner />
+  <main>
+    <section class="sign-hero">
+      <div><p class="sign-kicker">{sign.element} · Horòscop d'avui</p><h1>{sign.name}</h1><p class="sign-dates">{sign.dates}</p></div>
+      <span class="sign-glyph" aria-hidden="true">{sign.symbol}</span>
+    </section>
+    <section class="reading markdown-layout">
+      <article class="markdown-reading">
+        <p class="reading-label">El missatge del cel</p>
+        <Content />
+        <div class="lucky"><span>Color · {sign.color}</span><span>Número · {sign.number}</span><span>Moment · {sign.moment}</span></div>
+      </article>
+    </section>
+    {compatibilities.length > 0 && <section class="sign-compatibilities">
+      <p class="sign-kicker">Relacions</p>
+      <h2>Compatibilitats de {sign.name}</h2>
+      <div class="inline-compatibility-links">
+        {compatibilities.map(({ data }) => { const otherSlug = data.signe1 === entry.id ? data.signe2 : data.signe1; return <a href={`/compatibilitats/${data.slug}/`}>{sign.name} i {signMap.get(otherSlug)?.name}<span>{data.score}%</span></a>; })}
+      </div>
+    </section>}
+    <nav class="sign-nav" aria-label="Altres signes"><a href={`/${previous.id}/`}>← {previous.data.name}</a><a href={`/${next.id}/`}>{next.data.name} →</a></nav>
+  </main>
+  <Footer />
+</Layout>
