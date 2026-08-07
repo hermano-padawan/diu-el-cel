@@ -6,15 +6,16 @@ const githubPages404 = {
   hooks: {
     "astro:build:done": ({ dir }) => {
       const source = new URL("404/index.html", dir);
-      if (existsSync(source)) copyFileSync(source, new URL("404.html", dir));
-    }
-  }
+      if (existsSync(source)) {
+        copyFileSync(source, new URL("404.html", dir));
+      }
+    },
+  },
 };
 
 export default defineConfig({
-  site: "https://hermano-padawan.github.io",
-  base: "/diu-el-cel",
+  site: "https://diuelcel.site",
   output: "static",
   trailingSlash: "always",
-  integrations: [githubPages404]
+  integrations: [githubPages404],
 });
