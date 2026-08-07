@@ -13,4 +13,60 @@ const { inner = false, backHref = "/", backLabel = "Tots els signes" } = Astro.p
     <a class="nav-link" href={withBase("/compatibilitats/")}>Compatibilitats</a>
     <a class:list={["nav-link", { "current-parent": inner && backHref === "/recursos/" }]} href={withBase("/recursos/")}>Recursos</a>
   </nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Obre el menú" data-menu-open>
+    <span></span><span></span><span></span>
+  </button>
 </header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+  <div class="mobile-menu-panel" role="dialog" aria-modal="true" aria-label="Menú principal">
+    <button class="menu-close" type="button" aria-label="Tanca el menú" data-menu-close>×</button>
+    <nav aria-label="Navegació mòbil">
+      <a href={withBase("/")}>Horòscop</a>
+      <a href={withBase("/compatibilitats/")}>Compatibilitats</a>
+      <a href={withBase("/recursos/")}>Recursos</a>
+    </nav>
+  </div>
+</div>
+
+<script>
+  const openButton = document.querySelector<HTMLButtonElement>("[data-menu-open]");
+  const menu = document.querySelector<HTMLElement>("[data-mobile-menu]");
+  const closeButton = menu?.querySelector<HTMLButtonElement>("[data-menu-close]");
+
+  if (openButton && menu && closeButton) {
+    const focusable = () => [...menu.querySelectorAll<HTMLElement>('button, a[href]')];
+    const closeMenu = () => {
+      menu.classList.remove("is-open");
+      menu.setAttribute("aria-hidden", "true");
+      openButton.setAttribute("aria-expanded", "false");
+      openButton.setAttribute("aria-label", "Obre el menú");
+      document.body.classList.remove("menu-open");
+      openButton.focus();
+    };
+    const openMenu = () => {
+      menu.classList.add("is-open");
+      menu.setAttribute("aria-hidden", "false");
+      openButton.setAttribute("aria-expanded", "true");
+      openButton.setAttribute("aria-label", "Tanca el menú");
+      document.body.classList.add("menu-open");
+      closeButton.focus();
+    };
+
+    openButton.addEventListener("click", openMenu);
+    closeButton.addEventListener("click", closeMenu);
+    menu.addEventListener("click", (event) => { if (event.target === menu) closeMenu(); });
+    menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+    document.addEventListener("keydown", (event) => {
+      if (!menu.classList.contains("is-open")) return;
+      if (event.key === "Escape") closeMenu();
+      if (event.key === "Tab") {
+        const items = focusable();
+        const first = items[0];
+        const last = items.at(-1);
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    });
+  }
+</script>
