@@ -12,7 +12,7 @@ const resourcePaths = [
 const legalPaths = ["/avis-legal/", "/privacitat/", "/cookies/", "/condicions-us/", "/contacte/"];
 
 export async function GET({ site }: { site: URL | undefined }) {
-  const origin = site ?? new URL("https://hermano-padawan.github.io");
+  const origin = site ?? new URL("https://diuelcel.site");
   const horoscopes = await getCollection("horoscopes");
   const compatibilities = await getCollection("compatibilities");
   const paths = [
