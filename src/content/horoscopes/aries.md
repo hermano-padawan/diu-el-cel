@@ -3,22 +3,22 @@ name: Àries
 symbol: ♈
 element: Foc
 dates: 21 març — 19 abril
-date: 2026-08-07
+date: 2026-08-08
 order: 1
 color: Terracota
-number: "7"
-moment: Matí
+number: "8"
+moment: Tarda
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Avui la teva empenta obre una porta que semblava tancada. Fes el primer pas, però deixa espai perquè els altres també et sorprenguin.
+Aquest dissabte et convida a convertir una intuïció ràpida en una decisió ben pensada. Tens energia per avançar, però el millor resultat arribarà si mires abans qui camina al teu costat.
 
-Mart reforça la teva determinació. És un bon dia per resoldre allò que has anat ajornant, sempre que diferenciïs la valentia de la pressa.
+Mart encén la iniciativa i també pot fer-te reaccionar abans d'hora. Canalitza aquesta força cap a una tasca concreta i reserva una part del dia per improvisar sense exigències.
 
 ## Amor
-Una conversa directa pot acostar-te molt a algú. Parla des de la sinceritat.
+Una mostra d'afecte espontània trenca la rutina. Digues el que sents sense convertir-ho en una prova.
 
 ## Feina
-La iniciativa serà ben rebuda si arriba acompanyada d'un pla concret.
+Acaba un assumpte breu abans d'obrir un projecte nou; la sensació d'ordre et donarà impuls.
 
 ## Benestar
-Mou el cos i dona una sortida saludable a tota aquesta energia.
+Una activitat física a l'aire lliure t'ajudarà a recuperar claredat.
