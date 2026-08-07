@@ -10,7 +10,7 @@ interface Props { term: GlossaryTerm }
 const { term } = Astro.props;
 const related = term.related.map((slug) => glossaryMap.get(slug)).filter((item): item is GlossaryTerm => Boolean(item));
 ---
-<Layout title={`${term.name}: què és i què significa | Cel Endins`} description={`${term.summary} Descobreix què significa ${term.name.toLocaleLowerCase("ca")} en astrologia, amb una explicació clara i un exemple.`} canonicalPath={`/recursos/glossari/${term.slug}/`}>
+<Layout title={`${term.name}: què és i què significa | Diu el Cel`} description={`${term.summary} Descobreix què significa ${term.name.toLocaleLowerCase("ca")} en astrologia, amb una explicació clara i un exemple.`} canonicalPath={`/recursos/glossari/${term.slug}/`}>
   <Header inner backHref="/recursos/glossari/" backLabel="Glossari" />
   <main><article class="glossary-article">
     <header><p class="sign-kicker">Glossari d'astrologia</p><h1>{term.name}</h1><p>{term.summary}</p></header>

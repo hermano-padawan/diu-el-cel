@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Bessons en l'amor | Cel Endins"
+title: "Compatibilitat Taure i Bessons en l'amor | Diu el Cel"
 description: "Compatibilitat entre Taure i Bessons: amor, intimitat, amistat, feina i comunicació entre estabilitat i canvi."
 slug: taure-bessons
 signe1: taure

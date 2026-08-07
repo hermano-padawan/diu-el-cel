@@ -10,7 +10,7 @@ const signs = horoscopes.sort((a, b) => a.data.order - b.data.order);
 const signMap = new Map(signs.map((entry) => [entry.id, entry.data]));
 const compatibilities = (await getCollection("compatibilities")).sort((a, b) => a.data.slug.localeCompare(b.data.slug));
 ---
-<Layout title="Compatibilitat entre signes del zodíac | Cel Endins" description="Descobreix la compatibilitat entre signes del zodíac en l'amor, l'amistat, la comunicació i les relacions." canonicalPath="/compatibilitats/">
+<Layout title="Compatibilitat entre signes del zodíac | Diu el Cel" description="Descobreix la compatibilitat entre signes del zodíac en l'amor, l'amistat, la comunicació i les relacions." canonicalPath="/compatibilitats/">
   <Header inner backHref="/" backLabel="Horòscop" />
   <main>
     <section class="compatibility-hero">

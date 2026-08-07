@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Lleó: passió i amor | Cel Endins"
+title: "Compatibilitat Àries i Lleó: passió i amor | Diu el Cel"
 description: "Analitzem la compatibilitat d'Àries i Lleó en l'amor, la intimitat, l'amistat, la feina i la comunicació entre dos signes de foc."
 slug: aries-lleo
 signe1: aries

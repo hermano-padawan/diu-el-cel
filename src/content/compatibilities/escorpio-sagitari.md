@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Escorpí i Sagitari en l'amor | Cel Endins"
+title: "Compatibilitat Escorpí i Sagitari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Escorpí i Sagitari en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: escorpio-sagitari
 signe1: escorpio

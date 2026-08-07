@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Sagitari en l'amor | Cel Endins"
+title: "Compatibilitat Taure i Sagitari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Taure i Sagitari: amor, intimitat, amistat, feina i comunicació entre estabilitat i aventura."
 slug: taure-sagitari
 signe1: taure

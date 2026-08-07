@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Balança i Aquari en l'amor | Cel Endins"
+title: "Compatibilitat Balança i Aquari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Balança i Aquari en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: balanca-aquari
 signe1: balanca

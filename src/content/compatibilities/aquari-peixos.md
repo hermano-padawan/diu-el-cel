@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Aquari i Peixos en l'amor | Cel Endins"
+title: "Compatibilitat Aquari i Peixos en l'amor | Diu el Cel"
 description: "Compatibilitat entre Aquari i Peixos en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: aquari-peixos
 signe1: aquari

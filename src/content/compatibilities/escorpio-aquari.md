@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Escorpí i Aquari en l'amor | Cel Endins"
+title: "Compatibilitat Escorpí i Aquari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Escorpí i Aquari en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: escorpio-aquari
 signe1: escorpio

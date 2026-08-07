@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Verge i Capricorn: amor estable | Cel Endins"
+title: "Compatibilitat Verge i Capricorn: amor estable | Diu el Cel"
 description: "Compatibilitat entre Verge i Capricorn en l'amor, l'amistat, la intimitat i la feina. Fortaleses, dificultats i claus de comunicació."
 slug: verge-capricorn
 signe1: verge

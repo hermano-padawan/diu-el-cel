@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Peixos i Peixos: amor intuïtiu | Cel Endins"
+title: "Compatibilitat Peixos i Peixos: amor intuïtiu | Diu el Cel"
 description: "Compatibilitat entre dues persones Peixos en l'amor, l'amistat, la intimitat, la feina i la comunicació. Empatia, somnis i límits."
 slug: peixos-peixos
 signe1: peixos

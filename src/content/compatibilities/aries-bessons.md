@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Bessons: amor i relació | Cel Endins"
+title: "Compatibilitat Àries i Bessons: amor i relació | Diu el Cel"
 description: "Compatibilitat entre Àries i Bessons en l'amor, el sexe, l'amistat i la comunicació. Fortaleses, riscos i consells per a la parella."
 slug: aries-bessons
 signe1: aries

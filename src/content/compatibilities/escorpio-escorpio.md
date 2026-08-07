@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Escorpí i Escorpí: amor intens | Cel Endins"
+title: "Compatibilitat Escorpí i Escorpí: amor intens | Diu el Cel"
 description: "Compatibilitat entre dues persones Escorpí en l'amor, la intimitat, l'amistat, la feina i la comunicació. Confiança i intensitat."
 slug: escorpio-escorpio
 signe1: escorpio

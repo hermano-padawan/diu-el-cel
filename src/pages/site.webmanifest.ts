@@ -3,8 +3,8 @@ export const prerender = true;
 export function GET() {
   const base = import.meta.env.BASE_URL;
   const manifest = {
-    name: "Cel Endins",
-    short_name: "Cel Endins",
+    name: "Diu el Cel",
+    short_name: "Diu el Cel",
     description: "Horòscop i astrologia en català.",
     start_url: base,
     scope: base,

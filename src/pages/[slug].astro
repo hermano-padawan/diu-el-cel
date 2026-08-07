@@ -16,7 +16,7 @@ const sign = entry.data;
 const previous = entries[(index - 1 + entries.length) % entries.length];
 const next = entries[(index + 1) % entries.length];
 const article = sign.name === "Àries" || sign.name === "Aquari" || sign.name === "Escorpí" ? "d'" : "de ";
-const title = `Horòscop ${article}${sign.name} avui | Cel Endins`;
+const title = `Horòscop ${article}${sign.name} avui | Diu el Cel`;
 const { Content } = await render(entry);
 const compatibilities = (await getCollection("compatibilities")).filter(({ data }) => data.signe1 === entry.id || data.signe2 === entry.id);
 const signMap = new Map(entries.map((item) => [item.id, item.data]));

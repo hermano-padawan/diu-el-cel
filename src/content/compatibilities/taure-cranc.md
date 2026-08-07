@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Cranc en l'amor | Cel Endins"
+title: "Compatibilitat Taure i Cranc en l'amor | Diu el Cel"
 description: "Compatibilitat de Taure i Cranc: seguretat emocional, amor, amistat, intimitat, comunicació i consells per a una relació duradora."
 slug: taure-cranc
 signe1: taure

@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Balança en l'amor | Cel Endins"
+title: "Compatibilitat Àries i Balança en l'amor | Diu el Cel"
 description: "Compatibilitat d'Àries i Balança: atracció entre oposats, amor, intimitat, amistat, feina i comunicació."
 slug: aries-balanca
 signe1: aries

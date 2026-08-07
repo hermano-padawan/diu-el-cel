@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Verge i Aquari en l'amor | Cel Endins"
+title: "Compatibilitat Verge i Aquari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Verge i Aquari en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: verge-aquari
 signe1: verge

@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Escorpí: atracció profunda | Cel Endins"
+title: "Compatibilitat Taure i Escorpí: atracció profunda | Diu el Cel"
 description: "Compatibilitat entre Taure i Escorpí en l'amor, la intimitat, l'amistat, la feina i la comunicació entre signes oposats."
 slug: taure-escorpio
 signe1: taure

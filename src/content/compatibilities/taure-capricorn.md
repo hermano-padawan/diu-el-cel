@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Capricorn: amor sòlid | Cel Endins"
+title: "Compatibilitat Taure i Capricorn: amor sòlid | Diu el Cel"
 description: "Compatibilitat entre Taure i Capricorn en l'amor, la intimitat, l'amistat, la feina i la comunicació entre signes de terra."
 slug: taure-capricorn
 signe1: taure

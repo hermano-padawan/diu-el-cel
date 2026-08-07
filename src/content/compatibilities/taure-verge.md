@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Verge: amor estable | Cel Endins"
+title: "Compatibilitat Taure i Verge: amor estable | Diu el Cel"
 description: "Compatibilitat entre Taure i Verge en l'amor, la intimitat, l'amistat, la feina i la comunicació entre dos signes de terra."
 slug: taure-verge
 signe1: taure

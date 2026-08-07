@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Cranc en l'amor | Cel Endins"
+title: "Compatibilitat Àries i Cranc en l'amor | Diu el Cel"
 description: "Compatibilitat entre Àries i Cranc: amor, intimitat, amistat, feina, comunicació i claus per unir impuls i sensibilitat."
 slug: aries-cranc
 signe1: aries

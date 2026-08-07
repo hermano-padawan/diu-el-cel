@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Bessons i Lleó en l'amor | Cel Endins"
+title: "Compatibilitat Bessons i Lleó en l'amor | Diu el Cel"
 description: "Descobreix la compatibilitat entre Bessons i Lleó: atracció, amor, amistat, intimitat, comunicació i reptes d'aquesta parella."
 slug: bessons-lleo
 signe1: bessons

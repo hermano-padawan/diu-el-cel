@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Lleó i Lleó: amor i orgull | Cel Endins"
+title: "Compatibilitat Lleó i Lleó: amor i orgull | Diu el Cel"
 description: "Compatibilitat entre dues persones Lleó en l'amor, l'amistat, la intimitat, la feina i la comunicació. Passió, lleialtat i reptes."
 slug: lleo-lleo
 signe1: lleo

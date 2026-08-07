@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Peixos: amor tendre | Cel Endins"
+title: "Compatibilitat Taure i Peixos: amor tendre | Diu el Cel"
 description: "Compatibilitat entre Taure i Peixos en l'amor, la intimitat, l'amistat, la feina i la comunicació entre terra i aigua."
 slug: taure-peixos
 signe1: taure

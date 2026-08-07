@@ -4,7 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { withBase } from "../utils/paths";
 ---
-<Layout title="Pàgina no trobada | Cel Endins" description="La pàgina que busques no existeix o ha canviat d'adreça." canonicalPath="/404/" noindex>
+<Layout title="Pàgina no trobada | Diu el Cel" description="La pàgina que busques no existeix o ha canviat d'adreça." canonicalPath="/404/" noindex>
   <Header />
   <main><section class="not-found"><p class="not-found-code">404</p><p class="sign-kicker">Aquesta estrella no és al mapa</p><h1>Pàgina no trobada</h1><p>Potser l'enllaç ha canviat o la pàgina ja no existeix. Torna a l'horòscop d'avui o continua explorant els recursos d'astrologia.</p><div><a class="resource-button" href={withBase("/")}>Tornar a l'inici</a><a class="quiz-secondary calculator-secondary-link" href={withBase("/recursos/")}>Veure recursos</a></div></section></main>
   <Footer />

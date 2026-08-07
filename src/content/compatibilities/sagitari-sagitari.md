@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Sagitari i Sagitari: amor lliure | Cel Endins"
+title: "Compatibilitat Sagitari i Sagitari: amor lliure | Diu el Cel"
 description: "Compatibilitat entre dues persones Sagitari en l'amor, l'amistat, la intimitat, la feina i la comunicació. Aventura i compromís."
 slug: sagitari-sagitari
 signe1: sagitari

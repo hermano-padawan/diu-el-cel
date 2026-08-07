@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Aquari en l'amor | Cel Endins"
+title: "Compatibilitat Taure i Aquari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Taure i Aquari: amor, intimitat, amistat, feina i comunicació entre tradició, llibertat i canvi."
 slug: taure-aquari
 signe1: taure

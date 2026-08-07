@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Sagitari i Capricorn en l'amor | Cel Endins"
+title: "Compatibilitat Sagitari i Capricorn en l'amor | Diu el Cel"
 description: "Compatibilitat entre Sagitari i Capricorn en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: sagitari-capricorn
 signe1: sagitari

@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Lleó i Peixos en l'amor | Cel Endins"
+title: "Compatibilitat Lleó i Peixos en l'amor | Diu el Cel"
 description: "Compatibilitat entre Lleó i Peixos en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: lleo-peixos
 signe1: lleo

@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Lleó i Capricorn en l'amor | Cel Endins"
+title: "Compatibilitat Lleó i Capricorn en l'amor | Diu el Cel"
 description: "Compatibilitat entre Lleó i Capricorn en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: lleo-capricorn
 signe1: lleo

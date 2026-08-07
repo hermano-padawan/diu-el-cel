@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Taure: amor estable | Cel Endins"
+title: "Compatibilitat Taure i Taure: amor estable | Diu el Cel"
 description: "Compatibilitat entre dues persones Taure: amor, intimitat, amistat, feina, comunicació i claus per evitar la rutina i la tossuderia."
 slug: taure-taure
 signe1: taure

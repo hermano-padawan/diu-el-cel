@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Bessons i Aquari en l'amor | Cel Endins"
+title: "Compatibilitat Bessons i Aquari en l'amor | Diu el Cel"
 description: "Compatibilitat entre Bessons i Aquari en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: bessons-aquari
 signe1: bessons

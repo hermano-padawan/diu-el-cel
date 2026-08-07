@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Taure en l'amor | Cel Endins"
+title: "Compatibilitat Àries i Taure en l'amor | Diu el Cel"
 description: "Descobreix la compatibilitat entre Àries i Taure: atracció, amor, amistat, comunicació, feina i claus per construir una relació estable."
 slug: aries-taure
 signe1: aries

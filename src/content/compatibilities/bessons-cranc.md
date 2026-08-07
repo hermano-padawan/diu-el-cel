@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Bessons i Cranc en l'amor | Cel Endins"
+title: "Compatibilitat Bessons i Cranc en l'amor | Diu el Cel"
 description: "Compatibilitat entre Bessons i Cranc en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: bessons-cranc
 signe1: bessons

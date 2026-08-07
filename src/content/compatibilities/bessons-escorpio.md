@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Bessons i Escorpí en l'amor | Cel Endins"
+title: "Compatibilitat Bessons i Escorpí en l'amor | Diu el Cel"
 description: "Compatibilitat entre Bessons i Escorpí en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: bessons-escorpio
 signe1: bessons

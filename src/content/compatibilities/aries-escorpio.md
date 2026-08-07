@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Escorpí: passió intensa | Cel Endins"
+title: "Compatibilitat Àries i Escorpí: passió intensa | Diu el Cel"
 description: "Compatibilitat entre Àries i Escorpí en l'amor, la intimitat, l'amistat, la feina i la comunicació. Passió, poder i confiança."
 slug: aries-escorpio
 signe1: aries

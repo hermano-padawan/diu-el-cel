@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Capricorn i Capricorn: amor sòlid | Cel Endins"
+title: "Compatibilitat Capricorn i Capricorn: amor sòlid | Diu el Cel"
 description: "Compatibilitat entre dues persones Capricorn en l'amor, l'amistat, la intimitat, la feina i la comunicació. Compromís i exigència."
 slug: capricorn-capricorn
 signe1: capricorn

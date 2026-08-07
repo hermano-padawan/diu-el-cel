@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Cranc i Cranc: amor sensible | Cel Endins"
+title: "Compatibilitat Cranc i Cranc: amor sensible | Diu el Cel"
 description: "Compatibilitat entre dues persones Cranc: amor, intimitat, amistat, feina, comunicació emocional i claus per posar límits."
 slug: cranc-cranc
 signe1: cranc

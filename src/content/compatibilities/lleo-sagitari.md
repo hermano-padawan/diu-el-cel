@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Lleó i Sagitari: amor i aventura | Cel Endins"
+title: "Compatibilitat Lleó i Sagitari: amor i aventura | Diu el Cel"
 description: "Compatibilitat entre Lleó i Sagitari en l'amor, la intimitat, l'amistat, la feina i la comunicació entre dos signes de foc."
 slug: lleo-sagitari
 signe1: lleo

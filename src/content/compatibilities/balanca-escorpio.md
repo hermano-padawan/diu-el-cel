@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Balança i Escorpí en l'amor | Cel Endins"
+title: "Compatibilitat Balança i Escorpí en l'amor | Diu el Cel"
 description: "Compatibilitat entre Balança i Escorpí en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: balanca-escorpio
 signe1: balanca

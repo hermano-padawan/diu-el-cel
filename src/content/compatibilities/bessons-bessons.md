@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Bessons i Bessons: amor i ment | Cel Endins"
+title: "Compatibilitat Bessons i Bessons: amor i ment | Diu el Cel"
 description: "Compatibilitat entre dues persones Bessons en l'amor, l'amistat, la intimitat, la feina i la comunicació. Connexió i reptes."
 slug: bessons-bessons
 signe1: bessons

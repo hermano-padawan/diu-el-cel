@@ -1,4 +1,4 @@
-# Cel Endins
+# Diu el Cel
 
 Web d'horòscop creada amb Astro.
 

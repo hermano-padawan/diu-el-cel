@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Aquari: amor lliure | Cel Endins"
+title: "Compatibilitat Àries i Aquari: amor lliure | Diu el Cel"
 description: "Compatibilitat entre Àries i Aquari en l'amor, l'amistat, la intimitat, la feina i la comunicació. Independència i innovació."
 slug: aries-aquari
 signe1: aries

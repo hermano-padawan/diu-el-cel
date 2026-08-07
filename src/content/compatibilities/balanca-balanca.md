@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Balança i Balança: amor harmònic | Cel Endins"
+title: "Compatibilitat Balança i Balança: amor harmònic | Diu el Cel"
 description: "Compatibilitat entre dues persones Balança en l'amor, la intimitat, l'amistat, la feina i la comunicació. Harmonia i decisions."
 slug: balanca-balanca
 signe1: balanca

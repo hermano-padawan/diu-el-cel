@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Cranc i Lleó en l'amor | Cel Endins"
+title: "Compatibilitat Cranc i Lleó en l'amor | Diu el Cel"
 description: "Compatibilitat entre Cranc i Lleó en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: cranc-lleo
 signe1: cranc

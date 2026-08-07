@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Capricorn: amor i ambició | Cel Endins"
+title: "Compatibilitat Àries i Capricorn: amor i ambició | Diu el Cel"
 description: "Compatibilitat entre Àries i Capricorn en l'amor, la intimitat, l'amistat, la feina i la comunicació. Impuls, disciplina i poder."
 slug: aries-capricorn
 signe1: aries

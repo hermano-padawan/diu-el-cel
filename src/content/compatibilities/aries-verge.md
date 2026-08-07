@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Verge: amor i reptes | Cel Endins"
+title: "Compatibilitat Àries i Verge: amor i reptes | Diu el Cel"
 description: "Compatibilitat entre Àries i Verge en l'amor, la intimitat, l'amistat, la feina i la comunicació entre impuls i precisió."
 slug: aries-verge
 signe1: aries

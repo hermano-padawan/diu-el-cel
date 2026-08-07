@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Àries: amor intens | Cel Endins"
+title: "Compatibilitat Àries i Àries: amor intens | Diu el Cel"
 description: "Compatibilitat entre dues persones Àries en l'amor, l'amistat, la intimitat, la feina i la comunicació. Fortaleses i reptes."
 slug: aries-aries
 signe1: aries

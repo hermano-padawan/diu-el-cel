@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Verge i Verge: amor i cura | Cel Endins"
+title: "Compatibilitat Verge i Verge: amor i cura | Diu el Cel"
 description: "Compatibilitat entre dues persones Verge en l'amor, l'amistat, la intimitat, la feina i la comunicació. Afinitats i exigències."
 slug: verge-verge
 signe1: verge

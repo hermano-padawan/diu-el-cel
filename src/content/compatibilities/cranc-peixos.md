@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Cranc i Peixos: amor profund | Cel Endins"
+title: "Compatibilitat Cranc i Peixos: amor profund | Diu el Cel"
 description: "Compatibilitat entre Cranc i Peixos en l'amor, l'amistat, la intimitat i la comunicació. Connexió emocional, reptes i consells."
 slug: cranc-peixos
 signe1: cranc

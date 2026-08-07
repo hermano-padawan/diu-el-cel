@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Sagitari: amor aventurer | Cel Endins"
+title: "Compatibilitat Àries i Sagitari: amor aventurer | Diu el Cel"
 description: "Compatibilitat entre Àries i Sagitari en l'amor, la intimitat, l'amistat, la feina i la comunicació entre dos signes de foc."
 slug: aries-sagitari
 signe1: aries

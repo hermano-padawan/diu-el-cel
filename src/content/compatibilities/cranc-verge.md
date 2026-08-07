@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Cranc i Verge en l'amor | Cel Endins"
+title: "Compatibilitat Cranc i Verge en l'amor | Diu el Cel"
 description: "Compatibilitat entre Cranc i Verge en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: cranc-verge
 signe1: cranc

@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Lleó: amor i lleialtat | Cel Endins"
+title: "Compatibilitat Taure i Lleó: amor i lleialtat | Diu el Cel"
 description: "Compatibilitat entre Taure i Lleó en l'amor, la intimitat, l'amistat, la feina i la comunicació entre dos signes fixos."
 slug: taure-lleo
 signe1: taure

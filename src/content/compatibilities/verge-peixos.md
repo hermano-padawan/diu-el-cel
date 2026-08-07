@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Verge i Peixos en l'amor | Cel Endins"
+title: "Compatibilitat Verge i Peixos en l'amor | Diu el Cel"
 description: "Compatibilitat entre Verge i Peixos en l'amor, la intimitat, l'amistat, la feina i la comunicació. Fortaleses i reptes."
 slug: verge-peixos
 signe1: verge

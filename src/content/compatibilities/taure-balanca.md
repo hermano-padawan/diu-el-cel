@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Taure i Balança: amor venusí | Cel Endins"
+title: "Compatibilitat Taure i Balança: amor venusí | Diu el Cel"
 description: "Compatibilitat entre Taure i Balança en l'amor, la intimitat, l'amistat, la feina i la comunicació sota la influència de Venus."
 slug: taure-balanca
 signe1: taure

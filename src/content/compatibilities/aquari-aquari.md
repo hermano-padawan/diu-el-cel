@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Aquari i Aquari: amor lliure | Cel Endins"
+title: "Compatibilitat Aquari i Aquari: amor lliure | Diu el Cel"
 description: "Compatibilitat entre dues persones Aquari en l'amor, l'amistat, la intimitat, la feina i la comunicació. Llibertat i emocions."
 slug: aquari-aquari
 signe1: aquari

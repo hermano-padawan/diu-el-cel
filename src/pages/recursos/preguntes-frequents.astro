@@ -39,7 +39,7 @@ const categories = [
 const allQuestions = categories.flatMap((category) => category.questions);
 const structuredData = JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: allQuestions.map((item) => ({ "@type": "Question", name: item.q, acceptedAnswer: { "@type": "Answer", text: item.a } })) });
 ---
-<Layout title="Preguntes freqüents sobre astrologia | Cel Endins" description="Respostes clares a les preguntes més freqüents sobre signes, horòscops, compatibilitat, ascendent i carta astral." canonicalPath="/recursos/preguntes-frequents/">
+<Layout title="Preguntes freqüents sobre astrologia | Diu el Cel" description="Respostes clares a les preguntes més freqüents sobre signes, horòscops, compatibilitat, ascendent i carta astral." canonicalPath="/recursos/preguntes-frequents/">
   <Header inner backHref="/recursos/" backLabel="Recursos" />
   <main>
     <section class="quiz-page-hero"><p class="sign-kicker">Dubtes habituals</p><h1>Preguntes freqüents sobre astrologia</h1><p>Troba respostes clares sobre els signes, l'horòscop, les compatibilitats, l'ascendent i els conceptes bàsics d'una carta astral.</p></section>

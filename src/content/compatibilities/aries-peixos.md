@@ -1,5 +1,5 @@
 ---
-title: "Compatibilitat Àries i Peixos en l'amor | Cel Endins"
+title: "Compatibilitat Àries i Peixos en l'amor | Diu el Cel"
 description: "Compatibilitat entre Àries i Peixos: amor, intimitat, amistat, feina i comunicació entre iniciativa i sensibilitat."
 slug: aries-peixos
 signe1: aries
