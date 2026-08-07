@@ -184,22 +184,30 @@ body::before {
 .share-status:empty { display: none; }
 
 @media (max-width: 700px) {
-  body { padding-bottom: 72px; }
+  body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
   body.menu-open { overflow: hidden; }
   .share-buttons {
-    width: max-content;
-    max-width: calc(100% - 24px);
-    padding: 7px 10px;
-    left: 50%;
+    width: 100%;
+    max-width: none;
+    min-height: 60px;
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+    left: 0;
     top: auto;
-    bottom: 10px;
+    bottom: 0;
     flex-direction: row;
-    transform: translateX(-50%);
+    justify-content: center;
+    color: var(--paper);
+    background: var(--ink);
+    border: 0;
+    border-top: 1px solid rgba(243, 239, 229, .16);
+    border-radius: 0;
+    box-shadow: 0 -8px 24px rgba(23, 34, 31, .18);
+    transform: none;
   }
   .share-buttons::before {
     content: "Comparteix";
     margin: 0 4px 0 2px;
-    color: var(--muted);
+    color: rgba(243, 239, 229, .72);
     font-size: .68rem;
     font-weight: 600;
     letter-spacing: .05em;
@@ -207,6 +215,7 @@ body::before {
   }
   .share-buttons a,
   .share-buttons button { width: 36px; height: 36px; }
+  .share-buttons button { color: var(--paper); background: rgba(255, 255, 255, .1); }
   .share-status { left: auto; right: 0; top: auto; bottom: calc(100% + 8px); transform: none; }
   .site-header .site-nav { display: none; }
   .menu-toggle {
