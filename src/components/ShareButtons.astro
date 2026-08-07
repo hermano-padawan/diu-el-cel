@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  url: URL;
+}
+
+const { title, url } = Astro.props;
+const pageUrl = url.toString();
+const encodedUrl = encodeURIComponent(pageUrl);
+const encodedText = encodeURIComponent(title);
+---
+
+<aside class="share-buttons" aria-label="Comparteix aquesta pàgina">
+  <span class="share-label">Comparteix</span>
+  <a href={`https://wa.me/?text=${encodedText}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix per WhatsApp" title="WhatsApp"><span aria-hidden="true">WA</span></a>
+  <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a Facebook" title="Facebook"><span aria-hidden="true">f</span></a>
+  <a href={`https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a X" title="X"><span aria-hidden="true">𝕏</span></a>
+  <button type="button" data-copy-link data-url={pageUrl} aria-label="Copia l'enllaç" title="Copia l'enllaç"><span aria-hidden="true">↗</span></button>
+  <span class="share-status" data-copy-status aria-live="polite"></span>
+</aside>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>("[data-copy-link]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const status = button.parentElement?.querySelector<HTMLElement>("[data-copy-status]");
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (status) status.textContent = "Enllaç copiat";
+        button.classList.add("is-copied");
+        window.setTimeout(() => {
+          if (status) status.textContent = "";
+          button.classList.remove("is-copied");
+        }, 1800);
+      } catch {
+        window.prompt("Copia l'enllaç:", window.location.href);
+      }
+    });
+  });
+</script>

@@ -102,8 +102,99 @@ body::before {
 .menu-toggle,
 .mobile-menu { display: none; }
 
+.share-buttons {
+  padding: 8px;
+  position: fixed;
+  right: 14px;
+  top: 50%;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 253, 247, .94);
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  box-shadow: 0 10px 30px rgba(23, 34, 31, .13);
+  transform: translateY(-50%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.share-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.share-buttons a,
+.share-buttons button {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  font: 600 .73rem/1 "DM Sans", sans-serif;
+  text-decoration: none;
+  transition: color .18s ease, background .18s ease, transform .18s ease;
+}
+.share-buttons a:hover,
+.share-buttons a:focus-visible,
+.share-buttons button:hover,
+.share-buttons button:focus-visible,
+.share-buttons button.is-copied {
+  color: var(--paper);
+  background: var(--ink);
+  transform: translateY(-1px);
+}
+.share-buttons a:nth-of-type(2) span { font-size: 1.05rem; }
+.share-buttons a:nth-of-type(3) span,
+.share-buttons button span { font-size: 1rem; }
+.share-status {
+  position: absolute;
+  right: calc(100% + 8px);
+  top: 50%;
+  padding: 7px 9px;
+  color: var(--paper);
+  background: var(--ink);
+  border-radius: 5px;
+  font-size: .7rem;
+  white-space: nowrap;
+  transform: translateY(-50%);
+}
+.share-status:empty { display: none; }
+
 @media (max-width: 700px) {
+  body { padding-bottom: 72px; }
   body.menu-open { overflow: hidden; }
+  .share-buttons {
+    width: max-content;
+    max-width: calc(100% - 24px);
+    padding: 7px 10px;
+    right: 50%;
+    top: auto;
+    bottom: 10px;
+    flex-direction: row;
+    transform: translateX(50%);
+  }
+  .share-buttons::before {
+    content: "Comparteix";
+    margin: 0 4px 0 2px;
+    color: var(--muted);
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .share-buttons a,
+  .share-buttons button { width: 36px; height: 36px; }
+  .share-status { right: 0; top: auto; bottom: calc(100% + 8px); transform: none; }
   .site-header .site-nav { display: none; }
   .menu-toggle {
     width: 46px;

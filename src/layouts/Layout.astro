@@ -1,6 +1,7 @@
 ---
 import "../../css/styles.css";
 import { withBase } from "../utils/paths";
+import ShareButtons from "../components/ShareButtons.astro";
 interface Props { title: string; description: string; canonicalPath: string; noindex?: boolean }
 const { title, description, canonicalPath, noindex = false } = Astro.props;
 const canonicalUrl = new URL(withBase(canonicalPath), Astro.site ?? Astro.url.origin);
@@ -49,5 +50,5 @@ const resourceIllustration = resourceIllustrations[canonicalPath];
     <meta name="twitter:image:alt" content="Diu el Cel, horòscop i astrologia en català" />
     <title>{title}</title>
   </head>
-  <body style={resourceIllustration ? `--page-illustration: url('${withBase(`/img/recursos/${resourceIllustration}`)}')` : undefined}><slot /></body>
+  <body style={resourceIllustration ? `--page-illustration: url('${withBase(`/img/recursos/${resourceIllustration}`)}')` : undefined}><slot /><ShareButtons title={title} url={canonicalUrl} /></body>
 </html>
