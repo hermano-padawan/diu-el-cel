@@ -47,7 +47,7 @@ const months = [
           {month.periods.map(([slug, days]) => {
             const sign = signMap.get(slug)!;
             return <a class="calendar-period" href={withBase(`/${slug}/`)}>
-              <span class="calendar-sign-symbol" aria-hidden="true">{sign.symbol}</span>
+              <img class="calendar-sign-image" src={withBase(`/img/signes/${slug}.webp`)} alt="" width="480" height="480" loading="lazy" decoding="async" />
               <div><h3>{sign.name}</h3><p>Dies {days}</p></div>
               <dl><div><dt>Element</dt><dd>{sign.element}</dd></div><div><dt>Planeta</dt><dd>{planets[slug]}</dd></div></dl>
             </a>;

@@ -36,7 +36,7 @@ const baseUrl = import.meta.env.BASE_URL;
   <div class="calculator-result" data-calculator-result tabindex="-1" hidden>
     <p class="sign-kicker">El teu signe solar és</p>
     <div class="calculator-result-heading">
-      <span data-sign-symbol aria-hidden="true"></span>
+      <img class="calculator-result-image" data-sign-image alt="" width="480" height="480" hidden />
       <div><h2 data-sign-name></h2><p data-sign-dates></p></div>
     </div>
     <p class="calculator-result-description" data-sign-description></p>
@@ -108,7 +108,10 @@ const baseUrl = import.meta.env.BASE_URL;
       const day = Number(daySelect.value);
       if (!month || !day) return;
       const sign = findSign(month, day);
-      root.querySelector<HTMLElement>("[data-sign-symbol]")!.textContent = sign.symbol;
+      const signImage = root.querySelector<HTMLImageElement>("[data-sign-image]")!;
+      signImage.src = `${baseUrl}img/signes/${sign.slug}.webp`;
+      signImage.alt = `Il·lustració de ${sign.name}`;
+      signImage.hidden = false;
       root.querySelector<HTMLElement>("[data-sign-name]")!.textContent = sign.name;
       root.querySelector<HTMLElement>("[data-sign-dates]")!.textContent = sign.dates;
       root.querySelector<HTMLElement>("[data-sign-description]")!.textContent = sign.description;

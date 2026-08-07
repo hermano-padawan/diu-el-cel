@@ -32,7 +32,7 @@ const second = signs[1];
   </form>
 
   <div class="comparison-table" role="table" aria-label="Comparació dels dos signes">
-    <div class="comparison-row comparison-head" role="row"><span role="columnheader">Aspecte</span><div role="columnheader"><strong data-first-symbol>{first.symbol}</strong><h2 data-first-name>{first.name}</h2></div><div role="columnheader"><strong data-second-symbol>{second.symbol}</strong><h2 data-second-name>{second.name}</h2></div></div>
+    <div class="comparison-row comparison-head" role="row"><span role="columnheader">Aspecte</span><div role="columnheader"><img data-first-image src={`${baseUrl}img/signes/${first.slug}.webp`} alt="" width="480" height="480" /><h2 data-first-name>{first.name}</h2></div><div role="columnheader"><img data-second-image src={`${baseUrl}img/signes/${second.slug}.webp`} alt="" width="480" height="480" /><h2 data-second-name>{second.name}</h2></div></div>
     <div class="comparison-row" role="row"><span role="rowheader">Dates</span><p data-first-dates>{first.dates}</p><p data-second-dates>{second.dates}</p></div>
     <div class="comparison-row" role="row"><span role="rowheader">Element</span><p data-first-element>{first.element}</p><p data-second-element>{second.element}</p></div>
     <div class="comparison-row" role="row"><span role="rowheader">Modalitat</span><p data-first-mode>{first.mode}</p><p data-second-mode>{second.mode}</p></div>
@@ -61,9 +61,12 @@ const second = signs[1];
     const firstSelect = form.elements.namedItem("first") as HTMLSelectElement;
     const secondSelect = form.elements.namedItem("second") as HTMLSelectElement;
     function fill(side: "first" | "second", sign: SignData) {
-      (["symbol", "name", "dates", "element", "mode", "planet", "traits", "strengths", "challenges"] as const).forEach((field) => {
+      (["name", "dates", "element", "mode", "planet", "traits", "strengths", "challenges"] as const).forEach((field) => {
         root.querySelector<HTMLElement>(`[data-${side}-${field}]`)!.textContent = sign[field];
       });
+      const image = root.querySelector<HTMLImageElement>(`[data-${side}-image]`)!;
+      image.src = `${baseUrl}img/signes/${sign.slug}.webp`;
+      image.alt = `Il·lustració de ${sign.name}`;
       const link = root.querySelector<HTMLAnchorElement>(`[data-${side}-link]`)!;
       link.href = `${baseUrl}${sign.slug}/`;
       link.textContent = `Veure ${sign.name}`;

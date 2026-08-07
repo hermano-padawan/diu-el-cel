@@ -7,7 +7,7 @@ const { sign } = Astro.props;
 ---
 <a class="zodiac-card" id={sign.slug} href={withBase(`/${sign.slug}/`)} aria-label={`${sign.name}, horòscop d'avui`}>
   <span class="number">{String(sign.order).padStart(2, "0")}</span>
-  <span class="symbol" aria-hidden="true">{sign.symbol}</span>
+  <img class="zodiac-card-image" src={withBase(`/img/signes/${sign.slug}.webp`)} alt="" width="480" height="480" loading="lazy" decoding="async" />
   <div><h2>{sign.name}</h2><p>{sign.dates}</p></div>
   <span class="arrow" aria-hidden="true">↗</span>
 </a>

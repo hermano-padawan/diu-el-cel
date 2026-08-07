@@ -30,12 +30,12 @@ const baseUrl = import.meta.env.BASE_URL;
       type="button"
       aria-pressed={index === 0 ? "true" : "false"}
       data-sign={JSON.stringify(sign)}
-    ><span aria-hidden="true">{sign.symbol}</span><small>{sign.name}</small></button>)}
+    ><img src={withBase(`/img/signes/${sign.slug}.webp`)} alt="" width="480" height="480" /><small>{sign.name}</small></button>)}
   </div>
 
   <article class="wheel-info" aria-live="polite">
     <p class="sign-kicker">Signe seleccionat</p>
-    <div class="wheel-info-heading"><span data-wheel-symbol aria-hidden="true">{initial.symbol}</span><div><h2 data-wheel-name>{initial.name}</h2><p data-wheel-dates>{initial.dates}</p></div></div>
+    <div class="wheel-info-heading"><img data-wheel-image src={withBase(`/img/signes/${initial.slug}.webp`)} alt={`Il·lustració de ${initial.name}`} width="480" height="480" /><div><h2 data-wheel-name>{initial.name}</h2><p data-wheel-dates>{initial.dates}</p></div></div>
     <p class="wheel-description" data-wheel-description>{initial.description}</p>
     <dl class="sign-facts">
       <div><dt>Element</dt><dd data-wheel-element>{initial.element}</dd></div>
@@ -62,7 +62,9 @@ const baseUrl = import.meta.env.BASE_URL;
         item.classList.toggle("active", active);
         item.setAttribute("aria-pressed", String(active));
       });
-      root.querySelector<HTMLElement>("[data-wheel-symbol]")!.textContent = sign.symbol;
+      const wheelImage = root.querySelector<HTMLImageElement>("[data-wheel-image]")!;
+      wheelImage.src = `${baseUrl}img/signes/${sign.slug}.webp`;
+      wheelImage.alt = `Il·lustració de ${sign.name}`;
       root.querySelector<HTMLElement>("[data-wheel-name]")!.textContent = sign.name;
       root.querySelector<HTMLElement>("[data-wheel-dates]")!.textContent = sign.dates;
       root.querySelector<HTMLElement>("[data-wheel-description]")!.textContent = sign.description;

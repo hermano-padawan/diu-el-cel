@@ -9,7 +9,7 @@ const resourcePaths = [
   "/recursos/glossari/", "/recursos/preguntes-frequents/", "/recursos/quin-signe-ets-realment/",
   "/recursos/roda-zodiacal/"
 ];
-const legalPaths = ["/avis-legal/", "/privacitat/", "/cookies/", "/condicions-us/"];
+const legalPaths = ["/avis-legal/", "/privacitat/", "/cookies/", "/condicions-us/", "/contacte/"];
 
 export async function GET({ site }: { site: URL | undefined }) {
   const origin = site ?? new URL("https://hermano-padawan.github.io");

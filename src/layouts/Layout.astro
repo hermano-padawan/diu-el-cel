@@ -4,13 +4,30 @@ import { withBase } from "../utils/paths";
 interface Props { title: string; description: string; canonicalPath: string; noindex?: boolean }
 const { title, description, canonicalPath, noindex = false } = Astro.props;
 const canonicalUrl = new URL(withBase(canonicalPath), Astro.site ?? Astro.url.origin);
-const socialImageUrl = new URL(withBase("/og.png"), Astro.site ?? Astro.url.origin);
+const socialImagePath = canonicalPath.startsWith("/compatibilitats") ? "/og-compatibilitats.jpg" : canonicalPath.startsWith("/recursos") ? "/og-recursos.jpg" : canonicalPath === "/" || /^\/(aries|taure|bessons|cranc|lleo|verge|balanca|escorpio|sagitari|capricorn|aquari|peixos)\/$/.test(canonicalPath) ? "/og-horoscop.jpg" : "/og.jpg";
+const socialImageUrl = new URL(withBase(socialImagePath), Astro.site ?? Astro.url.origin);
+const resourceIllustrations: Record<string, string> = {
+  "/recursos/quin-signe-ets-realment/": "quiz.webp",
+  "/recursos/calculadora-ascendent/": "carta-astral.webp",
+  "/recursos/calculadora-signe/": "signe.webp",
+  "/recursos/calculadora-compatibilitat/": "compatibilitat.webp",
+  "/recursos/calendari-zodiacal/": "calendari.webp",
+  "/recursos/roda-zodiacal/": "roda.webp",
+  "/recursos/comparador-signes/": "comparador.webp",
+  "/recursos/glossari/": "glossari.webp",
+  "/recursos/preguntes-frequents/": "faq.webp"
+};
+const resourceIllustration = resourceIllustrations[canonicalPath];
 ---
 <!doctype html>
 <html lang="ca">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3efe5" />
+    <link rel="icon" type="image/png" sizes="32x32" href={withBase("/icons/favicon-32.png")} />
+    <link rel="apple-touch-icon" sizes="180x180" href={withBase("/icons/apple-touch-icon.png")} />
+    <link rel="manifest" href={withBase("/site.webmanifest")} />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonicalUrl} />
@@ -21,8 +38,8 @@ const socialImageUrl = new URL(withBase("/og.png"), Astro.site ?? Astro.url.orig
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={socialImageUrl} />
-    <meta property="og:image:width" content="1731" />
-    <meta property="og:image:height" content="909" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Cel Endins, horòscop i astrologia en català" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
@@ -30,9 +47,6 @@ const socialImageUrl = new URL(withBase("/og.png"), Astro.site ?? Astro.url.orig
     <meta name="twitter:image" content={socialImageUrl} />
     <meta name="twitter:image:alt" content="Cel Endins, horòscop i astrologia en català" />
     <title>{title}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
   </head>
-  <body><slot /></body>
+  <body style={resourceIllustration ? `--page-illustration: url('${withBase(`/img/recursos/${resourceIllustration}`)}')` : undefined}><slot /></body>
 </html>

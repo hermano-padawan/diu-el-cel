@@ -14,9 +14,11 @@ const compatibilities = (await getCollection("compatibilities")).sort((a, b) => 
   <Header inner backHref="/" backLabel="Horòscop" />
   <main>
     <section class="compatibility-hero">
-      <p class="sign-kicker">Relacions i astrologia</p>
-      <h1>Compatibilitat entre signes del zodíac</h1>
-      <p>La compatibilitat zodiacal observa com es relacionen les qualitats, els elements i les necessitats atribuïdes a cada signe. No determina el futur d'una relació, però ofereix un llenguatge útil per entendre afinitats, contrastos i maneres de créixer plegats.</p>
+      <div><p class="sign-kicker">Relacions i astrologia</p>
+        <h1>Compatibilitat entre signes del zodíac</h1>
+        <p>La compatibilitat zodiacal observa com es relacionen les qualitats, els elements i les necessitats atribuïdes a cada signe. No determina el futur d'una relació, però ofereix un llenguatge útil per entendre afinitats, contrastos i maneres de créixer plegats.</p>
+      </div>
+      <img class="section-illustration" src={withBase("/img/decoracio/compatibilitats.webp")} alt="Sol i lluna units per òrbites celestes" width="420" height="420" decoding="async" />
     </section>
 
     <section class="sign-compatibility-accordion" aria-label="Tria els signes per consultar-ne la compatibilitat">
@@ -31,7 +33,7 @@ const compatibilities = (await getCollection("compatibilities")).sort((a, b) => 
 
         return <details class="sign-compatibility-card" name="compatibility-signs">
           <summary>
-            <span class="accordion-sign-symbol" aria-hidden="true">{sign.data.symbol}</span>
+            <img class="accordion-sign-image" src={withBase(`/img/signes/${sign.id}.webp`)} alt="" width="480" height="480" loading="lazy" decoding="async" />
             <span class="accordion-sign-name">{sign.data.name}</span>
             <span class="accordion-count">12 compatibilitats</span>
             <span class="accordion-toggle" aria-hidden="true">+</span>
@@ -41,7 +43,7 @@ const compatibilities = (await getCollection("compatibilities")).sort((a, b) => 
               const otherId = data.signe1 === sign.id ? data.signe2 : data.signe1;
               const other = signMap.get(otherId)!;
               return <a href={withBase(`/compatibilitats/${data.slug}/`)} aria-label={`Compatibilitat entre ${sign.data.name} i ${other.name}`}>
-                <span class="option-symbol" aria-hidden="true">{other.symbol}</span>
+                <img class="option-sign-image" src={withBase(`/img/signes/${otherId}.webp`)} alt="" width="480" height="480" loading="lazy" decoding="async" />
                 <span>{otherId === sign.id ? `${other.name} amb el mateix signe` : `${sign.data.name} i ${other.name}`}</span>
                 <small>{data.score}%</small>
               </a>;

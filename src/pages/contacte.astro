@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+<Layout title="Contacte | Cel Endins" description="Contacta amb Cel Endins per fer consultes, comunicar incidències o exercir els teus drets de protecció de dades." canonicalPath="/contacte/">
+  <Header inner backHref="/" backLabel="Inici" />
+  <main class="legal-page">
+    <header>
+      <p class="legal-updated">Canal oficial de contacte</p>
+      <h1>Contacta amb Cel Endins</h1>
+      <p>Pots escriure'ns per comunicar una incidència, fer una consulta sobre el projecte, avisar d'un possible error o exercir els teus drets de protecció de dades.</p>
+    </header>
+    <div class="legal-content">
+      <section>
+        <h2>Correu electrònic</h2>
+        <p>L'adreça es mostra mitjançant el navegador per dificultar que els robots de correu brossa la recopilin automàticament.</p>
+        <div class="contact-card" data-contact>
+          <p class="contact-address" data-address aria-live="polite">Activa JavaScript per mostrar l'adreça protegida.</p>
+          <div class="contact-actions">
+            <a class="contact-button" data-write href="#">Escriu-nos</a>
+            <button class="contact-button secondary" data-copy type="button">Copia l'adreça</button>
+          </div>
+          <p class="contact-status" data-status role="status"></p>
+        </div>
+      </section>
+      <section>
+        <h2>Com preparar el missatge</h2>
+        <p>Indica un assumpte clar i explica la consulta amb el detall estrictament necessari. No enviïs contrasenyes, dades bancàries, documentació mèdica ni altra informació especialment sensible.</p>
+        <p>Per exercir drets d'accés, rectificació, supressió, oposició, limitació o portabilitat, utilitza l'assumpte «Protecció de dades» i especifica quin dret vols exercir. Només es demanarà informació addicional quan sigui imprescindible per verificar la identitat.</p>
+      </section>
+      <section>
+        <h2>Privacitat de les comunicacions</h2>
+        <p>El teu nom, adreça de correu i contingut del missatge s'utilitzaran per gestionar i respondre la consulta. No s'incorporaran a llistes publicitàries ni es vendran a tercers. Conserva una còpia del missatge si necessites acreditar la comunicació.</p>
+      </section>
+    </div>
+  </main>
+  <Footer />
+
+  <script>
+    const root = document.querySelector<HTMLElement>("[data-contact]");
+    if (root) {
+      const codes = [119, 114, 105, 116, 101, 97, 103, 97, 105, 110, 115, 116, 109, 101, 64, 103, 109, 97, 105, 108, 46, 99, 111, 109];
+      const address = String.fromCharCode(...codes);
+      const addressNode = root.querySelector<HTMLElement>("[data-address]");
+      const writeLink = root.querySelector<HTMLAnchorElement>("[data-write]");
+      const copyButton = root.querySelector<HTMLButtonElement>("[data-copy]");
+      const status = root.querySelector<HTMLElement>("[data-status]");
+      if (addressNode) addressNode.textContent = address;
+      if (writeLink) writeLink.href = `mailto:${address}`;
+      copyButton?.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(address);
+          if (status) status.textContent = "Adreça copiada al porta-retalls.";
+        } catch {
+          if (status) status.textContent = "No s'ha pogut copiar. Selecciona l'adreça manualment.";
+        }
+      });
+    }
+  </script>
+</Layout>

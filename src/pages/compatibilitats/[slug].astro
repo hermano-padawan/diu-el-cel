@@ -28,7 +28,11 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
       <header class="compatibility-article-header">
         <p class="sign-kicker">Compatibilitat zodiacal</p>
         <h1>Compatibilitat entre {first.name} i {second.name}</h1>
-        <div class="pair-symbols" aria-hidden="true">{first.symbol}<span>+</span>{second.symbol}</div>
+        <div class="pair-illustrations" aria-hidden="true">
+          <img src={withBase(`/img/signes/${entry.data.signe1}.webp`)} alt="" width="480" height="480" decoding="async" />
+          <span>+</span>
+          <img src={withBase(`/img/signes/${entry.data.signe2}.webp`)} alt="" width="480" height="480" decoding="async" />
+        </div>
         <div class="score-block"><strong>{entry.data.score}%</strong><span>Valoració astrològica orientativa</span></div>
       </header>
       <div class="compatibility-content"><Content /></div>

@@ -26,7 +26,7 @@ const signMap = new Map(entries.map((item) => [item.id, item.data]));
   <main>
     <section class="sign-hero">
       <div><p class="sign-kicker">{sign.element} · Horòscop d'avui</p><h1>{sign.name}</h1><p class="sign-dates">{sign.dates}</p></div>
-      <span class="sign-glyph" aria-hidden="true">{sign.symbol}</span>
+      <img class="sign-illustration" src={withBase(`/img/signes/${entry.id}.webp`)} alt={`Il·lustració del signe ${sign.name}`} width="480" height="480" decoding="async" />
     </section>
     <section class="reading markdown-layout">
       <article class="markdown-reading">

@@ -20,7 +20,7 @@ const baseUrl = import.meta.env.BASE_URL;
 
   <div class="quiz-result" data-quiz-result tabindex="-1" hidden>
     <p class="sign-kicker">El teu resultat lúdic</p>
-    <div class="quiz-result-symbol" data-result-symbol aria-hidden="true"></div>
+    <img class="quiz-result-image" data-result-image alt="" width="480" height="480" hidden />
     <p class="quiz-result-label">El signe que més s'assembla a les teves respostes és</p>
     <h2 data-result-name></h2>
     <p data-result-description></p>
@@ -199,7 +199,10 @@ const baseUrl = import.meta.env.BASE_URL;
       const result = results[key];
       gameView.hidden = true;
       resultView.hidden = false;
-      root.querySelector<HTMLElement>("[data-result-symbol]")!.textContent = result.symbol;
+      const resultImage = root.querySelector<HTMLImageElement>("[data-result-image]")!;
+      resultImage.src = `${baseUrl}img/signes/${result.slug}.webp`;
+      resultImage.alt = `Il·lustració de ${result.name}`;
+      resultImage.hidden = false;
       root.querySelector<HTMLElement>("[data-result-name]")!.textContent = result.name;
       root.querySelector<HTMLElement>("[data-result-description]")!.textContent = result.description;
       root.querySelector<HTMLAnchorElement>("[data-result-link]")!.href = `${baseUrl}${result.slug}/`;
