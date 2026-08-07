@@ -1,0 +1,104 @@
+---
+import { getCollection } from "astro:content";
+import { withBase } from "../utils/paths";
+const signs = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order).map((entry) => ({ slug: entry.id, name: entry.data.name, symbol: entry.data.symbol }));
+const compatibilities = await getCollection("compatibilities");
+const routes = Object.fromEntries(compatibilities.map(({ data }) => [`${data.signe1}|${data.signe2}`, data.slug]));
+const order = Object.fromEntries(signs.map((sign, index) => [sign.slug, index]));
+const baseUrl = import.meta.env.BASE_URL;
+---
+<section class="ascendant-calculator calculator-shell" data-ascendant-calculator data-signs={JSON.stringify(signs)} data-routes={JSON.stringify(routes)} data-order={JSON.stringify(order)} data-base-url={baseUrl}>
+  <div class="calculator-form-panel">
+    <p class="sign-kicker">Dades de naixement</p><h2>Calcula el teu ascendent</h2><p>Introdueix l'hora tan exacta com sigui possible. Uns minuts poden canviar el resultat si l'ascendent és a prop del límit entre signes.</p>
+    <form class="ascendant-form" data-ascendant-form>
+      <div class="calculator-field"><label for="birth-date">Data</label><input id="birth-date" name="date" type="date" min="1900-01-01" required /></div>
+      <div class="calculator-field"><label for="birth-time">Hora local</label><input id="birth-time" name="time" type="time" required /></div>
+      <div class="calculator-field ascendant-place-field"><label for="birth-place">Lloc de naixement</label><select id="birth-place" name="place" required>
+        <option value="">Tria una ciutat</option>
+        <optgroup label="Catalunya"><option value="41.3874|2.1686|Europe/Madrid">Barcelona</option><option value="41.9794|2.8214|Europe/Madrid">Girona</option><option value="41.6176|0.6200|Europe/Madrid">Lleida</option><option value="41.1189|1.2445|Europe/Madrid">Tarragona</option></optgroup>
+        <optgroup label="Altres ciutats"><option value="39.4699|-0.3763|Europe/Madrid">València</option><option value="39.5696|2.6502|Europe/Madrid">Palma</option><option value="40.4168|-3.7038|Europe/Madrid">Madrid</option><option value="41.1579|-8.6291|Europe/Lisbon">Porto</option><option value="48.8566|2.3522|Europe/Paris">París</option><option value="51.5074|-0.1278|Europe/London">Londres</option><option value="40.7128|-74.0060|America/New_York">Nova York</option><option value="-34.6037|-58.3816|America/Argentina/Buenos_Aires">Buenos Aires</option></optgroup>
+        <option value="custom">Un altre lloc — introdueix coordenades</option>
+      </select></div>
+      <div class="custom-location-fields" data-custom-location hidden>
+        <div class="calculator-field"><label for="birth-latitude">Latitud</label><input id="birth-latitude" name="latitude" type="number" min="-66" max="66" step="0.0001" placeholder="41.3874" /></div>
+        <div class="calculator-field"><label for="birth-longitude">Longitud</label><input id="birth-longitude" name="longitude" type="number" min="-180" max="180" step="0.0001" placeholder="2.1686" /></div>
+        <div class="calculator-field"><label for="birth-timezone">Zona horària</label><input id="birth-timezone" name="timezone" type="text" placeholder="Europe/Madrid" /></div>
+      </div>
+      <button class="quiz-primary" type="submit">Calcular l'ascendent</button>
+      <p class="calculator-error" data-ascendant-error role="alert" hidden></p>
+    </form>
+  </div>
+  <div class="calculator-placeholder" data-ascendant-placeholder><span aria-hidden="true">↗</span><p>El teu ascendent apareixerà aquí</p></div>
+  <div class="calculator-result ascendant-result" data-ascendant-result tabindex="-1" hidden>
+    <p class="sign-kicker">El teu ascendent és</p><div class="calculator-result-heading"><span data-asc-symbol aria-hidden="true"></span><div><h2 data-asc-name></h2><p data-asc-degree></p></div></div>
+    <p class="calculator-result-description" data-asc-description></p>
+    <dl class="sign-facts"><div><dt>Ascendent</dt><dd data-asc-fact></dd></div><div><dt>Signe solar</dt><dd data-sun-fact></dd></div><div><dt>Hora UTC</dt><dd data-utc-fact></dd></div></dl>
+    <div class="calculator-actions"><a class="resource-button" data-asc-link href={withBase("/")}>Veure l'horòscop</a><a class="quiz-secondary calculator-secondary-link" data-asc-compatibility href={withBase("/compatibilitats/")}>Compatibilitat amb el teu Sol</a></div>
+    <p class="ascendant-precision-note">Càlcul tropical orientatiu. Si l'hora és aproximada o el grau queda al límit d'un signe, comprova el resultat amb les dades exactes del registre de naixement.</p>
+  </div>
+</section>
+
+<script>
+  type Sign = { slug: string; name: string; symbol: string };
+  const descriptions: Record<string, string> = {
+    aries: "Et presentes amb iniciativa, franquesa i una energia que tendeix a actuar abans d'esperar.", taure: "Projectes calma, constància i una manera sensorial i pràctica d'entrar en contacte amb l'entorn.", bessons: "La curiositat, l'agilitat mental i la comunicació marquen la teva primera manera de relacionar-te.", cranc: "T'apropes al món amb sensibilitat, intuïció i una actitud protectora davant allò que valores.", lleo: "Transmets calidesa, presència i una expressivitat creativa que busca deixar una empremta personal.", verge: "Observar, ordenar i entendre els detalls és una part central de la teva manera d'afrontar situacions noves.", balanca: "La diplomàcia, l'equilibri i la consciència de l'altre orienten la teva forma d'iniciar relacions.", escorpio: "Projectes intensitat, reserva i una mirada capaç de detectar ràpidament allò que no és evident.", sagitari: "Apareixes amb optimisme, espontaneïtat i una necessitat visible d'explorar i ampliar horitzons.", capricorn: "La prudència, l'autocontrol i el sentit de responsabilitat defineixen sovint la teva primera impressió.", aquari: "Et mostres independent, original i disposat a observar les situacions des d'una perspectiva diferent.", peixos: "La receptivitat, la imaginació i l'empatia donen un to sensible i adaptable a la teva presència."
+  };
+  const root = document.querySelector<HTMLElement>("[data-ascendant-calculator]");
+  if (root) {
+    const signs = JSON.parse(root.dataset.signs ?? "[]") as Sign[];
+    const routes = JSON.parse(root.dataset.routes ?? "{}") as Record<string, string>;
+    const order = JSON.parse(root.dataset.order ?? "{}") as Record<string, number>;
+    const baseUrl = root.dataset.baseUrl ?? "/";
+    const form = root.querySelector<HTMLFormElement>("[data-ascendant-form]")!;
+    const place = form.elements.namedItem("place") as HTMLSelectElement;
+    const custom = root.querySelector<HTMLElement>("[data-custom-location]")!;
+    const error = root.querySelector<HTMLElement>("[data-ascendant-error]")!;
+    const normalize = (value: number) => ((value % 360) + 360) % 360;
+
+    function timezoneOffset(date: Date, timezone: string) {
+      const parts = new Intl.DateTimeFormat("en-CA", { timeZone: timezone, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" }).formatToParts(date);
+      const get = (type: string) => Number(parts.find((part) => part.type === type)?.value);
+      return Date.UTC(get("year"), get("month") - 1, get("day"), get("hour"), get("minute"), get("second")) - date.getTime();
+    }
+    function localToUtc(dateText: string, timeText: string, timezone: string) {
+      const [year, month, day] = dateText.split("-").map(Number); const [hour, minute] = timeText.split(":").map(Number);
+      const localAsUtc = Date.UTC(year, month - 1, day, hour, minute);
+      let guess = new Date(localAsUtc);
+      for (let i = 0; i < 2; i++) guess = new Date(localAsUtc - timezoneOffset(guess, timezone));
+      return guess;
+    }
+    function ascendantLongitude(date: Date, latitude: number, longitude: number) {
+      const jd = date.getTime() / 86400000 + 2440587.5;
+      const d = jd - 2451545.0;
+      const gmst = normalize(280.46061837 + 360.98564736629 * d);
+      const theta = normalize(gmst + longitude) * Math.PI / 180;
+      const epsilon = (23.4393 - 0.0000004 * d) * Math.PI / 180;
+      const phi = latitude * Math.PI / 180;
+      return normalize(Math.atan2(-Math.cos(theta), Math.sin(theta) * Math.cos(epsilon) + Math.tan(phi) * Math.sin(epsilon)) * 180 / Math.PI + 180);
+    }
+    function sunSlug(dateText: string) {
+      const [, month, day] = dateText.split("-").map(Number); const value = month * 100 + day;
+      if (value >= 321 && value <= 419) return "aries"; if (value >= 420 && value <= 520) return "taure"; if (value >= 521 && value <= 620) return "bessons"; if (value >= 621 && value <= 722) return "cranc"; if (value >= 723 && value <= 822) return "lleo"; if (value >= 823 && value <= 922) return "verge"; if (value >= 923 && value <= 1022) return "balanca"; if (value >= 1023 && value <= 1121) return "escorpio"; if (value >= 1122 && value <= 1221) return "sagitari"; if (value >= 1222 || value <= 119) return "capricorn"; if (value <= 218) return "aquari"; return "peixos";
+    }
+    place.addEventListener("change", () => {
+      const isCustom = place.value === "custom"; custom.hidden = !isCustom;
+      custom.querySelectorAll<HTMLInputElement>("input").forEach((input) => input.required = isCustom);
+    });
+    form.addEventListener("submit", (event) => {
+      event.preventDefault(); error.hidden = true; if (!form.reportValidity()) return;
+      const data = new FormData(form); const dateText = String(data.get("date")); const timeText = String(data.get("time"));
+      let latitude: number, longitude: number, timezone: string;
+      if (place.value === "custom") { latitude = Number(data.get("latitude")); longitude = Number(data.get("longitude")); timezone = String(data.get("timezone")); }
+      else { [latitude, longitude, timezone] = place.value.split("|").map((value, index) => index < 2 ? Number(value) : value) as [number, number, string]; }
+      try {
+        const utc = localToUtc(dateText, timeText, timezone); if (Number.isNaN(utc.getTime())) throw new Error();
+        const longitudeAsc = ascendantLongitude(utc, latitude, longitude); const asc = signs[Math.floor(longitudeAsc / 30)]; const degree = longitudeAsc % 30;
+        const sun = signs.find((sign) => sign.slug === sunSlug(dateText))!;
+        root.querySelector<HTMLElement>("[data-asc-symbol]")!.textContent = asc.symbol; root.querySelector<HTMLElement>("[data-asc-name]")!.textContent = asc.name; root.querySelector<HTMLElement>("[data-asc-degree]")!.textContent = `${Math.floor(degree)}° ${Math.floor((degree % 1) * 60)}′ del signe`;
+        root.querySelector<HTMLElement>("[data-asc-description]")!.textContent = descriptions[asc.slug]; root.querySelector<HTMLElement>("[data-asc-fact]")!.textContent = asc.name; root.querySelector<HTMLElement>("[data-sun-fact]")!.textContent = sun.name; root.querySelector<HTMLElement>("[data-utc-fact]")!.textContent = utc.toISOString().slice(11, 16);
+        root.querySelector<HTMLAnchorElement>("[data-asc-link]")!.href = `${baseUrl}${asc.slug}/`; const pair = [asc.slug, sun.slug].sort((a, b) => order[a] - order[b]); root.querySelector<HTMLAnchorElement>("[data-asc-compatibility]")!.href = `${baseUrl}compatibilitats/${routes[`${pair[0]}|${pair[1]}`]}/`;
+        root.querySelector<HTMLElement>("[data-ascendant-placeholder]")!.hidden = true; const result = root.querySelector<HTMLElement>("[data-ascendant-result]")!; result.hidden = false; result.focus();
+      } catch { error.textContent = "No hem pogut interpretar la zona horària. Utilitza un identificador com Europe/Madrid."; error.hidden = false; }
+    });
+  }
+</script>

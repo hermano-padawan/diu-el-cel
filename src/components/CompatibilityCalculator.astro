@@ -1,0 +1,88 @@
+---
+import { getCollection } from "astro:content";
+
+const signs = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
+const compatibilities = await getCollection("compatibilities");
+const pairRoutes = Object.fromEntries(
+  compatibilities.map(({ data }) => [`${data.signe1}|${data.signe2}`, data.slug])
+);
+const signOrder = Object.fromEntries(signs.map((sign, index) => [sign.id, index]));
+const baseUrl = import.meta.env.BASE_URL;
+---
+<section
+  class="calculator-shell compatibility-calculator"
+  data-compatibility-calculator
+  data-base-url={baseUrl}
+  data-pair-routes={JSON.stringify(pairRoutes)}
+  data-sign-order={JSON.stringify(signOrder)}
+>
+  <div class="calculator-form-panel">
+    <p class="sign-kicker">Tria una parella zodiacal</p>
+    <h2>Quins signes vols comparar?</h2>
+    <p>Selecciona dos signes i accedeix directament a l'anàlisi de la seva relació.</p>
+    <form class="compatibility-calculator-form" data-compatibility-form>
+      <div class="calculator-field">
+        <label for="first-sign">Primer signe</label>
+        <select id="first-sign" name="firstSign" required>
+          <option value="">Tria un signe</option>
+          {signs.map((sign) => <option value={sign.id} data-symbol={sign.data.symbol}>{sign.data.name}</option>)}
+        </select>
+      </div>
+      <div class="calculator-field">
+        <label for="second-sign">Segon signe</label>
+        <select id="second-sign" name="secondSign" required>
+          <option value="">Tria un signe</option>
+          {signs.map((sign) => <option value={sign.id} data-symbol={sign.data.symbol}>{sign.data.name}</option>)}
+        </select>
+      </div>
+      <button class="quiz-primary" type="submit">Veure la compatibilitat</button>
+      <p class="calculator-error" data-compatibility-error role="alert" hidden>No hem trobat aquesta compatibilitat.</p>
+    </form>
+  </div>
+
+  <div class="compatibility-calculator-preview" aria-live="polite">
+    <div class="compatibility-preview-symbols" aria-hidden="true">
+      <span data-first-symbol>○</span><small>+</small><span data-second-symbol>○</span>
+    </div>
+    <p data-pair-label>La vostra combinació apareixerà aquí</p>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>("[data-compatibility-calculator]");
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>("[data-compatibility-form]")!;
+    const firstSelect = form.elements.namedItem("firstSign") as HTMLSelectElement;
+    const secondSelect = form.elements.namedItem("secondSign") as HTMLSelectElement;
+    const pairRoutes = JSON.parse(root.dataset.pairRoutes ?? "{}") as Record<string, string>;
+    const signOrder = JSON.parse(root.dataset.signOrder ?? "{}") as Record<string, number>;
+    const baseUrl = root.dataset.baseUrl ?? "/";
+    const error = root.querySelector<HTMLElement>("[data-compatibility-error]")!;
+
+    function updatePreview() {
+      const firstOption = firstSelect.selectedOptions[0];
+      const secondOption = secondSelect.selectedOptions[0];
+      root.querySelector<HTMLElement>("[data-first-symbol]")!.textContent = firstOption?.dataset.symbol ?? "○";
+      root.querySelector<HTMLElement>("[data-second-symbol]")!.textContent = secondOption?.dataset.symbol ?? "○";
+      root.querySelector<HTMLElement>("[data-pair-label]")!.textContent =
+        firstSelect.value && secondSelect.value
+          ? `${firstOption.text} i ${secondOption.text}`
+          : "La vostra combinació apareixerà aquí";
+      error.hidden = true;
+    }
+
+    firstSelect.addEventListener("change", updatePreview);
+    secondSelect.addEventListener("change", updatePreview);
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      const ordered = [firstSelect.value, secondSelect.value].sort((a, b) => signOrder[a] - signOrder[b]);
+      const slug = pairRoutes[`${ordered[0]}|${ordered[1]}`];
+      if (!slug) {
+        error.hidden = false;
+        return;
+      }
+      window.location.assign(`${baseUrl}compatibilitats/${slug}/`);
+    });
+  }
+</script>

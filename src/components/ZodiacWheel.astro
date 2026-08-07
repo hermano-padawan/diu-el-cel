@@ -1,0 +1,76 @@
+---
+import { getCollection } from "astro:content";
+import { withBase } from "../utils/paths";
+
+const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
+const details: Record<string, { mode: string; planet: string; description: string }> = {
+  aries: { mode: "Cardinal", planet: "Mart", description: "Iniciativa, valentia i una energia directa que prefereix actuar i obrir camí." },
+  taure: { mode: "Fixa", planet: "Venus", description: "Constància, sensibilitat i una manera pacient de construir seguretat i benestar." },
+  bessons: { mode: "Mutable", planet: "Mercuri", description: "Curiositat, comunicació i facilitat per connectar idees i perspectives diferents." },
+  cranc: { mode: "Cardinal", planet: "Lluna", description: "Intuïció, protecció i una gran atenció als vincles, la memòria i la pertinença." },
+  lleo: { mode: "Fixa", planet: "Sol", description: "Creativitat, calidesa i voluntat d'expressar-se amb generositat i confiança." },
+  verge: { mode: "Mutable", planet: "Mercuri", description: "Observació, sentit pràctic i una cura que es manifesta en els detalls quotidians." },
+  balanca: { mode: "Cardinal", planet: "Venus", description: "Equilibri, diplomàcia i sensibilitat per comprendre les relacions i crear acords." },
+  escorpio: { mode: "Fixa", planet: "Plutó i Mart", description: "Profunditat, intensitat i capacitat per transformar-se a través de l'experiència." },
+  sagitari: { mode: "Mutable", planet: "Júpiter", description: "Expansió, franquesa i una recerca constant de llibertat, sentit i coneixement." },
+  capricorn: { mode: "Cardinal", planet: "Saturn", description: "Disciplina, responsabilitat i talent per convertir objectius en estructures duradores." },
+  aquari: { mode: "Fixa", planet: "Urà i Saturn", description: "Originalitat, independència i una mirada orientada al futur i a la comunitat." },
+  peixos: { mode: "Mutable", planet: "Neptú i Júpiter", description: "Empatia, imaginació i una sensibilitat receptiva als matisos emocionals." }
+};
+const signs = entries.map((entry) => ({ slug: entry.id, ...entry.data, ...details[entry.id] }));
+const initial = signs[0];
+const baseUrl = import.meta.env.BASE_URL;
+---
+<section class="zodiac-wheel-shell" data-zodiac-wheel data-base-url={baseUrl}>
+  <div class="zodiac-wheel" aria-label="Tria un signe del zodíac">
+    <div class="wheel-center" aria-hidden="true"><span>Cel</span><small>Endins</small></div>
+    {signs.map((sign, index) => <button
+      class:list={["wheel-sign", { active: index === 0 }]}
+      style={`--wheel-index: ${index}`}
+      type="button"
+      aria-pressed={index === 0 ? "true" : "false"}
+      data-sign={JSON.stringify(sign)}
+    ><span aria-hidden="true">{sign.symbol}</span><small>{sign.name}</small></button>)}
+  </div>
+
+  <article class="wheel-info" aria-live="polite">
+    <p class="sign-kicker">Signe seleccionat</p>
+    <div class="wheel-info-heading"><span data-wheel-symbol aria-hidden="true">{initial.symbol}</span><div><h2 data-wheel-name>{initial.name}</h2><p data-wheel-dates>{initial.dates}</p></div></div>
+    <p class="wheel-description" data-wheel-description>{initial.description}</p>
+    <dl class="sign-facts">
+      <div><dt>Element</dt><dd data-wheel-element>{initial.element}</dd></div>
+      <div><dt>Modalitat</dt><dd data-wheel-mode>{initial.mode}</dd></div>
+      <div><dt>Planeta</dt><dd data-wheel-planet>{initial.planet}</dd></div>
+    </dl>
+    <div class="calculator-actions">
+      <a class="resource-button" data-wheel-link href={withBase(`/${initial.slug}/`)}>Veure l'horòscop <span aria-hidden="true">→</span></a>
+      <a class="quiz-secondary calculator-secondary-link" href={withBase("/compatibilitats/")}>Compatibilitats</a>
+    </div>
+  </article>
+</section>
+
+<script>
+  type WheelSign = { slug: string; name: string; symbol: string; dates: string; element: string; mode: string; planet: string; description: string };
+  const root = document.querySelector<HTMLElement>("[data-zodiac-wheel]");
+  if (root) {
+    const buttons = [...root.querySelectorAll<HTMLButtonElement>("[data-sign]")];
+    const baseUrl = root.dataset.baseUrl ?? "/";
+    function selectSign(button: HTMLButtonElement) {
+      const sign = JSON.parse(button.dataset.sign ?? "{}") as WheelSign;
+      buttons.forEach((item) => {
+        const active = item === button;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-pressed", String(active));
+      });
+      root.querySelector<HTMLElement>("[data-wheel-symbol]")!.textContent = sign.symbol;
+      root.querySelector<HTMLElement>("[data-wheel-name]")!.textContent = sign.name;
+      root.querySelector<HTMLElement>("[data-wheel-dates]")!.textContent = sign.dates;
+      root.querySelector<HTMLElement>("[data-wheel-description]")!.textContent = sign.description;
+      root.querySelector<HTMLElement>("[data-wheel-element]")!.textContent = sign.element;
+      root.querySelector<HTMLElement>("[data-wheel-mode]")!.textContent = sign.mode;
+      root.querySelector<HTMLElement>("[data-wheel-planet]")!.textContent = sign.planet;
+      root.querySelector<HTMLAnchorElement>("[data-wheel-link]")!.href = `${baseUrl}${sign.slug}/`;
+    }
+    buttons.forEach((button) => button.addEventListener("click", () => selectSign(button)));
+  }
+</script>

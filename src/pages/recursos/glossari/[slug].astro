@@ -1,0 +1,23 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../../../layouts/Layout.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+import { glossaryMap, glossaryTerms, type GlossaryTerm } from "../../../data/glossary";
+import { withBase } from "../../../utils/paths";
+export const getStaticPaths = (() => glossaryTerms.map((term) => ({ params: { slug: term.slug }, props: { term } }))) satisfies GetStaticPaths;
+interface Props { term: GlossaryTerm }
+const { term } = Astro.props;
+const related = term.related.map((slug) => glossaryMap.get(slug)).filter((item): item is GlossaryTerm => Boolean(item));
+---
+<Layout title={`${term.name}: què és i què significa | Cel Endins`} description={`${term.summary} Descobreix què significa ${term.name.toLocaleLowerCase("ca")} en astrologia, amb una explicació clara i un exemple.`} canonicalPath={`/recursos/glossari/${term.slug}/`}>
+  <Header inner backHref="/recursos/glossari/" backLabel="Glossari" />
+  <main><article class="glossary-article">
+    <header><p class="sign-kicker">Glossari d'astrologia</p><h1>{term.name}</h1><p>{term.summary}</p></header>
+    <section><h2>Què és {term.name.toLocaleLowerCase("ca")}?</h2><p>{term.explanation}</p></section>
+    <aside><p class="sign-kicker">Exemple</p><p>{term.example}</p></aside>
+    <section class="glossary-related"><h2>Conceptes relacionats</h2><div>{related.map((item) => <a href={withBase(`/recursos/glossari/${item.slug}/`)}><strong>{item.name}</strong><span>{item.summary}</span></a>)}</div></section>
+    <a class="back-to-glossary" href={withBase("/recursos/glossari/")}>← Tornar al glossari complet</a>
+  </article></main>
+  <Footer />
+</Layout>

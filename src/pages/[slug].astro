@@ -21,7 +21,7 @@ const { Content } = await render(entry);
 const compatibilities = (await getCollection("compatibilities")).filter(({ data }) => data.signe1 === entry.id || data.signe2 === entry.id);
 const signMap = new Map(entries.map((item) => [item.id, item.data]));
 ---
-<Layout title={title} description={sign.description}>
+<Layout title={title} description={sign.description} canonicalPath={`/${entry.id}/`}>
   <Header inner />
   <main>
     <section class="sign-hero">

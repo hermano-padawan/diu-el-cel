@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { withBase } from "../../utils/paths";
+
+const signs = await getCollection("horoscopes");
+const signMap = new Map(signs.map((sign) => [sign.id, sign.data]));
+const planets: Record<string, string> = {
+  aries: "Mart", taure: "Venus", bessons: "Mercuri", cranc: "Lluna",
+  lleo: "Sol", verge: "Mercuri", balanca: "Venus", escorpio: "Plutó i Mart",
+  sagitari: "Júpiter", capricorn: "Saturn", aquari: "Urà i Saturn", peixos: "Neptú i Júpiter"
+};
+const months = [
+  { name: "Gener", periods: [["capricorn", "1–19"], ["aquari", "20–31"]] },
+  { name: "Febrer", periods: [["aquari", "1–18"], ["peixos", "19–29"]] },
+  { name: "Març", periods: [["peixos", "1–20"], ["aries", "21–31"]] },
+  { name: "Abril", periods: [["aries", "1–19"], ["taure", "20–30"]] },
+  { name: "Maig", periods: [["taure", "1–20"], ["bessons", "21–31"]] },
+  { name: "Juny", periods: [["bessons", "1–20"], ["cranc", "21–30"]] },
+  { name: "Juliol", periods: [["cranc", "1–22"], ["lleo", "23–31"]] },
+  { name: "Agost", periods: [["lleo", "1–22"], ["verge", "23–31"]] },
+  { name: "Setembre", periods: [["verge", "1–22"], ["balanca", "23–30"]] },
+  { name: "Octubre", periods: [["balanca", "1–22"], ["escorpio", "23–31"]] },
+  { name: "Novembre", periods: [["escorpio", "1–21"], ["sagitari", "22–30"]] },
+  { name: "Desembre", periods: [["sagitari", "1–21"], ["capricorn", "22–31"]] }
+] as const;
+---
+<Layout title="Calendari zodiacal: dates dels signes | Cel Endins" description="Consulta el calendari zodiacal mes a mes i descobreix les dates, l'element i el planeta regent de cada signe del zodíac." canonicalPath="/recursos/calendari-zodiacal/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero">
+      <p class="sign-kicker">Els dotze signes durant l'any</p>
+      <h1>Calendari zodiacal</h1>
+      <p>Recorre els mesos per veure quin signe correspon a cada període i consulta d'un cop d'ull les seves dates, element i planeta regent.</p>
+    </section>
+
+    <nav class="calendar-month-nav" aria-label="Mesos de l'any">
+      {months.map((month) => <a href={`#${month.name.toLowerCase()}`}>{month.name.slice(0, 3)}</a>)}
+    </nav>
+
+    <section class="zodiac-calendar" aria-label="Calendari dels signes del zodíac">
+      {months.map((month, monthIndex) => <article class="calendar-month" id={month.name.toLowerCase()}>
+        <header><span>{String(monthIndex + 1).padStart(2, "0")}</span><h2>{month.name}</h2></header>
+        <div class="calendar-periods">
+          {month.periods.map(([slug, days]) => {
+            const sign = signMap.get(slug)!;
+            return <a class="calendar-period" href={withBase(`/${slug}/`)}>
+              <span class="calendar-sign-symbol" aria-hidden="true">{sign.symbol}</span>
+              <div><h3>{sign.name}</h3><p>Dies {days}</p></div>
+              <dl><div><dt>Element</dt><dd>{sign.element}</dd></div><div><dt>Planeta</dt><dd>{planets[slug]}</dd></div></dl>
+            </a>;
+          })}
+        </div>
+      </article>)}
+    </section>
+
+    <section class="quiz-explanation">
+      <h2>Quan canvia cada signe del zodíac?</h2>
+      <p>El calendari utilitza les dates habituals de l'astrologia tropical. El canvi de signe pot variar lleugerament segons l'any i l'hora exacta, especialment si el naixement es produeix en un dia de transició.</p>
+      <p>Si la teva data cau al límit entre dos signes, una carta natal calculada amb l'hora i el lloc de naixement permet determinar la posició exacta del Sol.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

@@ -1,0 +1,11 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import AscendantCalculator from "../../components/AscendantCalculator.astro";
+---
+<Layout title="Calculadora d'ascendent gratis | Cel Endins" description="Calcula el teu signe ascendent amb la data, l'hora i el lloc de naixement i descobreix què representa en astrologia." canonicalPath="/recursos/calculadora-ascendent/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main><section class="quiz-page-hero"><p class="sign-kicker">Data, hora i lloc de naixement</p><h1>Calculadora d'ascendent</h1><p>Descobreix quin signe s'aixecava per l'horitzó en el moment del teu naixement i com influeix simbòlicament en la teva manera de mostrar-te al món.</p></section><AscendantCalculator /><section class="quiz-explanation"><h2>Què és l'ascendent i per què importa l'hora?</h2><p>L'ascendent és el punt del zodíac que apareixia per l'horitzó est. Canvia aproximadament cada dues hores, per això una hora precisa i les coordenades del lloc són indispensables.</p><p>La calculadora utilitza el zodíac tropical i el temps sideral local. El resultat és orientatiu: a latituds extremes o si vas néixer al límit d'un signe, és recomanable contrastar-lo amb una efemèride professional.</p></section></main>
+  <Footer />
+</Layout>

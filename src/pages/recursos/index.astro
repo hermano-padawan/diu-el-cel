@@ -4,15 +4,6 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { withBase } from "../../utils/paths";
 
-const upcoming = [
-  "Calculadora d'ascendent",
-  "Calculadora de compatibilitat",
-  "Calendari zodiacal",
-  "Roda zodiacal",
-  "Comparador de signes",
-  "Glossari astrològic",
-  "Preguntes freqüents"
-];
 ---
 <Layout title="Recursos d'astrologia interactius | Cel Endins" description="Eines i recursos d'astrologia en català: quizzes, calculadores, calendari zodiacal, glossari i més." canonicalPath="/recursos/">
   <Header inner backHref="/" backLabel="Horòscop" />
@@ -35,21 +26,47 @@ const upcoming = [
 
     <section class="available-resources" aria-labelledby="available-resources-title">
       <p class="sign-kicker">També disponible</p>
-      <h2 id="available-resources-title">Calcula el teu signe</h2>
+      <h2 id="available-resources-title">Recursos disponibles</h2>
+      <a class="resource-card" href={withBase("/recursos/calculadora-ascendent/")}>
+        <span class="resource-card-symbol" aria-hidden="true">↗</span><div><h3>Calculadora d'ascendent</h3><p>Introdueix la data, l'hora i el lloc de naixement per descobrir el teu signe ascendent.</p></div><span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
       <a class="resource-card" href={withBase("/recursos/calculadora-signe/")}>
         <span class="resource-card-symbol" aria-hidden="true">☉</span>
         <div><h3>Calculadora del signe</h3><p>Introdueix el dia i el mes de naixement i descobreix el teu signe, element, modalitat i planeta regent.</p></div>
         <span class="resource-card-arrow" aria-hidden="true">→</span>
       </a>
+      <a class="resource-card" href={withBase("/recursos/calculadora-compatibilitat/")}>
+        <span class="resource-card-symbol" aria-hidden="true">♊</span>
+        <div><h3>Calculadora de compatibilitat</h3><p>Selecciona dos signes i accedeix directament a l'anàlisi completa de la seva compatibilitat zodiacal.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="resource-card" href={withBase("/recursos/calendari-zodiacal/")}>
+        <span class="resource-card-symbol" aria-hidden="true">☼</span>
+        <div><h3>Calendari zodiacal</h3><p>Recorre els dotze mesos i consulta les dates, l'element i el planeta regent de cada signe.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="resource-card" href={withBase("/recursos/roda-zodiacal/")}>
+        <span class="resource-card-symbol" aria-hidden="true">◉</span>
+        <div><h3>Roda zodiacal</h3><p>Explora els dotze signes en una roda interactiva i descobreix-ne les qualitats principals.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="resource-card" href={withBase("/recursos/comparador-signes/")}>
+        <span class="resource-card-symbol" aria-hidden="true">⇄</span>
+        <div><h3>Comparador de signes</h3><p>Compara dos signes costat per costat i consulta trets, fortaleses, reptes i compatibilitat.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="resource-card" href={withBase("/recursos/glossari/")}>
+        <span class="resource-card-symbol" aria-hidden="true">Aa</span>
+        <div><h3>Glossari astrològic</h3><p>Consulta definicions clares, exemples i conceptes relacionats per entendre millor l'astrologia.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="resource-card" href={withBase("/recursos/preguntes-frequents/")}>
+        <span class="resource-card-symbol" aria-hidden="true">?</span>
+        <div><h3>Preguntes freqüents</h3><p>Resol els dubtes més habituals sobre signes, horòscops, compatibilitat i carta astral.</p></div>
+        <span class="resource-card-arrow" aria-hidden="true">→</span>
+      </a>
     </section>
 
-    <section class="upcoming-resources" aria-labelledby="upcoming-title">
-      <p class="sign-kicker">Pròximament</p>
-      <h2 id="upcoming-title">Nous recursos</h2>
-      <div class="upcoming-grid">
-        {upcoming.map((name) => <div class="upcoming-card"><span aria-hidden="true">○</span><p>{name}</p><small>En preparació</small></div>)}
-      </div>
-    </section>
   </main>
   <Footer />
 </Layout>

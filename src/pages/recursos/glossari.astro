@@ -1,0 +1,38 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { glossaryTerms } from "../../data/glossary";
+import { withBase } from "../../utils/paths";
+const letters = [...new Set(glossaryTerms.map((term) => term.name[0].toLocaleUpperCase("ca")))];
+---
+<Layout title="Glossari d'astrologia en català | Cel Endins" description="Consulta les definicions dels conceptes bàsics de l'astrologia: ascendent, carta astral, cases, aspectes, trànsits i més." canonicalPath="/recursos/glossari/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero"><p class="sign-kicker">Conceptes explicats amb claredat</p><h1>Glossari d'astrologia</h1><p>Busca un terme o explora alfabèticament els conceptes essencials per entendre millor els signes, els planetes i una carta astral.</p></section>
+    <section class="glossary-tools">
+      <label for="glossary-search">Cerca un concepte</label><input id="glossary-search" type="search" placeholder="Per exemple: ascendent" data-glossary-search />
+      <nav aria-label="Índex alfabètic">{letters.map((letter) => <a href={`#lletra-${letter.toLocaleLowerCase("ca")}`}>{letter}</a>)}</nav>
+    </section>
+    <div class="glossary-list" data-glossary-list>
+      {letters.map((letter) => <section class="glossary-letter" id={`lletra-${letter.toLocaleLowerCase("ca")}`} data-letter-section>
+        <h2>{letter}</h2><div>{glossaryTerms.filter((term) => term.name.startsWith(letter)).map((term) => <a href={withBase(`/recursos/glossari/${term.slug}/`)} data-glossary-term data-search-text={`${term.name} ${term.summary}`.toLocaleLowerCase("ca")}><h3>{term.name}</h3><p>{term.summary}</p><span aria-hidden="true">→</span></a>)}</div>
+      </section>)}
+      <p class="glossary-empty" data-glossary-empty hidden>No hem trobat cap concepte amb aquesta cerca.</p>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+<script>
+  const input = document.querySelector<HTMLInputElement>("[data-glossary-search]");
+  const terms = [...document.querySelectorAll<HTMLElement>("[data-glossary-term]")];
+  const sections = [...document.querySelectorAll<HTMLElement>("[data-letter-section]")];
+  const empty = document.querySelector<HTMLElement>("[data-glossary-empty]");
+  input?.addEventListener("input", () => {
+    const query = input.value.trim().toLocaleLowerCase("ca");
+    let visible = 0;
+    terms.forEach((term) => { const match = (term.dataset.searchText ?? "").includes(query); term.hidden = !match; if (match) visible += 1; });
+    sections.forEach((section) => { section.hidden = !section.querySelector("[data-glossary-term]:not([hidden])"); });
+    if (empty) empty.hidden = visible > 0;
+  });
+</script>

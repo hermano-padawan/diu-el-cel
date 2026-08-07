@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import CompatibilityCalculator from "../../components/CompatibilityCalculator.astro";
+---
+<Layout title="Calculadora de compatibilitat entre signes | Cel Endins" description="Tria dos signes del zodíac i consulta la seva compatibilitat en l'amor, l'amistat i la comunicació." canonicalPath="/recursos/calculadora-compatibilitat/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero">
+      <p class="sign-kicker">Eina ràpida i gratuïta</p>
+      <h1>Calculadora de compatibilitat entre signes</h1>
+      <p>Escull dos signes del zodíac per descobrir com encaixen les seves energies, quins punts tenen en comú i on poden aparèixer els principals reptes.</p>
+    </section>
+    <CompatibilityCalculator />
+    <section class="quiz-explanation">
+      <h2>Com funciona la compatibilitat zodiacal?</h2>
+      <p>L'astrologia compara elements, modalitats i maneres de relacionar-se atribuïdes a cada signe. Aquesta eina et porta a una anàlisi específica de la parella que hagis seleccionat, tant si són dos signes diferents com si comparteixen el mateix signe.</p>
+      <p>La compatibilitat entre signes és una guia orientativa. Una relació real també depèn de la comunicació, les experiències personals i del conjunt de la carta natal de cada persona.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

@@ -1,0 +1,53 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { withBase } from "../../utils/paths";
+
+const categories = [
+  { name: "Signes del zodíac", slug: "signes", questions: [
+    { q: "Com puc saber quin és el meu signe del zodíac?", a: "El signe solar es determina amb el dia i el mes de naixement segons la posició del Sol en el zodíac tropical. Si vas néixer en un dia de canvi, l'any, l'hora i el lloc poden ser necessaris per confirmar-lo.", link: "/recursos/calculadora-signe/", label: "Calcula el teu signe" },
+    { q: "Quants signes del zodíac hi ha?", a: "El zodíac occidental es divideix en dotze signes: Àries, Taure, Bessons, Cranc, Lleó, Verge, Balança, Escorpí, Sagitari, Capricorn, Aquari i Peixos.", link: "/recursos/calendari-zodiacal/", label: "Consulta el calendari zodiacal" },
+    { q: "Què són els elements dels signes?", a: "Els dotze signes s'agrupen en foc, terra, aire i aigua. Cada element descriu una orientació simbòlica: acció, concreció, pensament o sensibilitat.", link: "/recursos/glossari/elements/", label: "Llegeix sobre els elements" },
+    { q: "Quina diferència hi ha entre signes cardinals, fixos i mutables?", a: "Són les tres modalitats zodiacals. Els cardinals inicien, els fixos consoliden i els mutables adapten i tanquen cada estació.", link: "/recursos/glossari/signes-cardinals/", label: "Descobreix les modalitats" }
+  ]},
+  { name: "Horòscop", slug: "horoscop", questions: [
+    { q: "Què és un horòscop diari?", a: "És una interpretació general dels moviments astrològics del dia aplicada a cada signe solar. Serveix com a proposta de reflexió i no com una predicció literal o garantida.", link: "/", label: "Consulta l'horòscop d'avui" },
+    { q: "Per què l'horòscop pot no descriure exactament el meu dia?", a: "Un horòscop per signe solar és necessàriament general. Una carta natal incorpora l'ascendent, la Lluna, els planetes, les cases i els aspectes personals.", link: "/recursos/glossari/carta-astral/", label: "Què és una carta astral?" },
+    { q: "Cada quant s'actualitza l'horòscop?", a: "Les prediccions diàries estan pensades per renovar-se cada dia. La data visible a la portada i a cada signe indica a quin dia correspon el contingut.", link: "/", label: "Veure els horòscops" },
+    { q: "L'astrologia pot predir el futur?", a: "L'astrologia s'utilitza tradicionalment com un llenguatge simbòlic per observar tendències i cicles. No pot assegurar esdeveniments concrets ni substituir decisions personals o assessorament professional.", link: "/recursos/glossari/transit-astrologic/", label: "Entén els trànsits" }
+  ]},
+  { name: "Compatibilitat", slug: "compatibilitat", questions: [
+    { q: "Quins signes són més compatibles?", a: "No existeix una única parella perfecta. Els signes del mateix element poden compartir ritmes, mentre que les diferències poden aportar complementarietat, aprenentatge i també reptes.", link: "/compatibilitats/", label: "Explora totes les compatibilitats" },
+    { q: "La compatibilitat només serveix per a relacions amoroses?", a: "No. També pot utilitzar-se per reflexionar sobre amistat, comunicació, convivència o dinàmiques de feina entre dos signes.", link: "/recursos/calculadora-compatibilitat/", label: "Compara una parella" },
+    { q: "És suficient comparar els signes solars?", a: "La comparació solar ofereix una primera aproximació. La sinastria completa contrasta dues cartes natals i observa la Lluna, Venus, Mart, Mercuri, l'ascendent i els aspectes entre planetes.", link: "/recursos/glossari/sinastria/", label: "Què és la sinastria?" },
+    { q: "Dos signes iguals sempre són compatibles?", a: "Compartir signe facilita reconèixer necessitats i comportaments, però també pot duplicar punts sensibles. La qualitat de la relació depèn de molts factors personals.", link: "/compatibilitats/", label: "Consulta parelles del mateix signe" }
+  ]},
+  { name: "Ascendent", slug: "ascendent", questions: [
+    { q: "Què és l'ascendent?", a: "És el signe que apareixia per l'horitzó est en el moment exacte del naixement. S'associa amb la primera impressió, l'estil espontani i la manera d'iniciar experiències.", link: "/recursos/glossari/ascendent/", label: "Llegeix la definició completa" },
+    { q: "Quines dades calen per calcular l'ascendent?", a: "Cal la data completa, una hora de naixement tan precisa com sigui possible i el lloc de naixement, perquè l'ascendent canvia aproximadament cada dues hores.", link: "/recursos/glossari/ascendent/", label: "Més informació sobre l'ascendent" },
+    { q: "El meu ascendent pot ser el mateix que el signe solar?", a: "Sí. El Sol i l'ascendent poden ocupar el mateix signe, però representen funcions diferents dins de la interpretació astrològica.", link: "/recursos/glossari/signe-solar/", label: "Què és el signe solar?" },
+    { q: "Què passa si no sé l'hora de naixement?", a: "Sense una hora fiable no es pot determinar l'ascendent amb precisió. Pots consultar el registre de naixement o treballar només amb les posicions que no depenen tant de l'hora.", link: "/recursos/glossari/carta-astral/", label: "Coneix les parts de la carta" }
+  ]},
+  { name: "Carta astral", slug: "carta", questions: [
+    { q: "Què mostra una carta astral?", a: "Mostra les posicions del Sol, la Lluna, els planetes, l'ascendent i les cases per a una data, hora i lloc. També representa els angles o aspectes que formen entre ells.", link: "/recursos/glossari/carta-astral/", label: "Guia de carta astral" },
+    { q: "Quina diferència hi ha entre signe solar, lunar i ascendent?", a: "El signe solar s'associa amb identitat i voluntat; el lunar, amb emocions i necessitats; i l'ascendent, amb la manera d'aparèixer i afrontar l'entorn.", link: "/recursos/glossari/signe-lunar/", label: "Descobreix el signe lunar" },
+    { q: "Què són les cases astrològiques?", a: "Són dotze sectors de la carta vinculats a àmbits com identitat, recursos, comunicació, llar, creativitat, relacions o vocació.", link: "/recursos/glossari/cases-astrologiques/", label: "Consulta les cases astrològiques" },
+    { q: "Què significa que un planeta estigui retrògrad?", a: "Significa que, vist des de la Terra, sembla desplaçar-se enrere temporalment. L'astrologia interpreta aquests períodes com una invitació a revisar la funció simbolitzada pel planeta.", link: "/recursos/glossari/mercuri-retrograd/", label: "Entén Mercuri retrògrad" }
+  ]}
+];
+const allQuestions = categories.flatMap((category) => category.questions);
+const structuredData = JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: allQuestions.map((item) => ({ "@type": "Question", name: item.q, acceptedAnswer: { "@type": "Answer", text: item.a } })) });
+---
+<Layout title="Preguntes freqüents sobre astrologia | Cel Endins" description="Respostes clares a les preguntes més freqüents sobre signes, horòscops, compatibilitat, ascendent i carta astral." canonicalPath="/recursos/preguntes-frequents/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero"><p class="sign-kicker">Dubtes habituals</p><h1>Preguntes freqüents sobre astrologia</h1><p>Troba respostes clares sobre els signes, l'horòscop, les compatibilitats, l'ascendent i els conceptes bàsics d'una carta astral.</p></section>
+    <nav class="faq-category-nav" aria-label="Categories de preguntes">{categories.map((category) => <a href={`#${category.slug}`}>{category.name}</a>)}</nav>
+    <div class="resource-faq-list">
+      {categories.map((category) => <section id={category.slug}><p class="sign-kicker">Preguntes i respostes</p><h2>{category.name}</h2><div>{category.questions.map((item) => <details><summary>{item.q}<span aria-hidden="true">+</span></summary><div><p>{item.a}</p><a href={withBase(item.link)}>{item.label} →</a></div></details>)}</div></section>)}
+    </div>
+  </main>
+  <Footer />
+  <script type="application/ld+json" set:html={structuredData} />
+</Layout>

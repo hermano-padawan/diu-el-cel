@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import ZodiacWheel from "../../components/ZodiacWheel.astro";
+---
+<Layout title="Roda zodiacal interactiva dels dotze signes | Cel Endins" description="Explora els dotze signes amb una roda zodiacal interactiva i consulta dates, element, modalitat i planeta regent." canonicalPath="/recursos/roda-zodiacal/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero">
+      <p class="sign-kicker">Explora el zodíac</p>
+      <h1>Roda zodiacal interactiva</h1>
+      <p>Prem qualsevol signe de la roda per consultar-ne les dates, l'element, la modalitat, el planeta regent i els trets principals.</p>
+    </section>
+    <ZodiacWheel />
+    <section class="quiz-explanation">
+      <h2>Què representa la roda del zodíac?</h2>
+      <p>La roda ordena els dotze signes seguint el recorregut anual del Sol en l'astrologia tropical. Cada signe ocupa un sector i combina un element —foc, terra, aire o aigua— amb una modalitat cardinal, fixa o mutable.</p>
+      <p>Aquesta representació permet veure el zodíac com un cicle: Àries inicia el moviment, els signes successius desenvolupen diferents qualitats i Peixos tanca el recorregut abans de tornar a començar.</p>
+    </section>
+  </main>
+  <Footer />
+</Layout>

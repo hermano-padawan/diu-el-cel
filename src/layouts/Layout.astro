@@ -1,8 +1,10 @@
 ---
 import "../../css/styles.css";
 import { withBase } from "../utils/paths";
-interface Props { title: string; description: string; canonicalPath?: string }
-const { title, description, canonicalPath } = Astro.props;
+interface Props { title: string; description: string; canonicalPath: string; noindex?: boolean }
+const { title, description, canonicalPath, noindex = false } = Astro.props;
+const canonicalUrl = new URL(withBase(canonicalPath), Astro.site ?? Astro.url.origin);
+const socialImageUrl = new URL(withBase("/og.png"), Astro.site ?? Astro.url.origin);
 ---
 <!doctype html>
 <html lang="ca">
@@ -10,7 +12,23 @@ const { title, description, canonicalPath } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    {canonicalPath && <link rel="canonical" href={withBase(canonicalPath)} />}
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ca_ES" />
+    <meta property="og:site_name" content="Cel Endins" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="1731" />
+    <meta property="og:image:height" content="909" />
+    <meta property="og:image:alt" content="Cel Endins, horòscop i astrologia en català" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content="Cel Endins, horòscop i astrologia en català" />
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

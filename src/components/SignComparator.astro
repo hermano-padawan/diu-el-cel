@@ -1,0 +1,82 @@
+---
+import { getCollection } from "astro:content";
+
+const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
+const extras: Record<string, { mode: string; planet: string; strengths: string; challenges: string; traits: string }> = {
+  aries: { mode: "Cardinal", planet: "Mart", strengths: "Valentia, iniciativa, franquesa", challenges: "Impaciència, impulsivitat", traits: "Directe, actiu i competitiu" },
+  taure: { mode: "Fixa", planet: "Venus", strengths: "Constància, lleialtat, paciència", challenges: "Rigidesa, resistència al canvi", traits: "Sensorial, pràctic i estable" },
+  bessons: { mode: "Mutable", planet: "Mercuri", strengths: "Curiositat, agilitat, comunicació", challenges: "Dispersió, indecisió", traits: "Versàtil, sociable i mental" },
+  cranc: { mode: "Cardinal", planet: "Lluna", strengths: "Empatia, protecció, intuïció", challenges: "Susceptibilitat, reserva", traits: "Afectuós, receptiu i familiar" },
+  lleo: { mode: "Fixa", planet: "Sol", strengths: "Creativitat, generositat, confiança", challenges: "Orgull, necessitat de reconeixement", traits: "Expressiu, càlid i lleial" },
+  verge: { mode: "Mutable", planet: "Mercuri", strengths: "Precisió, servei, sentit pràctic", challenges: "Perfeccionisme, excés d'anàlisi", traits: "Observador, metòdic i atent" },
+  balanca: { mode: "Cardinal", planet: "Venus", strengths: "Diplomàcia, equilibri, cooperació", challenges: "Indecisió, evitar el conflicte", traits: "Relacional, elegant i conciliador" },
+  escorpio: { mode: "Fixa", planet: "Plutó i Mart", strengths: "Profunditat, determinació, intuïció", challenges: "Intensitat, desconfiança", traits: "Reservat, magnètic i transformador" },
+  sagitari: { mode: "Mutable", planet: "Júpiter", strengths: "Optimisme, franquesa, visió", challenges: "Impaciència, falta de tacte", traits: "Aventurer, expansiu i idealista" },
+  capricorn: { mode: "Cardinal", planet: "Saturn", strengths: "Disciplina, ambició, responsabilitat", challenges: "Rigidesa, pessimisme", traits: "Estratègic, perseverant i prudent" },
+  aquari: { mode: "Fixa", planet: "Urà i Saturn", strengths: "Originalitat, independència, visió", challenges: "Distància, obstinació", traits: "Innovador, lliure i comunitari" },
+  peixos: { mode: "Mutable", planet: "Neptú i Júpiter", strengths: "Empatia, imaginació, sensibilitat", challenges: "Evasió, límits difusos", traits: "Intuïtiu, creatiu i compassiu" }
+};
+const signs = entries.map((entry) => ({ slug: entry.id, ...entry.data, ...extras[entry.id] }));
+const compatibilities = await getCollection("compatibilities");
+const routes = Object.fromEntries(compatibilities.map(({ data }) => [`${data.signe1}|${data.signe2}`, data.slug]));
+const order = Object.fromEntries(signs.map((sign, index) => [sign.slug, index]));
+const baseUrl = import.meta.env.BASE_URL;
+const first = signs[0];
+const second = signs[1];
+---
+<section class="sign-comparator" data-sign-comparator data-signs={JSON.stringify(signs)} data-routes={JSON.stringify(routes)} data-order={JSON.stringify(order)} data-base-url={baseUrl}>
+  <form class="comparator-controls" data-comparator-form>
+    <div class="calculator-field"><label for="compare-first">Primer signe</label><select id="compare-first" name="first">{signs.map((sign) => <option value={sign.slug}>{sign.symbol} {sign.name}</option>)}</select></div>
+    <span aria-hidden="true">↔</span>
+    <div class="calculator-field"><label for="compare-second">Segon signe</label><select id="compare-second" name="second">{signs.map((sign, index) => <option value={sign.slug} selected={index === 1}>{sign.symbol} {sign.name}</option>)}</select></div>
+  </form>
+
+  <div class="comparison-table" role="table" aria-label="Comparació dels dos signes">
+    <div class="comparison-row comparison-head" role="row"><span role="columnheader">Aspecte</span><div role="columnheader"><strong data-first-symbol>{first.symbol}</strong><h2 data-first-name>{first.name}</h2></div><div role="columnheader"><strong data-second-symbol>{second.symbol}</strong><h2 data-second-name>{second.name}</h2></div></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Dates</span><p data-first-dates>{first.dates}</p><p data-second-dates>{second.dates}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Element</span><p data-first-element>{first.element}</p><p data-second-element>{second.element}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Modalitat</span><p data-first-mode>{first.mode}</p><p data-second-mode>{second.mode}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Planeta regent</span><p data-first-planet>{first.planet}</p><p data-second-planet>{second.planet}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Trets</span><p data-first-traits>{first.traits}</p><p data-second-traits>{second.traits}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Fortaleses</span><p data-first-strengths>{first.strengths}</p><p data-second-strengths>{second.strengths}</p></div>
+    <div class="comparison-row" role="row"><span role="rowheader">Reptes</span><p data-first-challenges>{first.challenges}</p><p data-second-challenges>{second.challenges}</p></div>
+  </div>
+  <div class="comparator-actions">
+    <a class="quiz-secondary calculator-secondary-link" data-first-link href={`${baseUrl}${first.slug}/`}>Veure {first.name}</a>
+    <a class="resource-button" data-compatibility-link href={`${baseUrl}compatibilitats/aries-taure/`}>Analitzar la compatibilitat</a>
+    <a class="quiz-secondary calculator-secondary-link" data-second-link href={`${baseUrl}${second.slug}/`}>Veure {second.name}</a>
+  </div>
+</section>
+
+<script>
+  type SignData = { slug: string; name: string; symbol: string; dates: string; element: string; mode: string; planet: string; traits: string; strengths: string; challenges: string };
+  const root = document.querySelector<HTMLElement>("[data-sign-comparator]");
+  if (root) {
+    const signs = JSON.parse(root.dataset.signs ?? "[]") as SignData[];
+    const signMap = new Map(signs.map((sign) => [sign.slug, sign]));
+    const routes = JSON.parse(root.dataset.routes ?? "{}") as Record<string, string>;
+    const order = JSON.parse(root.dataset.order ?? "{}") as Record<string, number>;
+    const baseUrl = root.dataset.baseUrl ?? "/";
+    const form = root.querySelector<HTMLFormElement>("[data-comparator-form]")!;
+    const firstSelect = form.elements.namedItem("first") as HTMLSelectElement;
+    const secondSelect = form.elements.namedItem("second") as HTMLSelectElement;
+    function fill(side: "first" | "second", sign: SignData) {
+      (["symbol", "name", "dates", "element", "mode", "planet", "traits", "strengths", "challenges"] as const).forEach((field) => {
+        root.querySelector<HTMLElement>(`[data-${side}-${field}]`)!.textContent = sign[field];
+      });
+      const link = root.querySelector<HTMLAnchorElement>(`[data-${side}-link]`)!;
+      link.href = `${baseUrl}${sign.slug}/`;
+      link.textContent = `Veure ${sign.name}`;
+    }
+    function update() {
+      const first = signMap.get(firstSelect.value)!;
+      const second = signMap.get(secondSelect.value)!;
+      fill("first", first);
+      fill("second", second);
+      const pair = [first.slug, second.slug].sort((a, b) => order[a] - order[b]);
+      root.querySelector<HTMLAnchorElement>("[data-compatibility-link]")!.href = `${baseUrl}compatibilitats/${routes[`${pair[0]}|${pair[1]}`]}/`;
+    }
+    firstSelect.addEventListener("change", update);
+    secondSelect.addEventListener("change", update);
+  }
+</script>

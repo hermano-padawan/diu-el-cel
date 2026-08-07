@@ -1,0 +1,15 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import SignComparator from "../../components/SignComparator.astro";
+---
+<Layout title="Comparador de signes del zodíac | Cel Endins" description="Compara dos signes del zodíac: element, modalitat, planeta, trets, fortaleses i reptes principals." canonicalPath="/recursos/comparador-signes/">
+  <Header inner backHref="/recursos/" backLabel="Recursos" />
+  <main>
+    <section class="quiz-page-hero"><p class="sign-kicker">Similituds i diferències</p><h1>Comparador de signes</h1><p>Selecciona dos signes i compara les seves característiques principals costat per costat abans d'aprofundir en la seva compatibilitat.</p></section>
+    <SignComparator />
+    <section class="quiz-explanation"><h2>Comparar no és el mateix que calcular la compatibilitat</h2><p>Aquesta taula ajuda a identificar ràpidament què diferencia i què aproxima dos signes. Compartir element o modalitat pot facilitar alguns ritmes, però les diferències també poden aportar equilibri i aprenentatge.</p><p>Per entendre la dinàmica de la parella amb més detall, utilitza l'enllaç de compatibilitat que es genera automàticament per als signes seleccionats.</p></section>
+  </main>
+  <Footer />
+</Layout>
