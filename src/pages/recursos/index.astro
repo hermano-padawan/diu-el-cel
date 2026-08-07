@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
+import { withBase } from "../../utils/paths";
 
 const upcoming = [
   "Calculadora d'ascendent",
@@ -28,14 +29,14 @@ const upcoming = [
         <p class="sign-kicker">Quiz interactiu</p>
         <h2 id="quiz-resource-title">Quin signe ets realment?</h2>
         <p>Respon unes quantes preguntes sobre la teva manera d'actuar, relacionar-te i prendre decisions. El resultat revela quin arquetip zodiacal encaixa més amb les teves respostes.</p>
-        <a class="resource-button" href="/recursos/quin-signe-ets-realment/">Comença el quiz <span aria-hidden="true">→</span></a>
+        <a class="resource-button" href={withBase("/recursos/quin-signe-ets-realment/")}>Comença el quiz <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
     <section class="available-resources" aria-labelledby="available-resources-title">
       <p class="sign-kicker">També disponible</p>
       <h2 id="available-resources-title">Calcula el teu signe</h2>
-      <a class="resource-card" href="/recursos/calculadora-signe/">
+      <a class="resource-card" href={withBase("/recursos/calculadora-signe/")}>
         <span class="resource-card-symbol" aria-hidden="true">☉</span>
         <div><h3>Calculadora del signe</h3><p>Introdueix el dia i el mes de naixement i descobreix el teu signe, element, modalitat i planeta regent.</p></div>
         <span class="resource-card-arrow" aria-hidden="true">→</span>

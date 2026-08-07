@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
+import { withBase } from "../utils/paths";
 
 export async function getStaticPaths() {
   const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
@@ -38,10 +39,10 @@ const signMap = new Map(entries.map((item) => [item.id, item.data]));
       <p class="sign-kicker">Relacions</p>
       <h2>Compatibilitats de {sign.name}</h2>
       <div class="inline-compatibility-links">
-        {compatibilities.map(({ data }) => { const otherSlug = data.signe1 === entry.id ? data.signe2 : data.signe1; return <a href={`/compatibilitats/${data.slug}/`}>{sign.name} i {signMap.get(otherSlug)?.name}<span>{data.score}%</span></a>; })}
+        {compatibilities.map(({ data }) => { const otherSlug = data.signe1 === entry.id ? data.signe2 : data.signe1; return <a href={withBase(`/compatibilitats/${data.slug}/`)}>{sign.name} i {signMap.get(otherSlug)?.name}<span>{data.score}%</span></a>; })}
       </div>
     </section>}
-    <nav class="sign-nav" aria-label="Altres signes"><a href={`/${previous.id}/`}>← {previous.data.name}</a><a href={`/${next.id}/`}>{next.data.name} →</a></nav>
+    <nav class="sign-nav" aria-label="Altres signes"><a href={withBase(`/${previous.id}/`)}>← {previous.data.name}</a><a href={withBase(`/${next.id}/`)}>{next.data.name} →</a></nav>
   </main>
   <Footer />
 </Layout>

@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { getCollection } from "astro:content";
+import { withBase } from "../../utils/paths";
 
 const horoscopes = await getCollection("horoscopes");
 const signs = horoscopes.sort((a, b) => a.data.order - b.data.order);
@@ -39,7 +40,7 @@ const compatibilities = (await getCollection("compatibilities")).sort((a, b) => 
             {available.map(({ data }) => {
               const otherId = data.signe1 === sign.id ? data.signe2 : data.signe1;
               const other = signMap.get(otherId)!;
-              return <a href={`/compatibilitats/${data.slug}/`} aria-label={`Compatibilitat entre ${sign.data.name} i ${other.name}`}>
+              return <a href={withBase(`/compatibilitats/${data.slug}/`)} aria-label={`Compatibilitat entre ${sign.data.name} i ${other.name}`}>
                 <span class="option-symbol" aria-hidden="true">{other.symbol}</span>
                 <span>{otherId === sign.id ? `${other.name} amb el mateix signe` : `${sign.data.name} i ${other.name}`}</span>
                 <small>{data.score}%</small>

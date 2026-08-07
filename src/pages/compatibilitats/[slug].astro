@@ -4,6 +4,7 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import CompatibilityCard from "../../components/CompatibilityCard.astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
+import { withBase } from "../../utils/paths";
 
 export async function getStaticPaths() {
   const entries = await getCollection("compatibilities");
@@ -36,7 +37,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         {entry.data.faqs.map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}
       </section>
       <p class="astrology-note">Aquesta valoració és una interpretació astrològica general i no una mesura objectiva. Cada relació depèn de les persones i del conjunt de les seves cartes natals.</p>
-      <nav class="pair-links" aria-label="Pàgines relacionades"><a href={`/${entry.data.signe1}/`}>Horòscop de {first.name}</a><a href={`/${entry.data.signe2}/`}>Horòscop de {second.name}</a><a href="/compatibilitats/">Totes les compatibilitats</a></nav>
+      <nav class="pair-links" aria-label="Pàgines relacionades"><a href={withBase(`/${entry.data.signe1}/`)}>Horòscop de {first.name}</a><a href={withBase(`/${entry.data.signe2}/`)}>Horòscop de {second.name}</a><a href={withBase("/compatibilitats/")}>Totes les compatibilitats</a></nav>
     </article>
     {related.length > 0 && <section class="related-compatibilities"><h2>Compatibilitats relacionades</h2><div class="compatibility-grid compact">{related.map(({ data }) => { const a = signMap.get(data.signe1)!; const b = signMap.get(data.signe2)!; return <CompatibilityCard slug={data.slug} name1={a.name} name2={b.name} symbol1={a.symbol} symbol2={b.symbol} score={data.score} />; })}</div></section>}
   </main>

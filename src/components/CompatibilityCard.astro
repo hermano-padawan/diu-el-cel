@@ -1,4 +1,5 @@
 ---
+import { withBase } from "../utils/paths";
 interface Props {
   slug: string;
   name1: string;
@@ -9,7 +10,7 @@ interface Props {
 }
 const { slug, name1, name2, symbol1, symbol2, score } = Astro.props;
 ---
-<a class="compatibility-card" href={`/compatibilitats/${slug}/`}>
+<a class="compatibility-card" href={withBase(`/compatibilitats/${slug}/`)}>
   <span class="compatibility-symbols" aria-hidden="true">{symbol1} <small>+</small> {symbol2}</span>
   <div>
     <h2>{name1} i {name2}</h2>

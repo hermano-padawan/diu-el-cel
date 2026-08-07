@@ -1,10 +1,11 @@
 ---
+import { withBase } from "../utils/paths";
 interface Props {
   sign: { slug: string; name: string; symbol: string; dates: string; order: number };
 }
 const { sign } = Astro.props;
 ---
-<a class="zodiac-card" id={sign.slug} href={`/${sign.slug}/`} aria-label={`${sign.name}, horòscop d'avui`}>
+<a class="zodiac-card" id={sign.slug} href={withBase(`/${sign.slug}/`)} aria-label={`${sign.name}, horòscop d'avui`}>
   <span class="number">{String(sign.order).padStart(2, "0")}</span>
   <span class="symbol" aria-hidden="true">{sign.symbol}</span>
   <div><h2>{sign.name}</h2><p>{sign.dates}</p></div>

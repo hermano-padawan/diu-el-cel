@@ -1,4 +1,8 @@
-<section class="quiz-shell" data-sign-quiz aria-live="polite">
+---
+import { withBase } from "../utils/paths";
+const baseUrl = import.meta.env.BASE_URL;
+---
+<section class="quiz-shell" data-sign-quiz data-base-url={baseUrl} aria-live="polite">
   <div class="quiz-start" data-quiz-start>
     <span class="quiz-orbit" aria-hidden="true">☾</span>
     <h2>Preparat per descobrir el teu signe interior?</h2>
@@ -21,7 +25,7 @@
     <h2 data-result-name></h2>
     <p data-result-description></p>
     <div class="quiz-result-actions">
-      <a class="resource-button" data-result-link href="/">Descobreix aquest signe <span aria-hidden="true">→</span></a>
+      <a class="resource-button" data-result-link href={withBase("/")}>Descobreix aquest signe <span aria-hidden="true">→</span></a>
       <button class="quiz-secondary" type="button" data-play-again>Torna-hi amb preguntes noves</button>
     </div>
     <p class="quiz-disclaimer">Aquest quiz és una experiència lúdica inspirada en els arquetips de l'astrologia. No és una anàlisi psicològica ni determina la teva personalitat.</p>
@@ -139,6 +143,7 @@
 
   const root = document.querySelector<HTMLElement>("[data-sign-quiz]");
   if (root) {
+    const baseUrl = root.dataset.baseUrl ?? "/";
     const startView = root.querySelector<HTMLElement>("[data-quiz-start]")!;
     const gameView = root.querySelector<HTMLElement>("[data-quiz-game]")!;
     const resultView = root.querySelector<HTMLElement>("[data-quiz-result]")!;
@@ -197,7 +202,7 @@
       root.querySelector<HTMLElement>("[data-result-symbol]")!.textContent = result.symbol;
       root.querySelector<HTMLElement>("[data-result-name]")!.textContent = result.name;
       root.querySelector<HTMLElement>("[data-result-description]")!.textContent = result.description;
-      root.querySelector<HTMLAnchorElement>("[data-result-link]")!.href = `/${result.slug}/`;
+      root.querySelector<HTMLAnchorElement>("[data-result-link]")!.href = `${baseUrl}${result.slug}/`;
       resultView.focus();
     }
 

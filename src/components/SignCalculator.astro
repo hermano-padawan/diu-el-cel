@@ -1,4 +1,8 @@
-<section class="calculator-shell" data-sign-calculator aria-live="polite">
+---
+import { withBase } from "../utils/paths";
+const baseUrl = import.meta.env.BASE_URL;
+---
+<section class="calculator-shell" data-sign-calculator data-base-url={baseUrl} aria-live="polite">
   <div class="calculator-form-panel">
     <p class="sign-kicker">La teva data de naixement</p>
     <h2>Quin és el teu signe del zodíac?</h2>
@@ -42,8 +46,8 @@
       <div><dt>Planeta regent</dt><dd data-sign-planet></dd></div>
     </dl>
     <div class="calculator-actions">
-      <a class="resource-button" data-sign-link href="/">Veure l'horòscop <span aria-hidden="true">→</span></a>
-      <a class="quiz-secondary calculator-secondary-link" href="/compatibilitats/">Veure compatibilitats</a>
+      <a class="resource-button" data-sign-link href={withBase("/")}>Veure l'horòscop <span aria-hidden="true">→</span></a>
+      <a class="quiz-secondary calculator-secondary-link" href={withBase("/compatibilitats/")}>Veure compatibilitats</a>
     </div>
   </div>
 </section>
@@ -67,6 +71,7 @@
 
   const root = document.querySelector<HTMLElement>("[data-sign-calculator]");
   if (root) {
+    const baseUrl = root.dataset.baseUrl ?? "/";
     const form = root.querySelector<HTMLFormElement>("[data-calculator-form]")!;
     const daySelect = form.elements.namedItem("day") as HTMLSelectElement;
     const monthSelect = form.elements.namedItem("month") as HTMLSelectElement;
@@ -111,7 +116,7 @@
       root.querySelector<HTMLElement>("[data-sign-element]")!.textContent = sign.element;
       root.querySelector<HTMLElement>("[data-sign-mode]")!.textContent = sign.mode;
       root.querySelector<HTMLElement>("[data-sign-planet]")!.textContent = sign.planet;
-      root.querySelector<HTMLAnchorElement>("[data-sign-link]")!.href = `/${sign.slug}/`;
+      root.querySelector<HTMLAnchorElement>("[data-sign-link]")!.href = `${baseUrl}${sign.slug}/`;
       placeholder.hidden = true;
       resultPanel.hidden = false;
       resultPanel.focus();
