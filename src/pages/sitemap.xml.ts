@@ -9,13 +9,14 @@ const resourcePaths = [
   "/recursos/glossari/", "/recursos/preguntes-frequents/", "/recursos/quin-signe-ets-realment/",
   "/recursos/roda-zodiacal/"
 ];
+const legalPaths = ["/avis-legal/", "/privacitat/", "/cookies/", "/condicions-us/"];
 
 export async function GET({ site }: { site: URL | undefined }) {
   const origin = site ?? new URL("https://hermano-padawan.github.io");
   const horoscopes = await getCollection("horoscopes");
   const compatibilities = await getCollection("compatibilities");
   const paths = [
-    "/", "/compatibilitats/", ...resourcePaths,
+    "/", "/compatibilitats/", ...resourcePaths, ...legalPaths,
     ...horoscopes.map((entry) => `/${entry.id}/`),
     ...compatibilities.map((entry) => `/compatibilitats/${entry.data.slug}/`),
     ...glossaryTerms.map((term) => `/recursos/glossari/${term.slug}/`)

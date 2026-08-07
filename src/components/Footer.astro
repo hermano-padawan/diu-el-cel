@@ -1,4 +1,36 @@
-<footer>
-  <p>Fet sota el cel de Catalunya <span aria-hidden="true">✦</span> 2026</p>
-  <p>L'astrologia és una guia per a la reflexió personal.</p>
+---
+import { withBase } from "../utils/paths";
+
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-about">
+      <a class="footer-brand" href={withBase("/")}>Cel Endins</a>
+      <p>Horòscop i astrologia en català per observar els cicles, conèixer els signes i obrir noves preguntes.</p>
+      <p class="footer-disclaimer">Contingut cultural, divulgatiu i d'entreteniment. Les interpretacions astrològiques són orientatives i no substitueixen l'assessorament professional.</p>
+    </div>
+
+    <nav class="footer-column" aria-label="Explora Cel Endins">
+      <h2>Explora</h2>
+      <a href={withBase("/")}>Horòscop d'avui</a>
+      <a href={withBase("/compatibilitats/")}>Compatibilitats</a>
+      <a href={withBase("/recursos/")}>Recursos d'astrologia</a>
+      <a href={withBase("/recursos/glossari/")}>Glossari astrològic</a>
+      <a href={withBase("/recursos/preguntes-frequents/")}>Preguntes freqüents</a>
+    </nav>
+
+    <nav class="footer-column" aria-label="Informació legal">
+      <h2>Informació legal</h2>
+      <a href={withBase("/avis-legal/")}>Avís legal</a>
+      <a href={withBase("/privacitat/")}>Política de privacitat</a>
+      <a href={withBase("/cookies/")}>Política de cookies</a>
+      <a href={withBase("/condicions-us/")}>Condicions d'ús</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© {year} Cel Endins. Tots els drets reservats.</p>
+    <p>Fet sota el cel de Catalunya <span aria-hidden="true">✦</span></p>
+  </div>
 </footer>

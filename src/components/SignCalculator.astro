@@ -10,7 +10,7 @@ const baseUrl = import.meta.env.BASE_URL;
     <form class="birthdate-form" data-calculator-form>
       <div class="calculator-field">
         <label for="birth-day">Dia</label>
-        <select id="birth-day" name="day" required disabled>
+        <select id="birth-day" name="day" required>
           <option value="">Tria el dia</option>
         </select>
       </div>
@@ -81,10 +81,9 @@ const baseUrl = import.meta.env.BASE_URL;
     function populateDays() {
       const month = Number(monthSelect.value);
       const previous = daySelect.value;
-      const count = month ? new Date(2024, month, 0).getDate() : 0;
+      const count = month ? new Date(2024, month, 0).getDate() : 31;
       daySelect.replaceChildren(new Option("Tria el dia", ""));
       for (let day = 1; day <= count; day++) daySelect.add(new Option(String(day), String(day)));
-      daySelect.disabled = !month;
       if (Number(previous) <= count) daySelect.value = previous;
     }
 
@@ -122,6 +121,7 @@ const baseUrl = import.meta.env.BASE_URL;
       resultPanel.focus();
     }
 
+    populateDays();
     monthSelect.addEventListener("change", () => { populateDays(); if (daySelect.value) showResult(); });
     daySelect.addEventListener("change", showResult);
     form.addEventListener("submit", (event) => { event.preventDefault(); showResult(); });
