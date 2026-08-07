@@ -1,4 +1,6 @@
 ---
+import { withBase } from "../utils/paths";
+
 interface Props {
   title: string;
   url: URL;
@@ -12,9 +14,9 @@ const encodedText = encodeURIComponent(title);
 
 <aside class="share-buttons" aria-label="Comparteix aquesta pàgina">
   <span class="share-label">Comparteix</span>
-  <a href={`https://wa.me/?text=${encodedText}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix per WhatsApp" title="WhatsApp"><span aria-hidden="true">WA</span></a>
-  <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a Facebook" title="Facebook"><span aria-hidden="true">f</span></a>
-  <a href={`https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a X" title="X"><span aria-hidden="true">𝕏</span></a>
+  <a class="share-whatsapp" href={`https://wa.me/?text=${encodedText}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix per WhatsApp" title="WhatsApp"><img src={withBase("/icons/whatsapp.svg")} alt="" width="19" height="19" /></a>
+  <a class="share-facebook" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a Facebook" title="Facebook"><img src={withBase("/icons/facebook.svg")} alt="" width="19" height="19" /></a>
+  <a class="share-x" href={`https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Comparteix a X" title="X"><img src={withBase("/icons/x.svg")} alt="" width="17" height="17" /></a>
   <button type="button" data-copy-link data-url={pageUrl} aria-label="Copia l'enllaç" title="Copia l'enllaç"><span aria-hidden="true">↗</span></button>
   <span class="share-status" data-copy-status aria-live="polite"></span>
 </aside>
