@@ -4,10 +4,20 @@ interface Props {
   sign: { slug: string; name: string; symbol: string; dates: string; order: number };
 }
 const { sign } = Astro.props;
+const isFirstCard = sign.order === 1;
 ---
 <a class="zodiac-card" id={sign.slug} href={withBase(`/${sign.slug}/`)} aria-label={`${sign.name}, horòscop d'avui`}>
   <span class="number">{String(sign.order).padStart(2, "0")}</span>
-  <img class="zodiac-card-image" src={withBase(`/img/signes/${sign.slug}.webp`)} alt="" width="480" height="480" loading="lazy" decoding="async" />
+  <img
+    class="zodiac-card-image"
+    src={withBase(`/img/signes/targetes/${sign.slug}.webp`)}
+    alt=""
+    width="240"
+    height="240"
+    loading={isFirstCard ? "eager" : "lazy"}
+    fetchpriority={isFirstCard ? "high" : undefined}
+    decoding="async"
+  />
   <div><h2>{sign.name}</h2><p>{sign.dates}</p></div>
   <span class="arrow" aria-hidden="true">↗</span>
 </a>
