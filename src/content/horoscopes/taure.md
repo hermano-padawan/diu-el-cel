@@ -3,22 +3,22 @@ name: Taure
 symbol: ♉
 element: Terra
 dates: 20 abril — 20 maig
-date: 2026-08-11
+date: 2026-08-12
 order: 2
 color: Verd molsa
 number: "4"
 moment: Capvespre
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts recuperes estabilitat després d'un inici de setmana mogut. Avança al teu ritme i no confonguis una pausa necessària amb falta de progrés.
+Aquest dimecres et convé simplificar abans d'afegir res nou. Posar ordre en una qüestió pràctica et donarà la tranquil·litat que necessites per tornar a gaudir del dia.
 
-Venus afavoreix els acords senzills i les decisions que aporten seguretat. Allò que construeixis amb paciència tindrà més recorregut.
+Venus afavoreix allò que és estable, agradable i ben cuidat. Confia en el teu criteri quan hagis de distingir una promesa bonica d'una proposta realment sòlida.
 
 ## Amor
-La constància afectuosa diu més que qualsevol declaració precipitada.
+La presència tranquil·la i un detall pensat tindran més força que una explicació molt llarga.
 
 ## Feina
-Revisa pressupostos o terminis abans de donar per tancat un acord.
+Acaba una revisió pendent i deixa per escrit el que s'ha acordat abans de passar al següent tema.
 
 ## Benestar
-Cuida el coll i les espatlles i concedeix-te un àpat sense presses.
+Regala't una estona sense pantalles, un àpat lent o una passejada que et torni al cos.
