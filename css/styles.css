@@ -234,15 +234,12 @@ body::before {
     border-radius: 0;
   }
   .share-buttons .share-x {
-    color: var(--ink);
-    background: var(--paper);
-  }
-  .share-buttons .share-x img {
-    filter: invert(1);
+    color: #fff;
+    background: #000;
   }
   .share-buttons button {
-    color: var(--paper);
-    background: transparent;
+    color: #fff;
+    background: #000;
     border-left: 1px solid rgba(243, 239, 229, .16);
     border-radius: 0;
   }
