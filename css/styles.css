@@ -214,7 +214,7 @@ body::before {
     top: auto;
     bottom: 0;
     flex-direction: row;
-    justify-content: center;
+    justify-content: stretch;
     color: var(--paper);
     background: var(--ink);
     border: 0;
@@ -228,15 +228,23 @@ body::before {
   }
   .share-buttons a,
   .share-buttons button {
-    width: 60px;
+    width: auto;
+    flex: 1 1 25%;
     height: 60px;
     border-radius: 0;
   }
-  .share-buttons button {
+  .share-buttons .share-x {
     color: var(--ink);
     background: var(--paper);
-    border-left: 0;
-    border-radius: 50%;
+  }
+  .share-buttons .share-x img {
+    filter: invert(1);
+  }
+  .share-buttons button {
+    color: var(--paper);
+    background: transparent;
+    border-left: 1px solid rgba(243, 239, 229, .16);
+    border-radius: 0;
   }
   .share-status { left: auto; right: 0; top: auto; bottom: calc(100% + 8px); transform: none; }
   .site-header .site-nav { display: none; }
