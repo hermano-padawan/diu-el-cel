@@ -3,22 +3,22 @@ name: Peixos
 symbol: ♓
 element: Aigua
 dates: 19 febrer — 20 març
-date: 2026-08-12
+date: 2026-08-13
 order: 12
 color: Aiguamarina
 number: "12"
 moment: Capvespre
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimecres una intuïció creativa et pot assenyalar una sortida que encara no és evident. Dona-li un espai, escriu-la o dibuixa-la, i després tria una acció petita per fer-la possible.
+Aquest dijous una intuïció subtil t'ajudarà a entendre què necessita una situació abans de prendre cap decisió. Dona't temps per distingir la percepció pròpia de l'estat d'ànim dels altres.
 
-Neptú reforça la receptivitat i la sensibilitat als ambients. No cal absorbir tot el que passa al teu voltant: un límit amable protegirà millor la teva energia.
+Neptú potencia la imaginació i la sensibilitat artística, però també et demana arrelament. Converteix una inspiració en un gest concret perquè no quedi només en una possibilitat bonica.
 
 ## Amor
-Comparteix el que sents amb senzillesa i permet que la resposta arribi al seu propi temps.
+Una mostra de tendresa sincera crearà proximitat sense necessitat de grans explicacions.
 
 ## Feina
-Converteix una idea inspirada en un esborrany o una nota concreta abans que es dispersi.
+Anota una idea creativa i concreta'n el primer pas abans que les urgències del dia la dilueixin.
 
 ## Benestar
-La música, l'aigua o una respiració lenta et poden ajudar a tornar al teu centre.
+Protegeix una estona de calma; la música o l'aigua t'ajudaran a recuperar energia emocional.
