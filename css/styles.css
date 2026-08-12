@@ -233,9 +233,10 @@ body::before {
     border-radius: 0;
   }
   .share-buttons button {
-    color: var(--paper);
-    background: transparent;
-    border-left: 1px solid rgba(243, 239, 229, .16);
+    color: var(--ink);
+    background: var(--paper);
+    border-left: 0;
+    border-radius: 50%;
   }
   .share-status { left: auto; right: 0; top: auto; bottom: calc(100% + 8px); transform: none; }
   .site-header .site-nav { display: none; }
