@@ -3,14 +3,14 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-08-13
+date: 2026-08-14
 order: 3
 color: Groc safrà
 number: "5"
 moment: Migdia
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous una conversa aparentment casual et donarà la dada que faltava per entendre una situació. Escolta fins al final i deixa reposar la informació abans de canviar els teus plans.
+Aquest divendres una conversa aparentment casual et donarà la dada que faltava per entendre una situació. Escolta fins al final i deixa reposar la informació abans de canviar els teus plans.
 
 Mercuri agilita contactes, missatges i aprenentatges, però pot omplir-te el dia de petites interrupcions. Agrupa les respostes i protegeix una franja de concentració sense notificacions.
 
