@@ -10,15 +10,15 @@ number: "2"
 moment: Vespre
 description: "Horòscop de Cranc avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous necessitaràs protegir una mica més el teu espai emocional. Atendre una necessitat pròpia no significa desentendre't dels altres; et permetrà respondre amb més serenitat.
+Aquest dijous una sensació que arrossegues des de fa dies començarà a tenir un nom més clar. Reconèixer-la et permetrà posar un límit amable i deixar de carregar una responsabilitat que no et correspon del tot.
 
-La Lluna afina la intuïció i et fa percebre allò que no es diu. Contrasta les impressions abans de treure conclusions i confia en una conversa pausada.
+La Lluna accentua la memòria i la necessitat de seguretat. Recupera una rutina que et feia bé, però evita interpretar el silenci d'algú com una resposta definitiva.
 
 ## Amor
-Posa paraules a una emoció sense esperar que l'altra persona l'endevini; la claredat acostarà posicions.
+Demana afecte o espai de manera concreta; avui les insinuacions poden generar més dubtes que proximitat.
 
 ## Feina
-Reserva el primer tram del dia per a una feina que requereixi concentració i discreció.
+Protegeix una estona per avançar en privat abans d'entrar en reunions o converses de grup.
 
 ## Benestar
-Endreçar un racó de casa o preparar un àpat reconfortant et donarà sensació de refugi.
+Un àpat senzill, una dutxa tranquil·la i menys soroll al vespre ajudaran el sistema nerviós a descansar.

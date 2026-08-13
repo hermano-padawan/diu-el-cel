@@ -10,15 +10,15 @@ number: "12"
 moment: Capvespre
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous una intuïció subtil t'ajudarà a entendre què necessita una situació abans de prendre cap decisió. Dona't temps per distingir la percepció pròpia de l'estat d'ànim dels altres.
+Aquest dijous captaràs un matís que altres persones poden passar per alt. Utilitza aquesta sensibilitat per comprendre, però no assumeixis com a pròpia una emoció que pertany a algú altre.
 
-Neptú potencia la imaginació i la sensibilitat artística, però també et demana arrelament. Converteix una inspiració en un gest concret perquè no quedi només en una possibilitat bonica.
+Neptú potencia la imaginació i et convida a donar forma a una idea inspiradora. Escriu-la, dibuixa-la o concreta'n una primera acció perquè no es dissolgui entre distraccions.
 
 ## Amor
-Una mostra de tendresa sincera crearà proximitat sense necessitat de grans explicacions.
+Una escolta atenta serà més valuosa que intentar trobar una solució immediata.
 
 ## Feina
-Anota una idea creativa i concreta'n el primer pas abans que les urgències del dia la dilueixin.
+Reserva una estona tranquil·la per a la part creativa i revisa després els detalls pràctics.
 
 ## Benestar
-Protegeix una estona de calma; la música o l'aigua t'ajudaran a recuperar energia emocional.
+L'aigua, la música i una estona de silenci t'ajudaran a separar cansament i emoció.

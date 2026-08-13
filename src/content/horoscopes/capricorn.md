@@ -10,15 +10,15 @@ number: "10"
 moment: Tarda
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous comprovaràs que un esforç sostingut comença a donar un resultat visible. Reconeix el progrés abans d'elevar de nou el llistó i defineix un següent pas que puguis mantenir.
+Aquest dijous una responsabilitat ben conduïda et permetrà guanyar marge i credibilitat. Abans d'afegir una nova meta, tanca un detall pendent que està ocupant més espai mental del que sembla.
 
-Saturn reforça la responsabilitat i la mirada a llarg termini. Posar un límit a una demanda externa protegirà el temps que necessites per complir una prioritat pròpia.
+Saturn posa l'accent en l'ús intel·ligent del temps. Delegar una part concreta no debilita el teu control; et permet reservar criteri per a les decisions importants.
 
 ## Amor
-Reserva una estona de qualitat sense convertir la trobada en una reunió de temes pendents.
+Deixa de posposar un moment de qualitat per culpa de les obligacions i fixa-li un espai real.
 
 ## Feina
-Mostra els resultats amb dades concretes i negocia un termini que no comprometi la qualitat.
+Presenta un resultat acabat i acompanya'l d'una proposta clara per al pas següent.
 
 ## Benestar
-Allibera l'agenda del vespre i prepara el descans amb la mateixa cura que una tasca important.
+Redueix el ritme abans del vespre i respecta una hora de descans sense negociacions.

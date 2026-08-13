@@ -10,15 +10,15 @@ number: "11"
 moment: Vespre
 description: "Horòscop d'Aquari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous una idea poc convencional pot resoldre un problema que els mètodes habituals no han pogut moure. Comparteix-la amb senzillesa i acompanya-la d'un exemple perquè els altres en vegin el potencial.
+Aquest dijous una connexió inesperada unirà dues idees que fins ara semblaven separades. Comparteix la conclusió amb claredat i escolta les objeccions: poden ajudar-te a convertir una intuïció en una proposta viable.
 
-Urà activa la innovació i les connexions inesperades. Mantén flexibilitat davant d'un canvi de plans: pot acostar-te a una persona o un recurs valuós.
+Urà estimula la creativitat i els canvis de perspectiva. Modifica un procediment petit abans de voler transformar tot el sistema i observa què funciona de debò.
 
 ## Amor
-Respectar els espais individuals farà que una trobada posterior sigui més autèntica i animada.
+Una conversa sense guió revelarà un interès compartit i renovarà la complicitat.
 
 ## Feina
-Prova una eina o un procediment diferent a petita escala abans de proposar-ne l'adopció general.
+Proposa una prova limitada, amb criteris clars, per demostrar el valor d'una idea nova.
 
 ## Benestar
-Desconnecta de les pantalles i busca aire lliure per equilibrar l'excés d'activitat mental.
+Allunya't una estona del soroll digital i busca moviment, aire i una mirada llunyana.

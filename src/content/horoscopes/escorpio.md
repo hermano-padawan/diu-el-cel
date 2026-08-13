@@ -10,15 +10,15 @@ number: "8"
 moment: Nit
 description: "Horòscop d'Escorpí avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous descobriràs una motivació que fins ara quedava amagada darrere d'una situació confusa. Utilitza aquesta comprensió per decidir, no per alimentar sospites o revisar el passat.
+Aquest dijous una informació parcial pot despertar la teva curiositat, però no convé completar els buits amb sospites. Fes la pregunta necessària i reserva la teva energia per a allò que puguis transformar de debò.
 
-Plutó intensifica la capacitat de concentració i et dona força per tallar un hàbit poc útil. La transformació serà més efectiva si comença amb un compromís petit però ferm.
+Plutó afavoreix una revisió profunda d'hàbits i compromisos. Elimina una obligació que ja no té sentit i concentra't en un objectiu que requereix constància.
 
 ## Amor
-Comparteix una inquietud sense posar a prova l'altra persona; la confiança creixerà amb transparència.
+Explica una por sense disfressar-la de distància; la vulnerabilitat obrirà una conversa més neta.
 
 ## Feina
-Investiga l'origen d'una errada abans de corregir-ne només els efectes visibles.
+Treballa a fons en una incidència concreta i documenta la solució perquè no es repeteixi.
 
 ## Benestar
-Una activitat física intensa o una estona d'aigua t'ajudaran a descarregar tensió acumulada.
+Mou el cos amb intensitat moderada i evita endur-te al llit converses que encara estan obertes.

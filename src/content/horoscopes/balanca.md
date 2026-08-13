@@ -10,15 +10,15 @@ number: "7"
 moment: Capvespre
 description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous hauràs de triar entre mantenir la comoditat o expressar una preferència real. Dir el que vols amb tacte evitarà que un acord aparent acabi pesant-te més endavant.
+Aquest dijous una decisió compartida et demanarà menys diplomàcia automàtica i més honestedat serena. Abans de buscar un punt mig, identifica què és realment important per a tu i què pots cedir sense ressentiment.
 
-Venus afavoreix la diplomàcia i les trobades agradables, però et recorda que l'harmonia també necessita límits clars. Busca un equilibri que sigui sostenible.
+Venus facilita els acords quan les expectatives es posen sobre la taula. Una resposta amable però definida evitarà que una qüestió menor torni a aparèixer més endavant.
 
 ## Amor
-Proposa un pla que us vingui de gust a tots dos i evita acceptar-lo només per no discutir.
+Tria una proposta que també t'il·lusioni a tu; agradar no ha de significar renunciar sempre.
 
 ## Feina
-Una mediació teva pot desbloquejar el grup si separes els fets de les preferències personals.
+Ordena les prioritats d'una conversa de grup i concreta qui assumeix cada pas.
 
 ## Benestar
-La música, l'art o una passejada tranquil·la t'ajudaran a recuperar el teu centre.
+Un espai visualment ordenat i una estona de música suau t'ajudaran a baixar revolucions.

@@ -10,15 +10,15 @@ number: "9"
 moment: Tarda
 description: "Horòscop de Lleó avui en català: predicció diària d'amor, feina i benestar."
 ---
-Amb el Sol al teu signe, aquest dijous recuperes confiança en una decisió personal. Mostra la teva idea amb entusiasme, però deixa espai perquè els altres hi aportin una mirada útil.
+Amb el Sol al teu signe, aquest dijous tens llum per mostrar una idea que mereix més espai. Presenta-la amb confiança i sense exagerar-ne els resultats: la solidesa parlarà millor que qualsevol efecte teatral.
 
-La creativitat creix quan et permets provar sense exigir un resultat perfecte. Un reconeixement sincer cap a algú del teu entorn generarà una resposta especialment positiva.
+La creativitat augmenta quan deixes de buscar aprovació immediata. Un projecte personal pot avançar molt si li dediques una hora sencera abans de compartir-lo.
 
 ## Amor
-Comparteix un desig amb naturalitat i escolta què necessita l'altra persona per sentir-se inclosa.
+Un compliment sincer o una invitació espontània reactivarà la complicitat sense forçar cap escena.
 
 ## Feina
-La teva capacitat de motivar serà clau; presenta l'objectiu i reparteix bé el protagonisme.
+Assumeix visibilitat en una presentació, però reconeix de manera explícita la feina de l'equip.
 
 ## Benestar
-Busca una activitat lúdica al vespre i hidrata't bé durant les hores de més calor.
+Evita omplir totes les hores; una estona lúdica i una bona hidratació et retornaran vitalitat.

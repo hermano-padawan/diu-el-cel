@@ -10,15 +10,15 @@ number: "4"
 moment: Capvespre
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous una qüestió pràctica començarà a encaixar després d'uns dies de dubtes. Avança sense presses i comprova que les condicions siguin clares abans de comprometre temps o diners.
+Aquest dijous recuperaràs estabilitat quan posis ordre en una qüestió material que havia quedat a mig decidir. No necessites una solució espectacular: una opció clara i sostenible et donarà més tranquil·litat.
 
-Venus afavoreix els acords estables i els gestos que transmeten confiança. La constància serà el teu millor argument davant d'una proposta que encara necessita madurar.
+Venus afavoreix els acords que es construeixen amb fets i no només amb bones intencions. Observa qui manté la paraula i evita assumir una despesa o un compromís per simple inèrcia.
 
 ## Amor
-Un gest de cura quotidià dirà més que una promesa gran; deixa que l'afecte es noti en els detalls.
+Compartir temps sense presses reforçarà un vincle i farà més fàcil parlar d'un tema pendent.
 
 ## Feina
-Revisa terminis i recursos abans d'acceptar una responsabilitat nova; la previsió et donarà marge.
+Una revisió de pressupost o calendari revelarà un marge que encara no havies tingut en compte.
 
 ## Benestar
-Menja amb calma i busca un entorn agradable que t'ajudi a baixar el ritme al final del dia.
+Cuida els horaris dels àpats i reserva uns minuts per estirar el cos després d'estar massa estona assegut.

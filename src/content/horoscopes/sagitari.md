@@ -10,15 +10,15 @@ number: "3"
 moment: Migdia
 description: "Horòscop de Sagitari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dijous una proposta inesperada despertarà les teves ganes de canvi. Explora-la amb il·lusió, però pregunta pels detalls pràctics abans d'organitzar tot el futur al seu voltant.
+Aquest dijous les ganes d'ampliar horitzons trobaran una via concreta. Una conversa, una lectura o un canvi de recorregut pot donar-te una idea útil si mantens els peus en el present.
 
-Júpiter amplia les perspectives i afavoreix l'aprenentatge, els contactes llunyans i les idees valentes. La millor oportunitat serà la que també respecti els teus compromisos actuals.
+Júpiter afavoreix la iniciativa i l'aprenentatge, però et demana mesura amb les promeses. Explora una oportunitat sense desatendre el compromís que ja tens entre mans.
 
 ## Amor
-Una aventura compartida, encara que sigui petita, retornarà frescor a una relació.
+Canviar la rutina amb un pla senzill aportarà aire nou i una conversa més espontània.
 
 ## Feina
-Escolta una oferta o un enfocament nou sense prometre una resposta immediata.
+Pregunta per les condicions completes abans d'acceptar una proposta que sona estimulant.
 
 ## Benestar
-Canvia de recorregut, camina una mica més i busca un horitzó ampli per ordenar els pensaments.
+Busca moviment a l'aire lliure i deixa una franja del dia sense una agenda tancada.
