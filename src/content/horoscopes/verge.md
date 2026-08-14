@@ -3,22 +3,22 @@ name: Verge
 symbol: ♍
 element: Terra
 dates: 23 agost — 22 setembre
-date: 2026-08-14
+date: 2026-08-15
 order: 6
 color: Beix
 number: "6"
 moment: Matí
 description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest divendres detectaràs una errada o una incoherència abans que es converteixi en un problema. Corregeix-la amb discreció i no et castiguis per no haver-la vist abans: el valor és haver-hi arribat a temps.
+Aquest dissabte descansaràs millor si deixes de mesurar el dia només pel que has produït. Endreçar una mica et donarà calma, però posa un límit clar perquè la necessitat d'ordre no es mengi el temps lliure.
 
-Mercuri afavoreix l'ordre pràctic i les converses precises. Redueix una llista massa llarga a tres accions realistes i deixa espai per als imprevistos.
+Mercuri afavoreix les tasques manuals, la lectura i les converses útils. Una solució senzilla apareixerà quan acceptis que no tot necessita quedar perfecte abans de poder-se gaudir.
 
 ## Amor
-No busquis una explicació perfecta per a cada gest; pregunta amb calma abans d'interpretar.
+Comparteix una preocupació sense presentar-la ja resolta; permet que l'altra persona també hi aporti cura.
 
 ## Feina
-Revisa documents, xifres o terminis al matí; la teva precisió evitarà una correcció posterior.
+Apunta una millora que has detectat, però espera a la setmana vinent per convertir-la en un nou sistema.
 
 ## Benestar
-Fes pauses curtes i regulars, especialment si passes moltes hores concentrat o davant d'una pantalla.
+Una rutina curta d'estiraments i un àpat sense presses t'ajudaran a baixar el nivell d'exigència.

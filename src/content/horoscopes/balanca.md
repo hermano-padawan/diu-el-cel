@@ -3,22 +3,22 @@ name: Balança
 symbol: ♎
 element: Aire
 dates: 23 setembre — 22 octubre
-date: 2026-08-14
+date: 2026-08-15
 order: 7
 color: Rosa antic
 number: "7"
 moment: Capvespre
 description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest divendres una decisió compartida et demanarà menys diplomàcia automàtica i més honestedat serena. Abans de buscar un punt mig, identifica què és realment important per a tu i què pots cedir sense ressentiment.
+Aquest dissabte trobaràs equilibri quan combinis un pla social amb una estona només per a tu. No cal escollir entre complaure els altres i cuidar-te: una agenda més clara pot donar cabuda a totes dues coses.
 
-Venus facilita els acords quan les expectatives es posen sobre la taula. Una resposta amable però definida evitarà que una qüestió menor torni a aparèixer més endavant.
+Venus afavoreix la bellesa, la conversa i els petits acords. Canviar d'ambient o visitar un lloc agradable renovarà l'ànim, sempre que no esperis que el pla sigui perfecte.
 
 ## Amor
-Tria una proposta que també t'il·lusioni a tu; agradar no ha de significar renunciar sempre.
+Expressa la teva preferència abans que l'altra persona decideixi per tots dos; serà ben rebuda.
 
 ## Feina
-Ordena les prioritats d'una conversa de grup i concreta qui assumeix cada pas.
+Deixa en pausa una negociació que necessita més dades; avui una mica de distància aportarà perspectiva.
 
 ## Benestar
-Un espai visualment ordenat i una estona de música suau t'ajudaran a baixar revolucions.
+L'art, la música o una conversa serena et retornaran al centre després d'una setmana intensa.
