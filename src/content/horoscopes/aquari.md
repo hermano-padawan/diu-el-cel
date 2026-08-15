@@ -3,22 +3,22 @@ name: Aquari
 symbol: ♒
 element: Aire
 dates: 20 gener — 18 febrer
-date: 2026-08-15
+date: 2026-08-16
 order: 11
-color: Blau elèctric
-number: "11"
-moment: Vespre
+color: Turquesa
+number: "6"
+moment: Tarda
 description: "Horòscop d'Aquari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dissabte et vindrà de gust sortir de la rutina i envoltar-te de persones amb qui puguis ser tu mateix. Un pla poc convencional funcionarà especialment bé si deixes marge perquè cadascú hi participi a la seva manera.
+Aquest diumenge necessitaràs combinar connexió i independència. Participa en els plans que t'inspirin, però reserva un espai propi per ordenar les idees que han aparegut durant la setmana i decidir quines vols alimentar.
 
-Urà desperta idees originals i contactes inesperats. Una conversa en grup pot ajudar-te a veure una possibilitat que sol no hauries considerat, però no necessites convertir-la immediatament en un projecte.
+Urà afavoreix una mirada nova sobre un costum antic. Provar una manera diferent d'organitzar-te pot resultar alliberador, sempre que donis temps al canvi abans de jutjar si funciona.
 
 ## Amor
-Respectar la llibertat mútua farà que la proximitat sigui més sincera i menys previsible.
+Compartir una idea inesperada obrirà una conversa íntima que trencarà una distància recent.
 
 ## Feina
-Una idea compartida avui pot madurar bé; guarda les notes i evita discutir-ne encara tots els detalls.
+Anota una innovació, però comprova demà com encaixa amb les necessitats reals de l'equip.
 
 ## Benestar
-Combina vida social i desconnexió digital perquè el cap no acabi saturat d'estímuls.
+Alterna la vida social amb una estona sense connexió per recuperar claredat mental.

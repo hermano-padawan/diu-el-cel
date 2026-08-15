@@ -3,22 +3,22 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-08-15
+date: 2026-08-16
 order: 10
-color: Carbó
-number: "10"
-moment: Tarda
+color: Marró terra
+number: "4"
+moment: Capvespre
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dissabte descobriràs que descansar també pot ser una decisió responsable. Completa només allò que realment no pot esperar i protegeix la resta del dia de la tendència a convertir cada estona lliure en una tasca.
+Aquest diumenge sentiràs la temptació d'avançar feina per tenir-ho tot sota control. Abans de començar, pregunta't si la tasca et donarà pau real o només alimentarà la sensació que mai no n'hi ha prou.
 
-Saturn t'ajuda a ordenar prioritats i a valorar els resultats duradors. Una conversa familiar o una decisió domèstica avançarà si abandones el paper de qui ha de tenir totes les respostes.
+Saturn afavoreix una planificació sòbria i sostenible. Posar per escrit els compromisos essencials t'ajudarà a protegir també els espais de descans, afecte i vida personal durant la setmana.
 
 ## Amor
-Mostra afecte reservant temps de veritat, sense mirar el rellotge ni parlar només de responsabilitats.
+Deixa que una persona propera t'ajudi sense corregir la seva manera de fer les coses.
 
 ## Feina
-Deixa anotada una prioritat per dilluns i tanca la porta mental de la feina fins aleshores.
+Tria l'objectiu principal de demà i evita carregar l'agenda amb compromisos secundaris.
 
 ## Benestar
-El cos et demanarà son, menjar regular i menys tensió a les espatlles; escolta'l abans que insisteixi.
+El descans profund serà més productiu que qualsevol avanç extra; prepara una nit tranquil·la.
