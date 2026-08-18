@@ -3,22 +3,22 @@ name: Àries
 symbol: ♈
 element: Foc
 dates: 21 març — 19 abril
-date: 2026-08-17
+date: 2026-08-18
 order: 1
-color: Granat
-number: "5"
-moment: Matí
+color: Vermell robí
+number: "9"
+moment: Migdia
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dilluns començaràs amb una energia decidida que et permetrà desbloquejar una qüestió pendent. Avança amb fermesa, però comprova el terreny abans d'accelerar: una pausa breu evitarà haver de corregir després allò que podies preveure.
+Aquest dimarts et trobaràs davant d'una oportunitat per demostrar iniciativa sense haver d'assumir-ho tot. El repte serà distingir entre actuar amb decisió i respondre per impuls; comptar fins a deu et donarà l'avantatge que necessites.
 
-Mart reforça la iniciativa i la capacitat de defensar una proposta. Si transformes la impaciència en una acció concreta, arribaràs al migdia amb una sensació d'avenç que facilitarà la resta de la jornada.
+Mart afavoreix les accions breus i ben dirigides. Una gestió que semblava encallada avançarà quan parlis amb la persona adequada, especialment si presentes una solució i no només la teva impaciència.
 
 ## Amor
-Una conversa directa aclarirà una expectativa i deixarà més espai per a la complicitat.
+Baixa les defenses durant una conversa íntima; escoltar no farà que perdis força ni autonomia.
 
 ## Feina
-Comença per la tasca que depèn només de tu i comunica aviat qualsevol canvi de termini.
+Defensa una proposta amb dades concretes i evita interrompre qui encara està exposant el seu punt.
 
 ## Benestar
-Descarrega tensió amb moviment i evita encadenar el dia sencer sense pauses reals.
+Alterna intensitat i descans; el cos t'avisarà aviat si estàs forçant més del compte.

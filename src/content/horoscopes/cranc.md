@@ -3,22 +3,22 @@ name: Cranc
 symbol: ♋
 element: Aigua
 dates: 21 juny — 22 juliol
-date: 2026-08-17
+date: 2026-08-18
 order: 4
-color: Blau perla
-number: "9"
-moment: Vespre
+color: Plata
+number: "3"
+moment: Capvespre
 description: "Horòscop de Cranc avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dilluns notaràs de seguida l'estat d'ànim del teu entorn, però no tot el que perceps et correspon. Centra't en les responsabilitats pròpies i deixa que els altres expressin què necessiten abans d'avançar-te a cuidar-los.
+Aquest dimarts necessitaràs una base emocional estable abans d'afrontar una conversa exigent. Dona't uns minuts per ordenar què sents i què vols demanar; aquesta preparació evitarà que la sensibilitat es converteixi en susceptibilitat.
 
-La Lluna intensifica la intuïció i també la necessitat de seguretat. Crear una rutina clara per a l'inici de setmana et permetrà actuar amb més confiança sense tancar-te davant d'una proposta inesperada.
+La Lluna posa el focus en els límits familiars i en la manera com reparteixes les cures. Un canvi petit en una rutina domèstica pot alleugerir una càrrega que havies normalitzat sense adonar-te'n.
 
 ## Amor
-Demana afecte de manera concreta en lloc d'esperar que algú interpreti el teu silenci.
+Explica què t'ha afectat sense convertir una emoció passatgera en una conclusió definitiva.
 
 ## Feina
-Protegeix la concentració d'un ambient tens i limita les converses que no porten a cap acord.
+Treballa des d'un espai tranquil i demana instruccions clares abans de refer una tasca.
 
 ## Benestar
-Una pausa tranquil·la al final de la tarda t'ajudarà a separar les emocions pròpies de les alienes.
+Cuina alguna cosa nutritiva o ordena un racó de casa per recuperar sensació de refugi.

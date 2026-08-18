@@ -3,22 +3,22 @@ name: Sagitari
 symbol: ♐
 element: Foc
 dates: 22 novembre — 21 desembre
-date: 2026-08-17
+date: 2026-08-18
 order: 9
-color: Violeta
-number: "4"
-moment: Migdia
+color: Blau indi
+number: "2"
+moment: Matí
 description: "Horòscop de Sagitari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dilluns necessitaràs veure sentit en allò que fas, no només completar una llista. Relacionar una tasca quotidiana amb un objectiu més ampli et retornarà la motivació i t'ajudarà a sostenir millor els detalls menys estimulants.
+Aquest dimarts una idea d'expansió començarà a semblar més viable. Mantén l'entusiasme, però investiga els requisits menys visibles abans de comprometre temps o diners; la llibertat creix quan les bases estan ben calculades.
 
-Júpiter afavoreix l'aprenentatge, els contactes llunyans i les idees amb recorregut. Una oportunitat pot semblar prometedora, però pregunta per les condicions concretes abans de donar per fet que encaixa amb els teus plans.
+Júpiter facilita els contactes amb persones d'altres entorns i una visió optimista del futur. Una conversa et mostrarà una ruta alternativa que val la pena explorar sense abandonar encara el pla principal.
 
 ## Amor
-Compartir una il·lusió renovarà l'ànim, sempre que també escoltis els dubtes de l'altra persona.
+Improvisa una trobada, però confirma abans que l'altra persona disposa del mateix temps que tu.
 
 ## Feina
-Fixa una meta ambiciosa i divideix-la en un primer pas que puguis completar avui mateix.
+Aprèn una eina o un concepte que ampliï opcions, encara que avui només puguis dedicar-hi mitja hora.
 
 ## Benestar
-Una caminada a l'aire lliure aclarirà la ment i moderarà l'excés d'optimisme nerviós.
+Canvia d'escenari durant una pausa i estira les cames per recuperar perspectiva.

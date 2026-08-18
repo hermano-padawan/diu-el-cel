@@ -3,22 +3,22 @@ name: Lleó
 symbol: ♌
 element: Foc
 dates: 23 juliol — 22 agost
-date: 2026-08-17
+date: 2026-08-18
 order: 5
-color: Daurat
-number: "6"
-moment: Tarda
+color: Ambre
+number: "1"
+moment: Migdia
 description: "Horòscop de Lleó avui en català: predicció diària d'amor, feina i benestar."
 ---
-Amb el Sol al teu signe, aquest dilluns tindràs una presència difícil d'ignorar. Utilitza-la per impulsar una iniciativa compartida i no només per demostrar què pots fer: el reconeixement arribarà quan ajudis el conjunt a avançar.
+Amb el Sol encara al teu signe, aquest dimarts et serà fàcil contagiar confiança. El millor resultat arribarà si utilitzes aquesta llum per fer visible una contribució compartida i reconèixer també qui ha treballat lluny del focus.
 
-La creativitat estarà especialment activa i pot donar una resposta elegant a un problema pràctic. Presenta la idea amb entusiasme, però deixa marge perquè altres persones hi incorporin la seva experiència.
+Una idea creativa necessita ara una estructura concreta per prosperar. Marca un primer termini assumible i permet que la inspiració evolucioni sense exigir que la versió inicial sigui perfecta.
 
 ## Amor
-Mostrar vulnerabilitat acostarà més que intentar mantenir una imatge impecable durant tot el dia.
+Un elogi sincer obrirà la porta a una conversa afectuosa que tots dos necessitàveu.
 
 ## Feina
-Assumeix el lideratge d'una tasca concreta i reparteix la resta sense voler controlar cada detall.
+Presenta el teu treball amb confiança, però prepara una resposta serena per a les observacions útils.
 
 ## Benestar
-Regula l'exigència, hidrata't bé i reserva un moment de calma abans del vespre.
+Protegeix-te de la calor, hidrata't sovint i reserva energia per al final del dia.
