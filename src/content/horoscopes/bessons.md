@@ -3,22 +3,22 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-08-19
+date: 2026-08-20
 order: 3
-color: Groc daurat
-number: "6"
-moment: Migdia
+color: Blau cel
+number: "7"
+moment: Tarda
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimecres rebràs informació de diverses fonts i hauràs de separar el que és urgent del que només és soroll. Fer una llista curta de preguntes t'ajudarà a obtenir respostes útils sense dispersar-te.
+Aquest dijous una coincidència o un missatge inesperat obrirà una conversa interessant. Explora-la amb curiositat, però anota el compromís principal del dia perquè la novetat no t'allunyi del que ja havies promès.
 
-Mercuri afavoreix les reunions, els escrits i els aprenentatges ràpids. Una idea que expliques de manera informal pot despertar un aliat inesperat; concreta el següent pas abans que l'entusiasme es dilueixi.
+Mercuri dona agilitat a les paraules i facilita les connexions entre idees. Seràs especialment convincent si redueixes l'explicació a tres punts i deixes que les preguntes guiïn la resta de la conversa.
 
 ## Amor
-Parlar sense mirar el telèfon demostrarà un interès que l'altra persona trobarà especialment valuós.
+Una pregunta juganera trencarà la rutina; evita convertir una diferència petita en un debat que calgui guanyar.
 
 ## Feina
-Agrupa missatges i consultes en lloc de permetre que fragmentin tota la teva jornada.
+Envia el resum pendent i assigna una persona responsable a cada pas per evitar confusions.
 
 ## Benestar
-Descansa els ulls i busca uns minuts de silenci per baixar l'activitat mental.
+Redueix la cafeïna a la tarda i reserva deu minuts sense notificacions per ordenar els pensaments.
