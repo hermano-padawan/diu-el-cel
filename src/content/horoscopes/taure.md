@@ -3,22 +3,22 @@ name: Taure
 symbol: ♉
 element: Terra
 dates: 20 abril — 20 maig
-date: 2026-08-21
+date: 2026-08-22
 order: 2
-color: Verd bosc
-number: "7"
-moment: Vespre
+color: Verd oliva
+number: "2"
+moment: Tarda
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest divendres una millora petita en la teva rutina tindrà efectes més grans del que sembla. Fes-la prou senzilla perquè puguis mantenir-la també la setmana vinent, sense dependre d'una motivació extraordinària.
+Aquest dissabte trobaràs benestar en els plaers senzills i en un ritme que no necessiti justificació. Ordenar un espai, preparar un bon àpat o passejar sense pressa et retornarà una estabilitat que trobaves a faltar.
 
-Venus afavoreix la comoditat i la confiança en els vincles estables. També et recorda que conservar no significa quedar-te immòbil: un ajust prudent pot protegir millor allò que valores.
+Venus afavoreix la sensualitat, la bellesa i els gestos concrets. Dedica atenció a una cosa que valores, però evita gastar només per compensar el cansament o millorar momentàniament l'ànim.
 
 ## Amor
-Una mostra de gratitud quotidiana tindrà més pes que buscar el moment perfecte per a una gran sorpresa.
+El contacte, la presència i una conversa sense rellotge reforçaran un vincle estable.
 
 ## Feina
-Ordena números, factures o materials pendents i tancaràs la setmana amb més tranquil·litat.
+Si revises una despesa, fes-ho amb serenitat i sense convertir el dissabte en una auditoria.
 
 ## Benestar
-Prioritza una alimentació regular i una nit tranquil·la per recuperar energia.
+Menja amb calma, descansa els sentits i busca una activitat agradable a l'aire lliure.

@@ -3,22 +3,22 @@ name: Peixos
 symbol: ♓
 element: Aigua
 dates: 19 febrer — 20 març
-date: 2026-08-21
+date: 2026-08-22
 order: 12
-color: Verd aigua
-number: "12"
-moment: Nit
+color: Lila marí
+number: "5"
+moment: Vespre
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest divendres una intuïció sobre una persona es confirmarà només en part. Evita omplir els buits amb imaginació i dona espai perquè els fets completin la història; la sensibilitat funciona millor quan camina al costat de la paciència.
+Aquest dissabte la intuïció serà especialment fina quan el soroll exterior disminueixi. Escolta el que sents, però no assumeixis que cada emoció és un missatge o una responsabilitat que hagis de resoldre.
 
-Neptú potencia la creativitat i l'empatia. Un moment artístic o contemplatiu t'ajudarà a processar emocions que encara no pots explicar, però després necessitaràs una acció concreta per recuperar direcció.
+Neptú afavoreix la música, els somnis i la creativitat sense objectiu. Dedicar temps a imaginar o crear sense buscar cap resultat et retornarà una inspiració que la rutina havia apagat.
 
 ## Amor
-No confonguis protegir la pau amb evitar un tema; parla'n quan tinguis paraules clares.
+Posa un límit amb tendresa; cuidar el vincle també significa protegir la teva energia.
 
 ## Feina
-Acaba una tasca pràctica abans de deixar que la imaginació et porti cap a un projecte nou.
+Deixa reposar una idea fins dilluns abans d'explicar-la o convertir-la en compromís.
 
 ## Benestar
-L'aigua, la música i un descans llarg t'ajudaran a recuperar el teu centre.
+El silenci, l'aigua i una migdiada breu t'ajudaran a tornar al teu centre.
