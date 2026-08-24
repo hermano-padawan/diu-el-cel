@@ -3,22 +3,22 @@ name: Escorpí
 symbol: ♏
 element: Aigua
 dates: 23 octubre — 21 novembre
-date: 2026-08-23
+date: 2026-08-24
 order: 8
 color: Negre blavós
 number: "5"
 moment: Nit
 description: "Horòscop d'Escorpí avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest diumenge una certesa interior et permetrà deixar de buscar confirmacions externes. No cal que expliquis encara cada conclusió; utilitza la claredat per canviar una conducta pròpia i observa què es transforma al teu voltant.
+Aquest dilluns percebràs amb rapidesa el que no s'està dient en una conversa. Utilitza aquesta intuïció per formular una pregunta honesta, no per completar els buits amb sospites; la resposta pot ser molt més simple del que imagines.
 
-Plutó afavoreix la renovació discreta i l'ús conscient dels recursos. Revisar una subscripció, un compromís o un objecte que ja no fas servir alliberarà espai pràctic i emocional.
+Plutó afavoreix la concentració profunda i la revisió d'assumptes sensibles. Dedica una estona limitada a resoldre'n un i tanca'l abans que absorbeixi tota l'energia del dia.
 
 ## Amor
-Evita posar a prova la lleialtat d'algú; demana directament la seguretat que necessites.
+Mostra vulnerabilitat sense convertir-la en una prova que l'altra persona hagi de superar.
 
 ## Feina
-No reprenguis avui un conflicte laboral; anota el fet concret que voldràs abordar demà.
+Protegeix la informació confidencial i comparteix només el necessari amb cada interlocutor.
 
 ## Benestar
-Respira profundament, mou el cos i dona a la ment un final de dia silenciós.
+Descarrega la tensió amb exercici moderat i una dutxa relaxant al vespre.
