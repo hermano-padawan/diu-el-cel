@@ -10,15 +10,15 @@ number: "8"
 moment: Vespre
 description: "Horòscop de Cranc avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un familiar et demanarà ajuda avui. Escolta'l, però no li resolguis tot.
+Un familiar et demanarà ajuda amb un pla o una gestió. Escolta'l amb calma, però deixa que també faci la seva part.
 
-Hi haurà un petit canvi de plans a casa. Compra només el que falti. No carreguis el rebost per nervis.
+A casa pot haver-hi un canvi d'horaris aquesta tarda. Confirma qui arriba a sopar abans de comprar; no cal alimentar mig barri.
 
 ## Amor
-Parla del que va passar ahir. Evita treure temes antics.
+Si alguna cosa d'ahir encara et molesta, parla'n avui. Explica el fet concret i deixa les discussions antigues al calaix.
 
 ## Feina
-Guarda una còpia d'aquell document abans de modificar-lo.
+Guarda una còpia d'aquell document abans de modificar-lo. Un petit error serà molt fàcil de solucionar així.
 
 ## Benestar
-Sopa aviat i apaga la pantalla mitja hora abans.
+Sopa una mica abans i apaga la pantalla mitja hora abans de dormir. Aquell últim capítol continuarà disponible demà.

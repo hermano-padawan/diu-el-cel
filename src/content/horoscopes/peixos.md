@@ -10,15 +10,15 @@ number: "11"
 moment: Nit
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Algú et demanarà un favor amb poca antelació. Mira l'agenda abans de respondre.
+Algú et demanarà un favor amb poca antelació. Mira l'agenda abans de respondre i proposa una hora que et vagi bé.
 
-A la tarda trobaràs una foto o un missatge antic. Pot donar-te ganes de recuperar un contacte. Escriu només si realment et ve de gust.
+A la tarda pots trobar una foto o un missatge antic. Si et ve de gust recuperar aquell contacte, escriu-li sense preparar una novel·la.
 
 ## Amor
-Digues clarament quin pla et faria il·lusió aquest vespre.
+Digues clarament quin pla et faria il·lusió aquest vespre. Algú pot sorprendre't i acceptar-lo de seguida.
 
 ## Feina
-Posa una hora límit a aquella tasca. Després envia-la.
+Posa una hora límit a aquella tasca que sempre retoques. Quan arribi, envia-la i deixa-la respirar.
 
 ## Benestar
-Beu més aigua i sopa lleuger. Avui ho notaràs.
+Porta una ampolla d'aigua si has de sortir. Al vespre agrairàs haver-te'n recordat.

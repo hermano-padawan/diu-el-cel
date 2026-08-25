@@ -10,15 +10,15 @@ number: "4"
 moment: Tarda
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Mira el compte abans de fer aquella compra. Pot aparèixer una despesa inesperada.
+Avui pot arribar una invitació per sopar o sortir. Mira l'agenda abans de respondre, perquè el pla valdrà la pena.
 
-Algú et proposarà un pla per al cap de setmana. Accepta'l si el preu encaixa. Et convé sortir de casa.
+Si has de comprar alguna cosa cara, compara dos preus abans de pagar. La targeta agrairà aquest petit gest d'afecte.
 
 ## Amor
-Proposa un sopar tranquil. No cal preparar res especial.
+Proposa un sopar tranquil i deixa que l'altra persona triï el lloc. Una conversa agradable pot allargar-se més del previst.
 
 ## Feina
-Demana el termini exacte abans d'acceptar més feina.
+Et demanaran ajuda amb una feina que sembla curta. Pregunta el termini i què esperen exactament abans d'acceptar-la.
 
 ## Benestar
-Aixeca't de la cadira cada hora. El coll ho notarà.
+Aixeca't de la cadira cada hora i mou una mica les espatlles. El coll ja fa estona que presenta queixes.

@@ -10,15 +10,15 @@ number: "6"
 moment: Matí
 description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-La llista del dia serà més llarga del previst. Tria només tres prioritats.
+La llista del dia serà més llarga del que esperaves. Tria tres prioritats i comença per la que depèn només de tu.
 
-Un client o company canviarà una instrucció. Demana que te l'enviï per escrit. Així evitaràs repetir la feina.
+Un client pot canviar una instrucció a mig matí. Demana que te l'enviï per escrit i evitaràs repetir la feina després.
 
 ## Amor
-No corregeixis cada paraula. Escolta el que realment vol explicar-te.
+Avui no corregeixis cada paraula de l'altra persona. Escolta què intenta explicar-te; no és un examen de gramàtica.
 
 ## Feina
-Revisa noms i xifres abans d'enviar aquell correu.
+Revisa els noms i les xifres abans d'enviar aquell correu. Una errada petita podria portar una trucada innecessària.
 
 ## Benestar
-Prepara un dinar senzill. Avui et convé menjar sense presses.
+Prepara un dinar senzill i reserva prou temps per menjar assegut. Treballar amb la forquilla a la mà no compta com a pausa.

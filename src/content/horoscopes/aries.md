@@ -10,15 +10,15 @@ number: "7"
 moment: Matí
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Avui rebràs una resposta que esperaves. Llegeix-la sencera abans de contestar.
+Avui el teu cap pot demanar-te una resposta més ràpida del compte. Abans de dir que sí, pregunta quin termini necessita de veritat.
 
-Un company voldrà fer les coses a la seva manera. No discutiu per WhatsApp. Parleu-ne cinc minuts cara a cara.
+Un company defensarà una idea diferent durant una reunió. Escolta'l fins al final; pot tenir just la dada que et faltava.
 
 ## Amor
-Escriu a aquella persona. Avui podria respondre amb més interès.
+Tens ganes d'escriure a aquella persona? Doncs fes-ho avui. I no, mirar si està en línia no farà que respongui abans.
 
 ## Feina
-Acaba la tasca curta que arrossegues des d'ahir.
+Acaba la tasca curta que arrossegues des d'ahir. Et deixarà espai per a un encàrrec nou a la tarda.
 
 ## Benestar
-Camina vint minuts després de dinar. Et baixarà el nerviosisme.
+Surt a caminar després de dinar, encara que només siguin vint minuts. Tornaràs amb menys pressa i més bon humor.

@@ -10,15 +10,15 @@ number: "5"
 moment: Migdia
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Escolta la conversa dels companys durant el cafè. Algú donarà una idea útil.
+Escolta què comenten els companys durant el cafè. Algú pot mencionar una eina o un contacte que et servirà aviat.
 
-T'arribaran molts missatges alhora. Respon primer els importants. Un dels altres pot esperar fins al vespre.
+El mòbil estarà especialment animat aquest matí. Respon primer els missatges importants i deixa els grups per després; sobreviuran sense tu una estona.
 
 ## Amor
-Pregunta directament què vol fer l'altra persona aquesta nit.
+Pregunta directament què vol fer l'altra persona aquesta nit. La resposta pot ser més espontània i divertida del que esperes.
 
 ## Feina
-Apunta aquella idea de negoci. Demà encara et semblarà bona.
+Apunta aquella idea que apareixerà enmig d'una conversa qualsevol. Demà podràs comprovar si també funciona sobre el paper.
 
 ## Benestar
-Deixa el mòbil lluny mentre menges. Necessites aquesta pausa.
+Deixa el mòbil lluny mentre menges i parla amb qui tinguis al costat. Els vídeos curts poden esperar, encara que no ho sembli.

@@ -1,40 +1,60 @@
-# Veu editorial — Diu el Cel
+# Prompt editorial — Diu el Cel
 
-Tots els horòscops de Diu el Cel han de ser fàcils de llegir, concrets, quotidians i útils. El lector ha de rebre petites pistes per al seu dia, no reflexions filosòfiques ni consells abstractes.
+Diu el Cel sona com algú proper que coneix una mica el lector, li dona pistes sobre el dia i, de tant en tant, li fa un comentari còmplice.
 
-## Principi principal
+El to és **clar, quotidià, conversacional, desenfadat, còmplice i lleugerament juganer**. No ha de sonar místic, solemne, filosòfic ni com una llista telegràfica d'ordres.
 
-Si un consell no es pot imaginar com una escena real de la vida quotidiana, cal reescriure'l.
+## Regla d'or
 
-- Malament: «Comprova primer un detall pràctic abans de prendre una decisió.»
-- Bé: «Revisa el compte abans de fer aquella compra.»
+Cada consell s'ha de poder imaginar com una escena real que podria passar avui.
 
-## Com escriure
+- Malament: «Una nova perspectiva et permetrà afrontar una situació amb determinació.»
+- Bé: «Escolta què comenten els companys. Algú podria donar-te una idea interessant sense saber-ho.»
 
-- Prioritza frases de 6 a 15 paraules.
-- Separa les idees en microconsells independents.
-- Utilitza persones, llocs, objectes i accions concretes.
-- Inclou almenys una petita predicció possible i quotidiana per signe.
-- Utilitza verbs directes: escolta, pregunta, espera, truca, escriu, accepta, rebutja, revisa, guarda, surt, descansa, compra, evita, parla, observa, proposa, reserva, estalvia, camina i respon.
-- Varia els temes i l'estructura entre els dotze signes.
-- Mantén un to proper, directe, lleuger, intrigant i positiu.
+## Ritme i estructura
 
-Els textos poden parlar de companys, caps, clients, parella, família, amics, missatges, diners, compres, reunions, trucades, gimnàs, menjar, descans, plans i trobades inesperades.
+- Prioritza frases d'aproximadament 8 a 20 paraules.
+- Escriu petits paràgrafs de dues o tres frases.
+- Dona context als consells; evita encadenar ordres seques.
+- Barreja microconsells concrets amb petites prediccions quotidianes.
+- Inclou una o dues picades d'ullet com a màxim per signe.
+- Mantén aproximadament un 85-90 % de consell o predicció i un 10-15 % d'humor.
 
-## Què cal evitar
+## Situacions i accions concretes
 
-Evita un to poètic, místic, filosòfic, solemne, terapèutic o excessivament espiritual. Evita també expressions abstractes com «una situació», «una nova perspectiva», «energies», «vibracions», «el teu món interior», «connecta amb tu mateix», «una transformació», «obrir nous camins», «trobar l'equilibri», «sortir de la zona de confort» o «confiar en el procés».
+Parla de feina, caps, companys, clients, WhatsApp, missatges, cites, parella, amics, família, gimnàs, compres, diners, restaurants, plans, trucades, reunions, descans, transport, xarxes socials, estudis, casa, sortir i dormir.
 
-No facis prediccions greus sobre salut, accidents, mort, problemes legals o grans pèrdues econòmiques.
+Utilitza accions com: escriu, truca, pregunta, escolta, espera, compra, guarda, respon, surt, accepta, rebutja, proposa, revisa, parla, camina, reserva i descansa.
 
-## Test abans de publicar
+Les prediccions han de ser possibles, quotidianes i intrigants. No prediguis accidents, malalties, morts, acomiadaments, problemes legals ni grans pèrdues econòmiques.
 
-1. S'entén cada frase a la primera?
-2. Les frases són curtes?
-3. Hi ha accions o escenes concretes?
-4. Es poden imaginar passant avui?
-5. Hi ha alguna petita predicció o element intrigant?
-6. S'han eliminat les abstraccions i el farciment?
-7. Cada signe sona diferent dels altres?
+## Humor còmplice
 
-**Diu el Cel no explica la vida. Diu petites coses que podrien passar-te avui i què pots fer amb elles.**
+L'humor ha de ser afectuós, natural i subtil. Pot utilitzar petites exageracions, observacions quotidianes, ironia suau o alguna expressió col·loquial. No ha de semblar un acudit preparat.
+
+No utilitzis memes, humor absurd, sarcasme agressiu, burles ni llenguatge adolescent forçat. «Pillín» és un recurs molt ocasional, mai una crossa.
+
+## Llenguatge que cal evitar
+
+Evita frases genèriques o pròpies d'un horòscop automàtic: «una situació», «un detall pràctic», «una nova perspectiva», «energies», «vibracions», «transformació personal», «procés interior», «connectar amb tu mateix», «escoltar el teu interior», «actuar amb determinació», «trobar l'equilibri», «obrir nous camins», «sortir de la zona de confort», «confiar en el procés», «alguna cosa important» i «una oportunitat inesperada».
+
+Si utilitzes paraules com oportunitat, decisió, canvi, situació o conversa, concreta de què parles.
+
+## Varietat
+
+Els dotze horòscops han de parlar de contextos diferents i no poden semblar el mateix text amb quatre paraules canviades. Varia els temes, les prediccions, les accions, l'estructura i el tipus de complicitat cada dia.
+
+## Test obligatori abans de publicar
+
+1. S'entén tot a la primera lectura?
+2. Hi ha escenes concretes de la vida quotidiana?
+3. Els consells expliquen què pot fer el lector?
+4. Hi ha alguna petita predicció que generi curiositat?
+5. El text sona conversacional i no telegràfic?
+6. S'han eliminat les frases abstractes?
+7. Hi ha com a màxim un o dos moments d'humor?
+8. L'humor sembla espontani?
+9. Cada signe parla de coses diferents?
+10. Sona com una persona parlant?
+
+**Diu el Cel és aquell amic que sembla saber alguna cosa del teu dia, et dona un consell útil i, quan menys t'ho esperes, et deixa anar una petita picada d'ullet.**
