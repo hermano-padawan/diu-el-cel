@@ -10,15 +10,15 @@ number: "7"
 moment: Matí
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts tindràs l'impuls necessari per desencallar una decisió que s'havia anat ajornant. Actua amb determinació, però comprova primer un detall pràctic; uns minuts de preparació evitaran haver de refer el camí.
+Avui rebràs una resposta que esperaves. Llegeix-la sencera abans de contestar.
 
-Mart activa la iniciativa i afavoreix les converses directes. Si trobes resistència, explica què vols aconseguir en lloc d'elevar el to: la claredat obrirà més portes que la pressa.
+Un company voldrà fer les coses a la seva manera. No discutiu per WhatsApp. Parleu-ne cinc minuts cara a cara.
 
 ## Amor
-Pren la iniciativa amb un gest afectuós i deixa espai perquè l'altra persona respongui al seu ritme.
+Escriu a aquella persona. Avui podria respondre amb més interès.
 
 ## Feina
-Tanca una gestió pendent abans de començar un projecte que encara no té límits clars.
+Acaba la tasca curta que arrossegues des d'ahir.
 
 ## Benestar
-Una caminada enèrgica t'ajudarà a ordenar les idees i descarregar tensió.
+Camina vint minuts després de dinar. Et baixarà el nerviosisme.

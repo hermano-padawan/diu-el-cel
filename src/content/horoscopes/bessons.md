@@ -10,15 +10,15 @@ number: "5"
 moment: Migdia
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts una conversa casual pot aportar la dada que et faltava. Mantén la curiositat desperta, però contrasta la informació abans de convertir-la en una decisió; no totes les versions tenen el mateix pes.
+Escolta la conversa dels companys durant el cafè. Algú donarà una idea útil.
 
-Mercuri afavoreix l'aprenentatge ràpid i les connexions inesperades. Ordena les idees en una nota breu perquè una intuïció interessant no quedi enterrada sota els missatges del dia.
+T'arribaran molts missatges alhora. Respon primer els importants. Un dels altres pot esperar fins al vespre.
 
 ## Amor
-Una pregunta sincera renovarà una conversa que últimament s'havia tornat previsible.
+Pregunta directament què vol fer l'altra persona aquesta nit.
 
 ## Feina
-Comparteix una informació útil, però evita comprometre't abans de conèixer tots els terminis.
+Apunta aquella idea de negoci. Demà encara et semblarà bona.
 
 ## Benestar
-Silencia les notificacions durant una estona i dona descans a la ment.
+Deixa el mòbil lluny mentre menges. Necessites aquesta pausa.

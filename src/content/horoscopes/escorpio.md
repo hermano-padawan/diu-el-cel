@@ -10,15 +10,15 @@ number: "9"
 moment: Capvespre
 description: "Horòscop d'Escorpí avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts una informació reservada pot canviar la teva lectura d'una situació. Dona't temps per processar-la i no reaccionis en calent; la discreció et permetrà decidir amb més força i menys soroll.
+Sentiràs un comentari que no anava dirigit a tu. No el reenviïs per WhatsApp.
 
-Plutó afavoreix una transformació silenciosa en els teus hàbits. Deixar enrere una manera antiga de protegir-te pot fer vertigen, però també alliberarà energia per a vincles més transparents.
+Una persona et farà una pregunta molt directa. Respon només el que vulguis explicar. El seu interès és més gran del que sembla.
 
 ## Amor
-Explica una veritat emocional sense exigir una resposta immediata.
+Pregunta abans de treure conclusions sobre aquell silenci.
 
 ## Feina
-Investiga l'origen d'un bloqueig abans d'aplicar una solució superficial.
+Revisa qui té accés als arxius abans de compartir-los.
 
 ## Benestar
-Allibera tensió amb respiració profunda i una activitat física sostinguda.
+Ves al gimnàs encara que sigui poca estona. Dormiràs millor.

@@ -10,15 +10,15 @@ number: "2"
 moment: Vespre
 description: "Horòscop d'Aquari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts una coincidència et farà veure una alternativa que fins ara passava desapercebuda. Explora-la sense necessitat de defensar-la de seguida; experimentar en petit et donarà arguments més convincents que qualsevol teoria.
+Una trobada casual pot acabar en una bona proposta. Escolta abans de canviar de tema.
 
-Urà estimula la independència i les associacions originals. Comparteix una idea amb la persona adequada, però conserva prou espai per modificar-la quan apareguin dades noves.
+Prova aquella aplicació o eina que et van recomanar. Pot estalviar-te molta feina. No paguis res abans de provar-la.
 
 ## Amor
-Un missatge espontani pot recuperar la proximitat sense envair l'espai de ningú.
+Respon aquell missatge pendent. La conversa serà més fàcil del previst.
 
 ## Feina
-Connecta dues persones o recursos que per separat no estaven donant resultat.
+Ensenya el teu esborrany a algú de confiança.
 
 ## Benestar
-Desconnecta de les pantalles abans d'anar a dormir i deixa reposar les idees.
+Deixa el telèfon carregant fora de l'habitació aquesta nit.

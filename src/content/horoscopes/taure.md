@@ -10,15 +10,15 @@ number: "4"
 moment: Tarda
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts una qüestió material demanarà una mirada serena i concreta. Revisa les xifres o les condicions sense precipitar-te; el que sembla urgent pot admetre una solució més còmoda i sostenible.
+Mira el compte abans de fer aquella compra. Pot aparèixer una despesa inesperada.
 
-Venus reforça el teu criteri i la capacitat de gaudir de les coses senzilles. Fer una pausa conscient et permetrà distingir un desig passatger d'una necessitat autèntica.
+Algú et proposarà un pla per al cap de setmana. Accepta'l si el preu encaixa. Et convé sortir de casa.
 
 ## Amor
-Parla d'un pla compartit amb realisme, però sense perdre la il·lusió que el va inspirar.
+Proposa un sopar tranquil. No cal preparar res especial.
 
 ## Feina
-Consolida el que ja funciona abans d'acceptar una responsabilitat addicional.
+Demana el termini exacte abans d'acceptar més feina.
 
 ## Benestar
-Cuida el coll i les espatlles amb estiraments suaus durant les pauses.
+Aixeca't de la cadira cada hora. El coll ho notarà.

@@ -10,15 +10,15 @@ number: "1"
 moment: Tarda
 description: "Horòscop de Lleó avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts podràs donar forma a una idea personal que mereix més espai. Presenta-la amb entusiasme, però escolta les observacions útils; una aportació externa pot fer-la més sòlida sense restar-li autoria.
+Algú es fixarà en una feina ben feta. No treguis importància al compliment.
 
-El Sol reforça la creativitat i la presència. Utilitza aquesta llum per animar també els altres: el lideratge serà més efectiu si reparteix confiança en lloc de concentrar tota l'atenció.
+A la tarda pot arribar una invitació divertida. Acaba primer les obligacions. Després accepta el pla sense donar-hi més voltes.
 
 ## Amor
-Sorprèn amb una proposta divertida i evita convertir els petits canvis de pla en un drama.
+Envia una nota de veu afectuosa. Farà més efecte que un emoji.
 
 ## Feina
-Demana el reconeixement que correspon a la teva aportació amb serenitat i arguments.
+Explica la teva proposta a la reunió. Porta un exemple concret.
 
 ## Benestar
-Reserva una estona per a una activitat creativa que no depengui del resultat.
+Posa música i mou-te una estona quan arribis a casa.

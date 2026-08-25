@@ -6,6 +6,8 @@ Web d'horòscop creada amb Astro.
 
 Els dotze continguts són a `src/content/horoscopes/`. Cada signe té un fitxer Markdown propi.
 
+Tots els textos han de seguir la guia [`VEU_EDITORIAL.md`](VEU_EDITORIAL.md).
+
 Per actualitzar el dia:
 
 1. Canvia `date` als dotze fitxers.

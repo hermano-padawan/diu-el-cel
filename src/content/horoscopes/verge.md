@@ -10,15 +10,15 @@ number: "6"
 moment: Matí
 description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts una rutina ben pensada et permetrà avançar sense desgastar-te. Comença per una tasca curta que doni ordre al conjunt i evita revisar repetidament allò que ja compleix la seva funció.
+La llista del dia serà més llarga del previst. Tria només tres prioritats.
 
-Mercuri afavoreix les explicacions precises i els ajustos intel·ligents. Si comparteixes el teu mètode amb algú, simplifica'l: la utilitat serà més important que demostrar-ne cada detall.
+Un client o company canviarà una instrucció. Demana que te l'enviï per escrit. Així evitaràs repetir la feina.
 
 ## Amor
-Deixa de buscar la frase perfecta i expressa l'afecte amb naturalitat.
+No corregeixis cada paraula. Escolta el que realment vol explicar-te.
 
 ## Feina
-Revisa una dada important abans d'enviar-la i després dona l'assumpte per tancat.
+Revisa noms i xifres abans d'enviar aquell correu.
 
 ## Benestar
-Alterna concentració i pauses breus per conservar l'energia fins al vespre.
+Prepara un dinar senzill. Avui et convé menjar sense presses.

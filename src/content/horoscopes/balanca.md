@@ -10,15 +10,15 @@ number: "3"
 moment: Migdia
 description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts podràs acostar dues posicions que semblaven incompatibles. Resumeix primer allò en què ja hi ha acord i deixa els matisos per després; una base compartida farà la conversa molt més constructiva.
+Dos companys buscaran el teu suport en una discussió. No triïs bàndol de seguida.
 
-Venus afavoreix l'harmonia, però et recorda que un acord just també ha d'incloure't. No acceptis una solució només per acabar aviat si després et generarà ressentiment.
+Al migdia rebràs una proposta agradable. Revisa l'agenda i respon avui. Si tardes massa, el pla pot canviar.
 
 ## Amor
-Expressa una preferència concreta; facilitaràs que l'altra persona també sigui honesta.
+Digues on vols anar. L'altra persona agrairà que decideixis.
 
 ## Feina
-La teva capacitat de mediació serà útil si mantens ben definides les responsabilitats.
+Confirma per correu què farà cadascú després de la reunió.
 
 ## Benestar
-Ordenar visualment l'espai t'ajudarà a recuperar equilibri i concentració.
+Endreça la taula abans de començar la tarda. Treballaràs millor.

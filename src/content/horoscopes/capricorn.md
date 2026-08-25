@@ -10,15 +10,15 @@ number: "10"
 moment: Tarda
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts comprovaràs que un progrés discret també mereix ser reconegut. Revisa el camí recorregut abans d'exigir-te un nou resultat; aquesta perspectiva t'ajudarà a fixar el següent objectiu amb més realisme.
+El teu cap pot afegir una tasca a última hora. Pregunta què és prioritari.
 
-Saturn afavoreix les estructures sòlides i els compromisos ben delimitats. Dir que no a una exigència poc raonable protegirà la qualitat de tot allò que sí que has decidit assumir.
+No prometis acabar-ho tot avui. Envia un termini realista. Algú valorarà més la sinceritat que les presses.
 
 ## Amor
-Comparteix una preocupació sense sentir que també n'has de portar preparada la solució.
+Reserva una estona per parlar sense mirar el mòbil.
 
 ## Feina
-Negocia recursos o terminis abans que una càrrega excessiva es converteixi en norma.
+Demana ajuda amb la part que no depèn de tu.
 
 ## Benestar
-Respecta l'hora de descans i separa amb claredat la feina de la vida personal.
+Tanca l'ordinador a l'hora acordada. La resta pot esperar.

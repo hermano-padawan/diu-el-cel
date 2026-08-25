@@ -10,15 +10,15 @@ number: "11"
 moment: Nit
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Aquest dimarts la imaginació et mostrarà una sortida amable a una situació tensa. Abans d'intervenir, assegura't que no estàs evitant una conversa necessària; sensibilitat i claredat poden treballar juntes.
+Algú et demanarà un favor amb poca antelació. Mira l'agenda abans de respondre.
 
-Neptú potencia els somnis i la percepció dels matisos. Reserva un moment per escriure o crear sense jutjar el resultat: d'aquest espai pot sorgir una resposta pràctica inesperada.
+A la tarda trobaràs una foto o un missatge antic. Pot donar-te ganes de recuperar un contacte. Escriu només si realment et ve de gust.
 
 ## Amor
-Posa paraules a un desig que havies expressat només de manera indirecta.
+Digues clarament quin pla et faria il·lusió aquest vespre.
 
 ## Feina
-Defineix què significa acabar una tasca per no perdre't en millores infinites.
+Posa una hora límit a aquella tasca. Després envia-la.
 
 ## Benestar
-Una dutxa tranquil·la o uns minuts de música t'ajudaran a tancar el dia.
+Beu més aigua i sopa lleuger. Avui ho notaràs.
