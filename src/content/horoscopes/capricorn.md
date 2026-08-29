@@ -3,22 +3,22 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-08-28
+date: 2026-08-29
 order: 10
-color: Gris perla
-number: "2"
-moment: Matí
+color: Marró canyella
+number: "10"
+moment: Vespre
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una resposta administrativa arribarà abans del que calculaves. Revisa les condicions i resol avui l'últim tràmit.
+Començaràs el dia volent avançar feina de casa. Marca una hora per acabar, perquè el descans també figura al contracte.
 
-Algú et proposarà assumir una responsabilitat extra. Pregunta què deixa de ser prioritari abans d'afegir-la a la motxilla.
+Al vespre rebràs una proposta senzilla que et farà bé. Accepta sense preguntar abans quant durarà exactament.
 
 ## Amor
-Reserva una hora concreta per estar junts aquest cap de setmana. La intenció és bonica, però l'agenda necessita números.
+Deixa que l'altra persona organitzi una part del dia. No saber tots els detalls també pot ser agradable.
 
 ## Feina
-Reconeix la feina d'algú que t'ha facilitat la setmana. Un missatge curt reforçarà una col·laboració molt útil.
+Revisa el pressupost d'un projecte personal, no el correu laboral. Avui els números útils són els que treballen per tu.
 
 ## Benestar
-Apaga l'ordinador a una hora raonable i compleix-la. El correu de les vuit pot sobreviure perfectament fins dilluns.
+Prepara un sopar fàcil i seu a menjar-lo sense pantalles. La productivitat pot esperar fora de la cuina.
