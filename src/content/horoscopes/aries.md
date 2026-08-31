@@ -3,22 +3,22 @@ name: Àries
 symbol: ♈
 element: Foc
 dates: 21 març — 19 abril
-date: 2026-08-30
+date: 2026-08-31
 order: 1
-color: Vermell cirera
-number: "4"
-moment: Migdia
+color: Coral
+number: "7"
+moment: Matí
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un amic et proposarà un pla quan ja t'havies instal·lat al sofà. Respon ràpid: avui dubtar cansa més que sortir.
+Començaràs el dilluns amb més pressa que cafè. Abans de respondre a tothom, resol aquell encàrrec de deu minuts.
 
-Al migdia hauràs de repartir una tasca familiar. Demana ajuda amb noms i hores, no amb indirectes creatives.
+Al matí un company qüestionarà una decisió teva. Explica-la amb dades i guarda l'espasa imaginària al calaix.
 
 ## Amor
-Una proposta espontània recuperarà l'espurna del cap de setmana. Deixa que l'altra persona triï el lloc aquesta vegada.
+Un missatge breu pot semblar més fred del que és. Truca abans de construir una novel·la amb tres paraules.
 
 ## Feina
-Repassa dilluns en cinc minuts i tanca l'agenda. Preparar-ho tot avui només et robaria una tarda útil.
+Ataca primer la tasca que ningú vol començar. A mig matí tindràs via lliure per avançar sense interrupcions.
 
 ## Benestar
-Baixa el ritme després de dinar i estira les cames. No totes les pauses necessiten convertir-se en una competició.
+Esmorza assegut, encara que només siguin deu minuts. Córrer amb una torrada no compta com a esport.
