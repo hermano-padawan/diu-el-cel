@@ -3,22 +3,22 @@ name: Peixos
 symbol: ♓
 element: Aigua
 dates: 19 febrer — 20 març
-date: 2026-08-31
+date: 2026-09-01
 order: 12
-color: Verd marí
-number: "1"
+color: Lila boira
+number: "10"
 moment: Capvespre
 description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una cançó o una olor et recordarà algú durant el trajecte. Escriu-li quan arribis, abans que el dia ho tapi.
+Un missatge amable arribarà d'algú que no acostuma a escriure. Respon sense buscar-hi una segona intenció.
 
-Al capvespre una confusió amb una hora es resoldrà fàcilment. Confirma el missatge original i estalvia disculpes imaginàries.
+Al capvespre et vindrà una idea per millorar un racó de casa. Apunta les mides abans de començar a comprar.
 
 ## Amor
-No intentis endevinar l'estat d'ànim de l'altra persona. Pregunta-li com està i escolta sense preparar la resposta.
+Una conversa tranquil·la arreglarà una distància dels últims dies. Tria un lloc sense soroll i deixa el mòbil guardat.
 
 ## Feina
-Reserva mitja hora per una feina creativa abans de les gestions. La inspiració avui arriba abans que les factures.
+Revisa les notes d'una reunió abans de confiar en la memòria. Hi trobaràs una promesa petita pendent.
 
 ## Benestar
-Beu aigua i fes una pausa lluny de la pantalla a mitja tarda. Els ulls t'enviaran una nota d'agraïment.
+Escolta música mentre prepares el sopar i baixa el ritme. Avui la calma entrarà millor per les orelles.

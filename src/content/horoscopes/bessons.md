@@ -3,22 +3,22 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-08-31
+date: 2026-09-01
 order: 3
-color: Blau cel
-number: "3"
-moment: Tarda
+color: Groc mostassa
+number: "6"
+moment: Matí
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-El grup de WhatsApp començarà fort i voldràs respondre-ho tot. Silencia'l una hora o el matí marxarà entre emoticones.
+Una pregunta casual durant l'esmorzar et donarà una idea útil. Apunta-la abans que una notificació se l'emporti.
 
-A la tarda una trucada curta desbloquejarà un assumpte que els correus complicaven. Ves al gra i pren nota del compromís.
+Al matí hauràs de canviar de tema amb rapidesa en una reunió. Resumeix cada acord abans de saltar al següent.
 
 ## Amor
-Una broma compartida suavitzarà una conversa pendent. Després aprofita el bon ambient per dir què necessites de debò.
+Algú recuperarà una anècdota vostra i et farà riure. Aprofita el missatge per concretar quan us tornareu a veure.
 
 ## Feina
-Porta una llibreta a la reunió: avui sortiran dues idees bones al marge del guió. Una serà teva.
+Tanca els xats mentre redactes aquell document. La teva concentració avui té una porta giratòria.
 
 ## Benestar
-Deixa el mòbil lluny mentre dines. El món pot gestionar-se sol durant el primer plat i probablement les postres.
+Alterna les estones assegut amb dos minuts de moviment. No cal convertir l'oficina en un gimnàs.
