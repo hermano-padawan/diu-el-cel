@@ -3,22 +3,22 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-09-01
+date: 2026-09-02
 order: 10
 color: Gris grafit
-number: "2"
-moment: Matí
+number: "10"
+moment: Migdia
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una tasca que semblava llarga quedarà resolta abans de mig matí. No omplis immediatament el buit amb cinc encàrrecs.
+Un pagament o confirmació que esperaves quedarà resolt abans de dinar. Guarda el comprovant i passa al següent tema.
 
-Un responsable valorarà que arribis amb els números preparats. Inclou també el marge d'error, encara que sigui menys elegant.
+Al migdia algú valorarà un consell teu sobre diners o organització. Explica què faries, però deixa-li la decisió final.
 
 ## Amor
-Comparteix una preocupació pràctica sense presentar-la com una sentència. L'altra persona pot tenir una solució senzilla.
+Reserva una estona per parlar d'un projecte compartit. Poseu una primera data en lloc de deixar-lo al país dels «ja ho farem».
 
 ## Feina
-Delega una part concreta i acorda quan la revisareu. Supervisar cada minut només crearà dues persones cansades.
+Revisa el calendari de la setmana abans d'acceptar una reunió. El teu temps lliure entre tasques també compta.
 
 ## Benestar
-Fes una pausa real abans de dinar, sense aprofitar-la per ordenar correus. Cinc minuts buits també produeixen resultats.
+Dina lluny de la taula de feina sempre que puguis. Canviar d'espai farà que la pausa sigui una pausa de veritat.
