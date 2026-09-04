@@ -3,22 +3,22 @@ name: Verge
 symbol: ♍
 element: Terra
 dates: 23 agost — 22 setembre
-date: 2026-09-03
+date: 2026-09-04
 order: 6
 color: Verd farigola
-number: "9"
-moment: Tarda
+number: "7"
+moment: Matí
 description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una cita o reunió canviarà d'hora i et deixarà un buit inesperat. Utilitza'l per acabar una gestió curta.
+Trobaràs al matí l'error que ahir se t'escapava. Corregeix-lo i continua, sense obrir una investigació internacional.
 
-A la tarda trobaràs un rebut que convé guardar. Fes-ne una foto abans que torni al seu hàbitat natural: el calaix.
+Una gestió administrativa sortirà millor si portes les dades preparades. Revisa el número de referència abans de trucar.
 
 ## Amor
-Accepta que avui el pla no sortirà exactament com imaginaves. La improvisació pot regalar-vos un moment divertit.
+No intentis anticipar cada detall del cap de setmana. Deixa un espai lliure perquè l'altre també proposi.
 
 ## Feina
-Llegeix l'últim missatge del fil abans de respondre. Potser el problema ja està resolt.
+Ordena les tasques segons el termini real, no segons qui escriu més correus. La urgència també necessita proves.
 
 ## Benestar
-Prepara una ampolla d'aigua i tingues-la a la vista. Beure serà més fàcil si no depèn de recordar-ho.
+Estira l'esquena després d'una estona assegut. Un parell de minuts evitaran que el cos protesti al vespre.
