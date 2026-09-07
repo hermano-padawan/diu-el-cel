@@ -10,15 +10,16 @@ number: "4"
 moment: Tarda
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una despesa prevista canviarà lleugerament de preu. Revisa el total abans de pagar i pregunta què inclou.
 
-A la tarda algú et proposarà modificar una rutina. Prova-ho només avui; no cal signar un contracte amb el canvi.
+Una invitació relacionada amb música, cinema o una exposició trencarà la rutina. Accepta-la si et desperta curiositat, encara que no coneguis gaire el tema.
+
+A la tarda recuperaràs una afició que havies deixat aparcada. Dedica-hi mitja hora sense exigir-te cap resultat perfecte.
 
 ## Amor
-Fes lloc per escoltar una preocupació quotidiana. Una resposta pràctica serà més útil que intentar arreglar-ho tot.
+Recordeu junts un viatge o una anècdota divertida. La conversa us donarà una idea per repetir alguna cosa que trobàveu a faltar.
 
 ## Feina
-Ordena els documents abans de començar la tasca principal. Trobar el fitxer correcte et farà guanyar temps real.
+Demana una opinió sobre una tasca abans de donar-la per tancada. Un comentari breu et permetrà millorar-la sense refer-la sencera.
 
 ## Benestar
-Camina deu minuts després de dinar. El cos agrairà que la tarda no comenci directament davant d'una pantalla.
+Posa música mentre prepares el sopar o ordenes una mica. El ritme farà la rutina més lleugera.
