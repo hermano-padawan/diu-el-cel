@@ -44,6 +44,17 @@ Si utilitzes paraules com oportunitat, decisió, canvi, situació o conversa, co
 
 Els dotze horòscops han de parlar de contextos diferents i no poden semblar el mateix text amb quatre paraules canviades. Varia els temes, les prediccions, les accions, l'estructura i el tipus de complicitat cada dia.
 
+### Rotació entre dies
+
+Abans d'escriure, revisa com a mínim els últims set horòscops publicats de cada signe i fes una graella mental o escrita amb els temes utilitzats. No assignis papers fixos als signes: cap signe ha de parlar habitualment de compres, diners, traïcions de companys, lideratge, família, missatges o qualsevol altre tema només perquè encaixi amb el seu estereotip zodiacal.
+
+- Evita repetir en un mateix signe el tema central, l'escena, el conflicte o el consell dels dies recents.
+- Canvia també el tema de les seccions Amor, Feina i Benestar; no n'hi ha prou amb reformular les frases.
+- Reparteix de manera variable àmbits com amistats, llar, cultura, gestions, creativitat, transport, descans, aprenentatge, esport, tecnologia, menjar, plans socials, comunicació, organització i diners.
+- Taure no ha d'associar-se per defecte amb compres, estalvi o despeses.
+- Cap signe ha de predir de manera recurrent que un company de feina enganyarà, ocultarà informació o actuarà en contra seva.
+- Si una idea s'assembla a una publicació recent, substitueix-la per una escena d'un àmbit diferent.
+
 ## Test obligatori abans de publicar
 
 1. S'entén tot a la primera lectura?
