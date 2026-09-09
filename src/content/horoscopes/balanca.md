@@ -3,22 +3,22 @@ name: Balança
 symbol: ♎
 element: Aire
 dates: 23 setembre — 22 octubre
-date: 2026-09-08
+date: 2026-09-09
 order: 7
 color: Rosa pàl·lid
-number: "8"
-moment: Matí
+number: "5"
+moment: Migdia
 description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una planta de casa o del balcó et farà notar que necessita atenció. Uns minuts de cura canviaran tot el racó.
+Una peça de roba recuperarà vida amb un botó, una puntada o una combinació diferent. Prova abans de relegar-la al fons.
 
-Al matí, trobaràs una fotografia que mereix sortir del mòbil. Tria-la i pensa on t'agradaria veure-la.
+Al migdia, algú elogiarà un detall que tu gairebé havies descartat. Pren-ne nota: el teu criteri no és l'únic convidat.
 
 ## Amor
-Recordeu una aventura que va començar malament i va acabar bé. La perspectiva compartida suavitzarà una molèstia recent.
+Digues que avui necessites una estona per a tu sense inventar excuses. Un límit amable evitarà una absència enfadada.
 
 ## Feina
-Arxiva un expedient antic amb un nom que qualsevol pugui entendre. El teu jo futur també és part de l'equip.
+Agrupa dues cites o reunions semblants per estalviar interrupcions. Deixa un marge entre elles per respirar i prendre notes.
 
 ## Benestar
-Afegeix fruita o alguna cosa fresca a l'esmorzar. Un canvi petit et mantindrà amb energia més estable.
+Fes una dutxa o bany sense presses quan arribis. L'aigua marcarà millor que el mòbil el final de la jornada.
