@@ -3,22 +3,25 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-09-10
+date: 2026-09-11
 order: 3
 color: Groc mostassa
-number: "4"
-moment: Capvespre
+number: "8"
+moment: 21:05
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un calaix ple de coses petites reclamarà una intervenció. Agrupa-les per ús i para abans d'ordenar tota la casa.
+Una melodia enganxosa apareixerà al lloc menys solemne possible. Aprofita l'empenta per començar allò que fa dies que mires de reüll.
 
-Al capvespre, trobaràs un carregador o una clau que buscaves fa dies. Etiqueta'l si vols evitar una segona temporada.
+Compartir una cançó obrirà una conversa curiosa. Pregunta què li recorda a l'altra persona.
 
 ## Amor
-Ofereix un massatge curt a les espatlles o accepta'n un. El gest dirà prou sense obrir cap debat.
+
+Inventeu una llista de tres cançons per al cap de setmana. La complicitat també viu en coses petites.
 
 ## Feina
-Posa colors només als terminis importants del calendari. Si tot destaca, res no destaca i el dimarts guanya.
+
+Agrupa una tasca repetitiva en blocs de vint minuts i descansa dos entre ronda i ronda.
 
 ## Benestar
-Camina una estona pujant alguna escala amb calma. El canvi de ritme activarà les cames i aclarirà el cap.
+
+Mou espatlles i braços al ritme d'una peça. Per sort, avui no hi ha jurat.
