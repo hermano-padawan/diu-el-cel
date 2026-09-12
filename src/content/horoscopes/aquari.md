@@ -3,25 +3,25 @@ name: Aquari
 symbol: ♒
 element: Aire
 dates: 20 gener — 18 febrer
-date: 2026-09-11
+date: 2026-09-12
 order: 11
 color: Blau elèctric
-number: "72"
-moment: 17:05
+number: "34"
+moment: A mitja tarda
 description: "Horòscop d'Aquari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un gos, un gat o un ocell reclamarà la teva atenció. Observar com resol el seu petit món et recordarà que no tot necessita teoria.
+Una activitat a l'aigua o prop d'una font et donarà una energia diferent. Si nedes, comença suau; si només passeges, deixa que el so faci la seva part.
 
-Si t'encarreguen una mascota, concreta horaris i instruccions. L'afecte també agraeix organització.
+Una proposta de moviment et vindrà bé si no la converteixes en competició.
 
 ## Amor
 
-Feu una cosa que desperti tendresa sense analitzar-la gaire. Avui la lleugeresa suma.
+Convideu-vos a fer una activitat física amable i pacteu el ritme abans de començar. Ningú ha de demostrar res.
 
 ## Feina
 
-Observa un procés complet, pren tres notes i proposa només el canvi més fàcil de provar.
+Una sessió curta i dinàmica rendirà més que una reunió eterna. Poseu un límit de temps i tanqueu amb una decisió.
 
 ## Benestar
 
-Surt cinc minuts a notar sons reals i deixa descansar la vista.
+Hidrata't abans de tenir set i canvia't la roba humida aviat. El cos agraeix aquestes obvietats ben fetes.

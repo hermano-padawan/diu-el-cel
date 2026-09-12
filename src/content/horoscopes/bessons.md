@@ -3,25 +3,25 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-09-11
+date: 2026-09-12
 order: 3
 color: Groc mostassa
-number: "8"
-moment: 21:05
+number: "14"
+moment: Després de dinar
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una melodia enganxosa apareixerà al lloc menys solemne possible. Aprofita l'empenta per començar allò que fa dies que mires de reüll.
+Una façana, un portal antic o un detall d'un edifici et farà mirar el barri amb uns altres ulls. Fes una volta curta i troba tres coses que mai havies observat.
 
-Compartir una cançó obrirà una conversa curiosa. Pregunta què li recorda a l'altra persona.
+Una persona del carrer t'explicarà un detall local amb entusiasme. Escolta-la sense mirar el rellotge cada deu segons.
 
 ## Amor
 
-Inventeu una llista de tres cançons per al cap de setmana. La complicitat també viu en coses petites.
+Ensenya a algú un racó que t'agrada i pregunta quin és el seu. El pla es construeix caminant, no cal reservar res.
 
 ## Feina
 
-Agrupa una tasca repetitiva en blocs de vint minuts i descansa dos entre ronda i ronda.
+Revisa l'espai on treballeu: un canvi de lloc o de recorregut pot eliminar una molèstia repetida. Prova'l avui.
 
 ## Benestar
 
-Mou espatlles i braços al ritme d'una peça. Per sort, avui no hi ha jurat.
+Camina deu minuts sense objectiu esportiu. Relaxa la mandíbula i deixa que els braços es moguin sols.
