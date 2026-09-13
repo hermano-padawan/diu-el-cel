@@ -3,25 +3,25 @@ name: Sagitari
 symbol: ♐
 element: Foc
 dates: 22 novembre — 21 desembre
-date: 2026-09-12
+date: 2026-09-13
 order: 9
 color: Blau indi
-number: "62"
-moment: A última hora
+number: "24"
+moment: Al matí
 description: "Horòscop de Sagitari avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una peça de roba oblidada al fons de l'armari tornarà a tenir sentit amb una combinació diferent. Prova-la sense jutjar-la sota la llum més cruel de la casa.
+Muntar una prestatgeria petita, ajustar un pom o arreglar un objecte et posarà en mode pràctic. Llegeix el primer pas abans de buidar totes les peces sobre la taula.
 
-Vestir-te d'una altra manera pot canviar la postura i les ganes de sortir. No necessites cap ocasió especial.
+Demanar una mà a temps evitarà una tarda de lluita amb un cargol. Agraeix l'ajuda i no amaguis les instruccions sota la caixa.
 
 ## Amor
 
-Pregunta a l'altra persona quina peça teva li porta un bon record. La resposta pot obrir una història tendra o molt divertida.
+Feu plegats una reparació fàcil i repartiu les eines. Dir què necessites evita que l'altra persona hagi de fer d'endevina.
 
 ## Feina
 
-Revisa una presentació o un document pensant en com “vesteix” la idea: treu ornaments i deixa visible el missatge principal.
+Comprova una eina o un accés abans de començar dilluns. Si falla, deixa avui una alternativa preparada i ben anotada.
 
 ## Benestar
 
-Tria roba còmoda de veritat i comprova que no et limita la respiració. El cos no és un penjador.
+Protegeix els ulls i les mans si treballes amb eines. Para quan perdis precisió: el cansament no sap collar recte.
