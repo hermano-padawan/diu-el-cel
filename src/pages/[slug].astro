@@ -28,6 +28,17 @@ const horoscopeDateIso = sign.date.toISOString().slice(0, 10);
 const { Content } = await render(entry);
 const compatibilities = (await getCollection("compatibilities")).filter(({ data }) => data.signe1 === entry.id || data.signe2 === entry.id);
 const signMap = new Map(entries.map((item) => [item.id, item.data]));
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description: sign.description,
+  datePublished: horoscopeDateIso,
+  dateModified: horoscopeDateIso,
+  inLanguage: "ca",
+  mainEntityOfPage: `https://diuelcel.site/${entry.id}/`,
+  publisher: { "@type": "Organization", name: "Diu el Cel", url: "https://diuelcel.site/" }
+};
 ---
 <Layout title={title} description={sign.description} canonicalPath={`/${entry.id}/`}>
   <Header inner />
@@ -52,5 +63,6 @@ const signMap = new Map(entries.map((item) => [item.id, item.data]));
     </section>}
     <nav class="sign-nav" aria-label="Altres signes"><a href={withBase(`/${previous.id}/`)}>← {previous.data.name}</a><a href={withBase(`/${next.id}/`)}>{next.data.name} →</a></nav>
   </main>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <Footer />
 </Layout>

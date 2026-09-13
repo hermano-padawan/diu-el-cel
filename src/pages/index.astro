@@ -11,6 +11,14 @@ const currentDate = signs[0]?.date ?? new Date();
 const dateLabel = new Intl.DateTimeFormat("ca-ES", {
   weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC"
 }).format(currentDate);
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Diu el Cel",
+  url: "https://diuelcel.site/",
+  description: "Horòscop i astrologia en català.",
+  inLanguage: "ca"
+};
 ---
 <Layout title="Horòscop d'avui en català | Diu el Cel" description="Horòscop d'avui en català per als 12 signes del zodíac. Consulta la predicció diària d'amor, feina i benestar del teu signe." canonicalPath="/">
   <Header />
@@ -27,5 +35,6 @@ const dateLabel = new Intl.DateTimeFormat("ca-ES", {
       <p>Consulta el teu horòscop i descobreix la predicció del dia en l'amor, la feina i el benestar.</p>
     </section>
   </main>
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
   <Footer />
 </Layout>
