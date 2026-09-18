@@ -3,25 +3,25 @@ name: Verge
 symbol: ♍
 element: Terra
 dates: 23 agost — 22 setembre
-date: 2026-09-17
+date: 2026-09-18
 order: 6
 color: Verd farigola
-number: "46"
-moment: A migdia
+number: "62"
+moment: A primera hora
 description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una cançó en directe o un assaig que arriba del carrer et canviarà el ritme. Escolta una peça sencera abans de tornar a les presses.
+Una drecera digital et resoldrà una molèstia repetida. Canvia una sola opció i comprova l'efecte abans de tocar-ne cinc més.
 
-Algú compartirà un gust musical inesperat i la conversa guanyarà color.
+Compartir el truc amb algú et farà recordar-lo millor.
 
 ## Amor
 
-Envieu-vos una cançó que expliqui l'estat d'ànim d'avui. Afegiu una frase i prou.
+Ajuda amb una gestió concreta, però deixa que l'altra persona premi l'últim botó.
 
 ## Feina
 
-Agrupa una tasca repetitiva en un bloc curt. Revisa el resultat quan acabi la cançó.
+Crea una plantilla per a una tasca recurrent i apunta com desfer el canvi.
 
 ## Benestar
 
-Baixa el volum dels auriculars i deixa cinc minuts de silenci. Afluixa la mandíbula.
+Ajusta la pantalla a l'alçada dels ulls i aixeca't cada mitja hora.
