@@ -3,25 +3,25 @@ name: Cranc
 symbol: ♋
 element: Aigua
 dates: 21 juny — 22 juliol
-date: 2026-09-18
+date: 2026-09-19
 order: 4
 color: Blau plata
-number: "79"
-moment: A l'hora de dinar
+number: "21"
+moment: Abans de dinar
 description: "Horòscop de Cranc avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una olor de cuina et farà provar una combinació diferent. Comença amb poca quantitat i tasta abans d'afegir-hi més alegria; el pot d'espècies no mana.
+Una llum, un reflex o una ombra et regalarà una bona fotografia si esperes dos segons. Busca una escena quotidiana i deixa fora el soroll visual.
 
-Compartir taula portarà una conversa pràctica i agradable.
+Ensenyar-la obrirà una conversa sobre els detalls que cadascú mira.
 
 ## Amor
 
-Prepareu un plat senzill repartint els passos. Pregunta què prefereix fer cadascú.
+Feu una foto del mateix lloc des de dos angles. Compareu les eleccions sense decidir quina és millor.
 
 ## Feina
 
-Ordena una feina com una recepta: materials, passos i comprovació final. Elimina una acció inútil.
+Enquadra un projecte: què és essencial, què queda tallat i què sobra als marges.
 
 ## Benestar
 
-Menja assegut i lent els primers cinc minuts. Després fes una volta curta.
+Aparta la vista de la pantalla després d'editar. Mou el coll lentament i baixa les espatlles.
