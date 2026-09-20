@@ -3,25 +3,25 @@ name: Taure
 symbol: ♉
 element: Terra
 dates: 20 abril — 20 maig
-date: 2026-09-19
+date: 2026-09-20
 order: 2
 color: Verd molsa
-number: "9"
-moment: Al vespre
+number: "68"
+moment: Quan es faci fosc
 description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una cançó en directe o un assaig llunyà et canviarà el pas. Escolta una peça sencera abans de tornar a les presses.
+La lluna o un punt brillant et farà aixecar la mirada. Consulta una dada concreta i torna a observar sense pantalla; el cel no necessita filtres.
 
-Algú compartirà un gust musical que no li coneixies i la conversa guanyarà color.
+Compartir cinc minuts de silenci donarà una pausa neta al diumenge.
 
 ## Amor
 
-Envieu-vos una cançó que expliqui l'estat d'ànim d'avui. Afegiu una frase i prou.
+Expliqueu-vos una cosa que voldríeu aprendre aquest mes i trieu-ne un primer pas possible.
 
 ## Feina
 
-Agrupa una tasca repetitiva en un bloc curt. Revisa el resultat quan acabi la peça.
+Allunya't del detall i mira el projecte complet. Escriu què és prioritari i què pot esperar.
 
 ## Benestar
 
-Baixa el volum dels auriculars i deixa cinc minuts de silenci. Relaxa la mandíbula.
+Redueix la llum abans de dormir i enfoca la vista lluny. Respira lentament tres vegades.
