@@ -3,25 +3,25 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-09-24
+date: 2026-09-25
 order: 3
 color: Groc mostassa
-number: "38"
+number: "79"
 moment: A primera hora de la tarda
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una reserva, una cita o una inscripció pendent quedarà resolta amb una trucada curta. Tingues a mà el número de referència abans de marcar i apunta la resposta.
+Una nota de veu curta resoldrà allò que s'estava embolicant per escrit. Pensa la primera frase abans de gravar i deixa clar què necessites.
 
-Et proposaran una hora millor de la que esperaves.
+La resposta arribarà amb un to més càlid del previst.
 
 ## Amor
 
-Confirmeu un pla compartit i decidiu qui s'encarrega de cada pas. El calendari també pot ser romàntic, una mica.
+Envieu-vos un àudio explicant una cosa bona del dia. Escolteu-lo abans de respondre.
 
 ## Feina
 
-Tanca una gestió administrativa abans d'obrir-ne una altra. Desa el comprovant amb un nom fàcil de trobar.
+Grava només si el missatge guanya claredat. Després resumeix per escrit la data o l'acord important.
 
 ## Benestar
 
-Fes la trucada dret i mou les cames mentre esperes. Després respira dos minuts sense pantalles.
+No escoltis àudios caminant entre trànsit. Baixa el volum i descansa les orelles.
