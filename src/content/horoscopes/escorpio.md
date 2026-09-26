@@ -3,25 +3,25 @@ name: Escorpí
 symbol: ♏
 element: Aigua
 dates: 23 octubre — 21 novembre
-date: 2026-09-25
+date: 2026-09-26
 order: 8
 color: Negre cirera
-number: "45"
-moment: Quan es faci fosc
+number: "86"
+moment: A última hora de la tarda
 description: "Horòscop d'Escorpí avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una carpeta plena de captures, descàrregues o arxius duplicats demanarà una tria ràpida. Elimina només allò que reconeguis i crea una carpeta per a la resta.
+Una planta, un test o una herba aromàtica et demanarà observació abans que aigua. Toca la terra, gira-la cap a la llum i retira només allò que ja està sec.
 
-Recuperaràs un document que donaves per perdut.
+Un brot petit et donarà una alegria discreta.
 
 ## Amor
 
-Compartiu una fotografia antiga abans d'arxivar-la. Expliqueu quin detall recordeu diferent.
+Cuideu una planta plegats i repartiu una tasca fàcil de recordar.
 
 ## Feina
 
-Posa nom clar als cinc arxius que necessitaràs dilluns i mou-los al lloc correcte.
+Un projecte necessita seguiment, no més idees. Fixa una revisió curta i un senyal de progrés.
 
 ## Benestar
 
-Fes la neteja digital amb el telèfon recolzat, no encorbat sobre la mà.
+Renta't les mans després de tocar terra i estira l'esquena.
