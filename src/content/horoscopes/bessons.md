@@ -3,25 +3,25 @@ name: Bessons
 symbol: ♊
 element: Aire
 dates: 21 maig — 20 juny
-date: 2026-09-26
+date: 2026-09-27
 order: 3
 color: Groc mostassa
-number: "7"
-moment: Abans de dinar
+number: "8"
+moment: A l'hora de dinar
 description: "Horòscop de Bessons avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una recepta amb pocs ingredients resoldrà el dinar sense convertir la cuina en laboratori. Tasta abans d'afegir espècies i apunta només el canvi que funcioni.
+Un cable, una làmpada o una peça petita deixarà de molestar quan miris com encaixa. Desconnecta abans de tocar i busca el manual si no ho veus clar.
 
-Algú voldrà repetir, encara que al principi mirés el plat amb prudència.
+L'ajust serà més senzill del que semblava.
 
 ## Amor
 
-Cuineu repartint els passos i pregunteu què prefereix fer cadascú.
+Demana una mà per subjectar la peça i explica què faràs abans d'agafar eines.
 
 ## Feina
 
-Ordena un encàrrec com una recepta: materials, passos i comprovació final.
+Documenta una incidència amb una foto i anota el pas que l'ha resolta.
 
 ## Benestar
 
-Menja assegut i sense pantalla els primers deu minuts. Després fes una volta curta.
+Treballa amb bona llum, protegeix les mans i para si has de fer força estranya.
