@@ -38,5 +38,8 @@ Tots dos callen quan se senten amenaçats. Dir el temor evita convertir-lo en co
 Gelosia, possessivitat, secrets i incapacitat per cedir.
 ## Com poden millorar la relació?
 Compartir decisions, respectar privacitat i parlar abans que el silenci es faci poder.
+## Un exemple quotidià
+Quan un missatge queda sense resposta, Taure pot esperar una explicació directa mentre Escorpí observa el to i busca indicis d'un problema més profund. La sospita creix si cap dels dos pregunta. Funciona millor dir què ha passat i què necessita cadascú: temps per respondre, tranquil·litat o una conversa privada. La lleialtat que valoren es construeix amb fets repetits, no amb proves de fidelitat improvisades.
+
 ## Compatibilitat final
 Amb un **75%** orientatiu, Taure i Escorpí tenen una compatibilitat intensa. Quan confien sense posseir, l'oposició es converteix en una unió extraordinàriament sòlida.

@@ -718,7 +718,7 @@ h1 em {
   padding: 46px 0 0;
 }
 .seo-copy h2 {
-  margin: 0 0 10px;
+  margin: 28px 0 10px;
   font-family: "Playfair Display", serif;
   font-size: 1.65rem;
 }
@@ -728,6 +728,10 @@ h1 em {
   font-size: 0.9rem;
   line-height: 1.7;
 }
+.seo-copy a, .sign-guide a { color: var(--gold); text-underline-offset: 3px; }
+.sign-guide { max-width: 760px; padding: 36px 0; border-top: 1px solid var(--line); }
+.sign-guide h2 { margin: 20px 0 10px; font-family: "Playfair Display", serif; font-size: clamp(1.5rem, 3vw, 2rem); }
+.sign-guide p { margin: 0 0 16px; color: var(--muted); line-height: 1.75; }
 
 @media (max-width: 800px) {
   .zodiac-grid {

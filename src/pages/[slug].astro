@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import { withBase } from "../utils/paths";
+import { signGuides } from "../data/signGuides";
 
 export async function getStaticPaths() {
   const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
@@ -13,6 +14,7 @@ export async function getStaticPaths() {
 interface Props { entry: CollectionEntry<"horoscopes">; entries: CollectionEntry<"horoscopes">[]; index: number }
 const { entry, entries, index } = Astro.props;
 const sign = entry.data;
+const guide = signGuides[entry.id];
 const previous = entries[(index - 1 + entries.length) % entries.length];
 const next = entries[(index + 1) % entries.length];
 const article = sign.name === "Àries" || sign.name === "Aquari" || sign.name === "Escorpí" ? "d'" : "de ";
@@ -53,6 +55,12 @@ const articleSchema = {
         <Content />
         <div class="lucky"><span>Color · {sign.color}</span><span>Número · {sign.number}</span><span>Moment · {sign.moment}</span></div>
       </article>
+    </section>
+    <section class="sign-guide" aria-labelledby="sign-guide-title">
+      <h2 id="sign-guide-title">Com és {sign.name}?</h2>
+      <p>{guide.character}</p>
+      <h2>Com llegir l'horòscop de {sign.name}</h2>
+      <p>{guide.reading} El signe solar és una descripció general, no un retrat personal complet. Consulta també el <a href={withBase("/recursos/calendari-zodiacal/")}>calendari zodiacal</a> o el <a href={withBase("/recursos/glossari/")}>glossari astrològic</a> si vols entendre els termes que apareixen a la lectura.</p>
     </section>
     {compatibilities.length > 0 && <section class="sign-compatibilities">
       <p class="sign-kicker">Relacions</p>

@@ -39,5 +39,8 @@ Taure vol conclusions i Bessons matisos. Resumir acords per escrit redueix malen
 Rutina contra canvi, possessivitat i promeses poc concretes.
 ## Com poden millorar la relació?
 Planificar algunes novetats i complir rituals mínims. Taure pot escoltar opcions; Bessons, escollir-ne una.
+## Un exemple quotidià
+Un cap de setmana il·lustra el contrast: Taure espera repetir un lloc agradable i Bessons descobreix una activitat nova l'últim dia. Poden reservar una part del temps per al pla conegut i deixar una franja per improvisar. El punt important és avisar abans de canviar allò que ja estava acordat. La curiositat de Bessons no ha de convertir-se en incertesa permanent per a Taure.
+
 ## Compatibilitat final
 El **51%** orientatiu descriu una relació exigent. Quan la diferència deixa de ser una amenaça, Taure dona arrels a les idees de Bessons i Bessons aire a la vida de Taure.

@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import ZodiacCard from "../components/ZodiacCard.astro";
 import { getCollection } from "astro:content";
+import { withBase } from "../utils/paths";
 
 const entries = (await getCollection("horoscopes")).sort((a, b) => a.data.order - b.data.order);
 const signs = entries.map((entry) => ({ slug: entry.id, ...entry.data }));
@@ -32,7 +33,11 @@ const websiteSchema = {
     </section>
     <section class="seo-copy" aria-labelledby="daily-horoscope-title">
       <h2 id="daily-horoscope-title">Horòscop diari dels dotze signes</h2>
-      <p>Consulta el teu horòscop i descobreix la predicció del dia en l'amor, la feina i el benestar.</p>
+      <p>Tria el teu signe per llegir el missatge del dia i les notes sobre amor, feina i benestar. La data que apareix a cada pàgina indica a quin dia correspon la lectura. Les prediccions són propostes de reflexió: cap signe descriu per complet una persona ni pot assegurar què passarà.</p>
+      <h2>Com pots saber quin signe et correspon?</h2>
+      <p>El signe solar es relaciona amb el dia i el mes de naixement. Pots consultar les dates de les dotze targetes o fer servir la <a href={withBase("/recursos/calculadora-signe/")}>calculadora del signe</a>. Si vas néixer en un dia de canvi entre signes, l'any i l'hora de naixement poden influir en el resultat.</p>
+      <h2>Explora més enllà de l'horòscop</h2>
+      <p>El signe solar és només una peça del llenguatge astrològic. Al <a href={withBase("/recursos/glossari/")}>glossari</a> trobaràs explicacions dels conceptes bàsics; el <a href={withBase("/recursos/calendari-zodiacal/")}>calendari zodiacal</a> mostra les dates i els elements, i a <a href={withBase("/compatibilitats/")}>compatibilitats</a> pots explorar com s'interpreta la relació entre dos signes. Aquestes eines tenen una finalitat cultural i d'entreteniment.</p>
     </section>
   </main>
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />

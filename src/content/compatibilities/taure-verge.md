@@ -38,5 +38,8 @@ Verge argumenta i Taure necessita temps. La crítica funciona millor després de
 Rutina, exigència i resistència als canvis inesperats.
 ## Com poden millorar la relació?
 Reservar espai per al plaer, limitar correccions i provar novetats petites.
+## Un exemple quotidià
+A casa o a la feina, Verge pot proposar millores molt precises en una tasca que Taure ja considera resolta. Si cada suggeriment sona com una crítica, Taure es tanca; si tota rutina és intocable, Verge es frustra. Els ajuda distingir què és imprescindible, què es pot provar i què ja funciona. Una prova limitada dona dades sense convertir cada detall en una discussió sobre el caràcter de l'altre.
+
 ## Compatibilitat final
 Amb un **89%** orientatiu, Taure i Verge formen una combinació molt sòlida. Quan la cura deixa lloc a l'espontaneïtat, construeixen un amor serè i viu.

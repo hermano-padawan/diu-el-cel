@@ -38,5 +38,8 @@ Una combinació excel·lent per a projectes llargs. Cal evitar l'excés de conse
 Rutina, excés de feina i resistència al risc o al canvi.
 ## Com poden millorar la relació?
 Celebrar fites, descansar i introduir plaer sense haver-lo de merèixer.
+## Un exemple quotidià
+En un projecte compartit, tots dos poden treballar molt i oblidar per què van començar. Taure cuida la qualitat del dia a dia i Capricorn mira el resultat a llarg termini. Una revisió mensual del temps, els diners i el descans els permet corregir la direcció abans d'esgotar-se. Si un demana una pausa, l'altre pot entendre-la com una manera de protegir el projecte, no com una falta de compromís.
+
 ## Compatibilitat final
 El **94%** orientatiu reflecteix una afinitat extraordinària. Taure i Capricorn poden construir una relació duradora si recorden habitar, i no només edificar, la vida compartida.

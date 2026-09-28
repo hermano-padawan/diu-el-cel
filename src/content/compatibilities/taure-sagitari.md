@@ -38,5 +38,8 @@ Taure necessita concreció; Sagitari parla en possibilitats. Confirmar acords re
 Inconstància, rigidesa i conflictes sobre diners o plans.
 ## Com poden millorar la relació?
 Alternar aventures planificades i temps tranquil, amb espais personals explícits.
+## Un exemple quotidià
+Un viatge fa visible la diferència: Sagitari voldria decidir la ruta sobre la marxa i Taure prefereix saber on dormirà i quant costarà. Reservar les nits i el transport essencial, però deixar tardes lliures, pot satisfer tots dos. Quan hi ha diners compartits, convé fixar un límit abans de sortir. L'aventura és més agradable quan cap dels dos tem quedar atrapat en el pla de l'altre.
+
 ## Compatibilitat final
 El **47%** orientatiu assenyala una compatibilitat baixa. Si Taure dona marge i Sagitari dona paraula, poden crear una vida menys limitada i menys dispersa.

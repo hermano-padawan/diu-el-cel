@@ -38,5 +38,8 @@ Taure parla de fets; Aquari de sistemes. Traduir la idea a una acció concreta f
 Tossuderia, distància emocional i visions oposades sobre canvi.
 ## Com poden millorar la relació?
 Provar canvis reversibles, respectar rutines essencials i crear temps de presència sense control.
+## Un exemple quotidià
+Si comparteixen pis, Taure pot voler conservar una rutina domèstica que funciona mentre Aquari proposa reorganitzar-la de cop. En lloc de votar a favor o en contra del canvi, els ajuda provar-lo durant dues setmanes i revisar què ha millorat. Taure obté una prova concreta; Aquari, espai per innovar. L'acord és més sòlid quan cadascú pot explicar què necessita sense ridiculitzar la prioritat de l'altre.
+
 ## Compatibilitat final
 El **43%** orientatiu indica una compatibilitat baixa. Si deixen de voler reformar l'altre, Taure pot donar cos a la visió d'Aquari i Aquari renovar el món de Taure.

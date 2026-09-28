@@ -38,5 +38,8 @@ Taure necessita claredat; Peixos tacte. Una petició concreta amb un to amable s
 Evasió, rigidesa i desequilibri en responsabilitats.
 ## Com poden millorar la relació?
 Peixos pot decidir i Taure escoltar abans de resoldre. Crear art o llar junts reforça el vincle.
+## Un exemple quotidià
+Davant d'una amistat que els demana ajuda, Peixos pot voler estar disponible tota la nit i Taure preguntar què es pot fer realment demà. Les dues respostes tenen valor. Poden oferir una estona d'escolta amb un límit horari i acordar una acció concreta per al dia següent. Així l'empatia de Peixos troba suport pràctic i la prudència de Taure no sona a distància.
+
 ## Compatibilitat final
 Amb un **88%** orientatiu, Taure i Peixos tenen una afinitat alta. Quan terra i aigua conserven els seus límits, construeixen un amor sensible i sostenible.

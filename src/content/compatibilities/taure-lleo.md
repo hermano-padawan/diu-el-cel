@@ -38,5 +38,8 @@ Cap respon bé a ser pressionat o humiliat. Conversar en privat i reconèixer l'
 Orgull, tossuderia i disputes per diners o protagonisme.
 ## Com poden millorar la relació?
 Repartir decisions, elogiar sincerament i introduir canvis de manera gradual.
+## Un exemple quotidià
+Si preparen una trobada, Lleó pot imaginar un gest gran i Taure preguntar com es pagarà i qui s'encarregarà dels detalls. L'entusiasme i la logística no són enemics: acordar una xifra i dues prioritats deixa espai per celebrar sense generar ressentiment després. Lleó aporta calidesa i visibilitat; Taure vetlla perquè el pla sigui còmode i es pugui repetir.
+
 ## Compatibilitat final
 El **61%** orientatiu mostra potencial sòlid amb fricció. Quan cedeixen sense sentir que perden, Taure i Lleó construeixen una relació rica i lleial.

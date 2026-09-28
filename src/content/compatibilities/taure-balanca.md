@@ -38,5 +38,8 @@ Taure és ferm i Balança diplomàtic. La pau real necessita dir el desacord.
 Indecisió, tossuderia i diferències sobre diners o activitat social.
 ## Com poden millorar la relació?
 Fixar terminis per decidir, repartir pressupostos i alternar llar amb vida pública.
+## Un exemple quotidià
+A l'hora de planificar una celebració, Balança pot consultar molts gustos i acabar ajornant la reserva; Taure pot reservar sense esperar que tothom respongui. Una data límit compartida resol més que discutir qui té raó. Balança recull dues opcions, Taure comprova cost i disponibilitat, i tots dos decideixen. La sensibilitat compartida per l'ambient es converteix així en un pla que realment passa.
+
 ## Compatibilitat final
 El **72%** orientatiu descriu una compatibilitat agradable. Taure i Balança prosperen quan la bellesa compartida es recolza en acords concrets.
