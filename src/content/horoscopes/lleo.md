@@ -3,25 +3,25 @@ name: Lleó
 symbol: ♌
 element: Foc
 dates: 23 juliol — 22 agost
-date: 2026-09-28
+date: 2026-09-29
 order: 5
 color: Taronja daurat
-number: "58"
-moment: A primera hora de la tarda
-description: "Horòscop de Lleó avui en català: predicció diària d'amor, feina i benestar."
+number: "9"
+moment: A les 16:40
+description: "Horòscop d'Lleó avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una activitat del barri necessitarà mitja hora i dues mans. Pregunta què falta de veritat i tria una tasca concreta; no cal salvar el món abans de dinar.
+Un llibre curt o un article ben triat et donarà tema per a tot el dia. Llegeix deu pàgines abans d'obrir les xarxes i subratlla una idea útil.
 
-Col·laborar et connectarà amb algú pràctic.
+Una frase et farà canviar una pregunta, no pas la vida sencera; ja és prou.
 
 ## Amor
 
-Feu plegats una ajuda que pugueu acabar avui. La utilitat compartida també apropa.
+Expliqueu-vos què esteu llegint sense fer-ne una conferència. Una recomanació sincera pot preparar un pla bonic.
 
 ## Feina
 
-Ofereix un temps concret a una feina comuna i confirma quin resultat s'espera.
+Busca una font fiable abans de defensar una dada. Guarda l'enllaç al mateix lloc que les notes.
 
 ## Benestar
 
-Protegeix l'esquena si mous materials i demana ajuda amb el pes.
+Llegeix amb una llum còmoda i els peus ben recolzats. Para quan comencis a repetir la mateixa línia.

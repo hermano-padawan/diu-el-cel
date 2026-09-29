@@ -3,25 +3,25 @@ name: Peixos
 symbol: ♓
 element: Aigua
 dates: 19 febrer — 20 març
-date: 2026-09-28
+date: 2026-09-29
 order: 12
 color: Lila boira
-number: "3"
-moment: Abans d'anar a dormir
-description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
+number: "58"
+moment: A les 19:25
+description: "Horòscop d'Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un pom, una roda o una frontissa que fa dies que protesta trobarà atenció. Busca l'eina correcta i observa com està muntada abans d'improvisar.
+Un trajecte habitual tindrà una alternativa més tranquil·la. Comprova el temps real, surt deu minuts abans i prova un carrer que sempre deixes de banda.
 
-La reparació eliminarà una molèstia constant.
+Una botiga o un portal curiós et servirà de nova referència.
 
 ## Amor
 
-Demana una mà si cal subjectar alguna cosa. Explica què necessites abans de començar.
+Quedeu en un punt fàcil d'identificar i compartiu la ubicació només si ajuda. Arribar relaxats ja millora el pla.
 
 ## Feina
 
-Resol una incidència menor i deixa anotat què has canviat.
+Calcula el desplaçament amb marge i porta una sola nota amb l'adreça. Menys pestanyes obertes, menys gimcana.
 
 ## Benestar
 
-Protegeix ulls i mans, i estira els canells quan acabis.
+Si pots, baixa una parada abans i acaba a peu. Camina sense accelerar els últims cinc minuts.
