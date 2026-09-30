@@ -3,25 +3,25 @@ name: Taure
 symbol: ♉
 element: Terra
 dates: 20 abril — 20 maig
-date: 2026-09-29
+date: 2026-09-30
 order: 2
 color: Verd molsa
-number: "63"
-moment: Cap al migdia
-description: "Horòscop d'Taure avui en català: predicció diària d'amor, feina i benestar."
+number: "76"
+moment: A les 17:30
+description: "Horòscop de Taure avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un ocell que no reconeixes o unes petjades al camí et faran aturar. Fes una foto, busca el nom després i gaudeix de no saber-ho tot al moment.
+Una classe de moviment, una partida curta o unes cistelles improvisades et trauran del pilot automàtic. Tria una activitat fàcil de començar i acorda quan s'acaba.
 
-Una passejada curta tindrà més història que moltes pantalles juntes.
+Una jugada mal calculada provocarà més rialles que punts, i ja estarà bé.
 
 ## Amor
 
-Compartiu una volta pel barri i deixeu que l'altra persona triï el desviament. Caminar de costat facilita parlar sense interrogatoris.
+Proposeu un repte físic amable, sense convertir-lo en competició mundial. Animeu-vos quan alguna cosa no surti a la primera.
 
 ## Feina
 
-Canvia de lloc deu minuts per revisar una tasca encallada. Una taula diferent pot ordenar-te les idees.
+Alterna vint-i-cinc minuts de concentració amb dos de moviment. Torna a la cadira només quan hagis estirat les cames.
 
 ## Benestar
 
-Surt amb calçat còmode i escolta els sons del carrer. Si veus un banc al sol, aprofita'l.
+Escalfa els genolls i els turmells abans d'accelerar. Para amb bones sensacions, no quan el cos presenti una queixa formal.

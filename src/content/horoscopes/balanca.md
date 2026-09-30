@@ -3,25 +3,25 @@ name: Balança
 symbol: ♎
 element: Aire
 dates: 23 setembre — 22 octubre
-date: 2026-09-29
+date: 2026-09-30
 order: 7
 color: Rosa pàl·lid
-number: "72"
-moment: Quan pari la taula
-description: "Horòscop d'Balança avui en català: predicció diària d'amor, feina i benestar."
+number: "53"
+moment: Després de les 18:00
+description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una recepta senzilla resoldrà el vespre i potser també l'endemà. Revisa què tens, talla primer tots els ingredients i posa música mentre cuines.
+Una lectura dramatitzada, una funció petita o un assaig obert donarà caràcter al vespre. Mira la durada, reserva el seient i arriba amb temps per observar la sala.
 
-Si alguna cosa queda una mica torrada, avui en direm caràcter.
+Un silenci ben posat serà el moment més comentat de l'obra.
 
 ## Amor
 
-Repartiu-vos una tasca cadascú i tasteu abans de servir. Preguntar “què hi falta?” evita debats de xef televisiu.
+Trieu un espectacle sense llegir totes les opinions. Comenteu després una escena cadascú, sense decidir qui l'ha entesa millor.
 
 ## Feina
 
-Prepara el material d'una tasca abans de començar-la. Cinc minuts d'ordre t'estalviaran tres viatges inútils.
+Assaja la primera frase de la presentació i l'última. Si totes dues són clares, el centre trobarà el seu lloc.
 
 ## Benestar
 
-Menja assegut i deixa els coberts entre mossegades. El cos entén millor el missatge quan no tens pressa.
+Relaxa la mandíbula i baixa les espatlles abans de parlar. La veu surt millor quan el cos no fa d'armadura.

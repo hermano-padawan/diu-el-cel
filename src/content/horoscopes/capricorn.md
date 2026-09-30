@@ -3,25 +3,25 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-09-29
+date: 2026-09-30
 order: 10
 color: Gris grafit
-number: "80"
-moment: A les 15:05
-description: "Horòscop d'Capricorn avui en català: predicció diària d'amor, feina i benestar."
+number: "81"
+moment: A primera hora
+description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un objecte que grinyola, balla o no tanca bé demanarà una reparació petita. Mira un tutorial breu, prepara les eines i atura't si cal forçar massa.
+Una carpeta digital plena de versions semblants demanarà una mica d'ordre. Conserva l'arxiu final, posa dates clares i mou els dubtosos a una carpeta temporal.
 
-Trobaràs una peça perduda just quan deixis de buscar-la amb mala cara.
+Apareixerà aquell document que juraves haver guardat “en un lloc segur”.
 
 ## Amor
 
-Arregleu una cosa de casa plegats, però decidiu abans qui sosté i qui cargola. L'harmonia necessita instruccions simples.
+Compartiu un àlbum petit amb deu fotos, no dues-centes. Trieu-ne una cadascú i expliqueu per què la conservaríeu.
 
 ## Feina
 
-Corregeix avui l'error repetitiu d'una plantilla. Documenta el canvi perquè demà no torni disfressat de sorpresa.
+Defineix una norma senzilla per anomenar arxius nous. Aplica-la només al projecte actiu abans de voler reformar tot l'ordinador.
 
 ## Benestar
 
-Protegeix els ulls i treballa amb bona llum. En acabar, obre i tanca les mans unes quantes vegades.
+Tanca les pestanyes que ja no necessites i aparta el mòbil cinc minuts. El silenci visual també descansa.

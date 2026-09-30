@@ -3,25 +3,25 @@ name: Peixos
 symbol: ♓
 element: Aigua
 dates: 19 febrer — 20 març
-date: 2026-09-29
+date: 2026-09-30
 order: 12
 color: Lila boira
-number: "58"
-moment: A les 19:25
-description: "Horòscop d'Peixos avui en català: predicció diària d'amor, feina i benestar."
+number: "60"
+moment: A les 20:10
+description: "Horòscop de Peixos avui en català: predicció diària d'amor, feina i benestar."
 ---
-Un trajecte habitual tindrà una alternativa més tranquil·la. Comprova el temps real, surt deu minuts abans i prova un carrer que sempre deixes de banda.
+Una melodia tocada en directe o una cançó antiga canviarà l'ambient de casa. Escolta-la sencera, busca qui la interpreta i evita saltar de tema a la primera tornada.
 
-Una botiga o un portal curiós et servirà de nova referència.
+Una segona veu que no recordaves serà el descobriment del dia.
 
 ## Amor
 
-Quedeu en un punt fàcil d'identificar i compartiu la ubicació només si ajuda. Arribar relaxats ja millora el pla.
+Compartiu una cançó vinculada a un record i expliqueu-ne només una escena. Després escolteu la tria de l'altra persona sense interrompre.
 
 ## Feina
 
-Calcula el desplaçament amb marge i porta una sola nota amb l'adreça. Menys pestanyes obertes, menys gimcana.
+Utilitza una llista musical curta per marcar una tasca concreta. Quan acabi, revisa el resultat abans de tornar-la a començar.
 
 ## Benestar
 
-Si pots, baixa una parada abans i acaba a peu. Camina sense accelerar els últims cinc minuts.
+Baixa el volum i escolta els instruments del fons. Relaxa la cara mentre segueixes el ritme amb els peus.

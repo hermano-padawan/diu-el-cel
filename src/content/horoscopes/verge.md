@@ -3,25 +3,25 @@ name: Verge
 symbol: ♍
 element: Terra
 dates: 23 agost — 22 setembre
-date: 2026-09-29
+date: 2026-09-30
 order: 6
 color: Verd farigola
-number: "36"
-moment: A última hora del matí
-description: "Horòscop d'Verge avui en català: predicció diària d'amor, feina i benestar."
+number: "24"
+moment: A les 9:40
+description: "Horòscop de Verge avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una entrada de teatre, una lectura pública o un assaig obert apareixerà al teu radar. Mira els horaris, convida algú i deixa la resposta tancada abans de dinar.
+Una sol·licitud pendent quedarà resolta quan reuneixis els tres documents necessaris. Escriu una llista curta, comprova els formats i envia-ho abans de continuar retocant.
 
-A escena hi haurà un detall imperfecte que farà la funció encara millor.
+La confirmació arribarà amb menys drama del que prometia el formulari.
 
 ## Amor
 
-Trieu un espectacle que cap dels dos conegui. Després, comenteu una escena durant el camí de tornada.
+Aclariu avui una data que tots dos teniu mig apuntada. Poseu-la al calendari i deixeu de negociar amb la memòria.
 
 ## Feina
 
-Assaja en veu alta la presentació una sola vegada. Retalla la frase que et deixa sense aire i marca les pauses.
+Demana un exemple acabat abans d'omplir la plantilla. Et servirà per detectar què és imprescindible i què només fa bonic.
 
 ## Benestar
 
-Badalla sense dissimular abans de parlar molta estona. La mandíbula també agraeix una mica d'espai.
+Aixeca't després d'enviar la gestió i sacseja les mans. Una volta curta separarà el tràmit de la resta del dia.
