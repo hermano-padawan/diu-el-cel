@@ -3,25 +3,25 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-10-01
+date: 2026-10-02
 order: 10
 color: Gris grafit
-number: "30"
-moment: Al vespre
+number: "34"
+moment: A migdia
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una funció petita, un monòleg o una lectura pública donarà caràcter al vespre. Mira la durada, reserva el seient i arriba prou aviat per observar l'ambient.
+Un plat calent i senzill posarà ordre al migdia. Llegeix els passos una vegada, talla primer els ingredients i deixa que el foc faci la seva part.
 
-Una pausa de l'intèrpret dirà més que una pàgina sencera.
+El resultat serà millor quan deixis de remenar-lo cada deu segons.
 
 ## Amor
 
-Trieu un espectacle sense llegir-ne totes les opinions. Comenteu després una escena cadascú, sense repartir notes.
+Cuineu una cosa que us recordi un viatge o una persona. Expliqueu el record mentre espereu que s'acabi de fer.
 
 ## Feina
 
-Assaja en veu alta la primera frase de la presentació. Retalla les paraules que et fan perdre aire.
+Prepara totes les eines abans de començar una tasca. Evitaràs tres viatges i una petita conversa amb tu mateix.
 
 ## Benestar
 
-Mou la mandíbula i baixa les espatlles abans de parlar molta estona. La veu sortirà més neta.
+Menja lluny de la pantalla i beu aigua. Espera uns minuts abans de decidir si encara tens gana.
