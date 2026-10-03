@@ -3,25 +3,25 @@ name: Balança
 symbol: ♎
 element: Aire
 dates: 23 setembre — 22 octubre
-date: 2026-10-02
+date: 2026-10-03
 order: 7
 color: Rosa pàl·lid
-number: "6"
-moment: Cap al vespre
+number: "10"
+moment: Després de dinar
 description: "Horòscop de Balança avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una pista, unes pales o una classe curta et faran moure amb ganes. Acorda l'hora de final i comença suau, abans que l'organització gasti tota l'energia.
+Un parc petit o un camí entre arbres et donarà una pausa més completa del previst. Busca una zona tranquil·la, guarda el mòbil i escolta què passa al voltant.
 
-Un error espectacular provocarà més rialles que cap punt.
+Un ocell descarat protagonitzarà la distracció del dia.
 
 ## Amor
 
-Proveu una activitat que cap dels dos domini. Animeu-vos en lloc de corregir-vos cada moviment.
+Compartiu una volta sense ruta fixa i deixeu que l'altra persona triï un desviament. Parlar de costat farà la conversa més fàcil.
 
 ## Feina
 
-Fes una pausa activa abans de la tasca més llarga. Dos minuts de moviment aclariran millor el cap que una altra pestanya oberta.
+Canvia de lloc deu minuts per revisar una tasca encallada. Una taula diferent pot ordenar-te les idees.
 
 ## Benestar
 
-Escalfa turmells i canells abans d'accelerar. Acaba quan encara et quedi una mica de corda.
+Seu en un banc i recolza bé els peus. Respira lentament abans de reprendre el camí.

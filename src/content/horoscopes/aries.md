@@ -3,25 +3,25 @@ name: Àries
 symbol: ♈
 element: Foc
 dates: 21 març — 19 abril
-date: 2026-10-02
+date: 2026-10-03
 order: 1
 color: Vermell robí
-number: "11"
-moment: A les 9:15
+number: "59"
+moment: A les 11:25
 description: "Horòscop d'Àries avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una peça de roba que tenies oblidada tornarà a encaixar amb el que portes. Prova-la amb llum natural, mou-te una mica i decideix segons la comoditat.
+El cel canviarà prou per obligar-te a adaptar una part del dia. Consulta la previsió una vegada, prepara una alternativa senzilla i continua sense vigilar cada núvol.
 
-Un compliment espontani confirmarà que l'armari encara guarda alguna sorpresa.
+Una clariana arribarà just quan ja no la comptaves.
 
 ## Amor
 
-Trieu-vos un complement divertit l'un a l'altre. Poseu-vos-el una estona, sense convertir el mirall en tribunal.
+Proposeu un pla interior i un d'exterior, tots dos agradables. Així el temps no dirigirà la conversa.
 
 ## Feina
 
-Prepara aquesta nit la roba i el material de dilluns. Deixar una decisió resolta farà el matí més lleuger.
+Deixa preparada una tasca que puguis fer si canvia l'agenda. Evitaràs improvisar amb cara de meteoròleg cansat.
 
 ## Benestar
 
-Revisa si les sabates et pressionen després d'una estona. Ajusta cordons i mitjons abans que els peus protestin.
+Porta una capa lleugera i protegeix-te del contrast de temperatura. Beu aigua encara que el dia sembli fresc.
