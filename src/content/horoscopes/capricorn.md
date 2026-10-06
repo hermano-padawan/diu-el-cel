@@ -3,25 +3,25 @@ name: Capricorn
 symbol: ♑
 element: Terra
 dates: 22 desembre — 19 gener
-date: 2026-10-05
+date: 2026-10-06
 order: 10
-color: Gris grafit
-number: "69"
-moment: A les 9:35
+color: Gris pissarra
+number: "26"
+moment: Al final de la tarda
 description: "Horòscop de Capricorn avui en català: predicció diària d'amor, feina i benestar."
 ---
-Una ruta amb menys transbordaments et regalarà un trajecte més tranquil. Compara dues opcions i tria la que et permeti arribar sense córrer.
+En un intercanvi d'idiomes, una paraula mal pronunciada acabarà obrint una conversa divertida. Porta tres preguntes senzilles i deixa espai perquè l'altra persona també practiqui.
 
-Una parada diferent et descobrirà un lloc útil.
+Recordaràs millor una expressió vinculada a una història real.
 
 ## Amor
 
-Quedeu en un punt clar i compartiu l'hora prevista d'arribada. Menys missatges, més passeig.
+Apreneu una frase amable en una llengua nova i feu-la servir avui. L'accent imperfecte tindrà tot l'encant.
 
 ## Feina
 
-Calcula el desplaçament amb marge i porta una sola nota amb l'adreça. Evitaràs la gimcana de pestanyes.
+Simplifica un correu destinat a algú que no domina el vocabulari tècnic. Afegeix un exemple i elimina dues sigles.
 
 ## Benestar
 
-Si pots, baixa una parada abans i acaba a peu. Camina sense accelerar els últims minuts.
+Repeteix paraules caminant, sense mirar constantment el mòbil. El moviment ajudarà la memòria i descansarà els ulls.
